@@ -15,7 +15,7 @@ ammoAdvCrossbowBoltSteelAPDesc,items,Ammo,New,"Type: [decea3]Advanced Crossbow B
 
 resourceCarbonFiber,items,Item,New,[772AB8]Carbon Fiber
 resourceCarbonFiberDesc,items,Item,New,"Type: [decea3]Advanced Fiber[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n A Strong lightweight material."
-resourceCarbonFiberSchematic,items,Item,New,[772AB8]Military Fiber Schematic
+resourceCarbonFiberSchematic,items,Item,New,[772AB8]Carbon Fiber Schematic
 resourceCarbonFiberSchematicDesc,items,Item,New,"Type: [decea3]Advanced Fiber[-] [FF684F](This Schematic is required to build multiple items.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Rare Loot[-]\n\n A Strong lightweight material."
 resourceCarbonFiberStock,items,Item,New,[772AB8]Carbon Fiber Stock
 resourceCarbonFiberStockDesc,items,Item,New,"Type: [decea3]Advanced Fiber[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n A Strong lightweight material."
