@@ -1,0 +1,11 @@
+<SoDead>
+	<append xpath="/recipes">
+	
+		<!-- ==========FOODS========== -->
+		<recipe name="foodSuperCornBread" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodCropGraceCorn" count="4"/>
+			<ingredient name="drinkJarBoiledWater" count="2"/>
+		</recipe>
+			
+	</append>
+</SoDead>
