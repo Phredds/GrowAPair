@@ -1,0 +1,96 @@
+<SoDead>
+	<append xpath="/recipes">
+
+		<!-- ==========WEAPONS========== -->
+		<recipe name="gunAdvancedCrossbow" count="1" craft_time="15" craft_area="workbench" tags="learnable,gunAdvancedCrossbowSchematic">
+			<ingredient name="gunBowWoodenParts" count="50"/>
+			<ingredient name="modGunBowPolymerString" count="2"/>
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceCarbonFiberStock" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="100"/>			
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="MShotgunParts,MRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="gunDeagle" count="1" craft_time="15" craft_area="workbench" tags="learnable,gunDeagleSchematic">
+			<ingredient name="gunPistolParts" count="50"/>
+			<ingredient name="gunDeagleSchematic" count="1"/>
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceGoldNugget" count="20"/>
+			<ingredient name="resourceScrapPolymers" count="100"/>			
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="MShotgunParts,MRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+			</effect_group>
+		</recipe>		
+		
+		<recipe name="gunTacticalShotgun" count="1" craft_time="15" craft_area="workbench" tags="learnable,gunTacticalShotgunSchematic">
+			<ingredient name="gunDoubleBarrelShotgunParts" count="50"/>
+			<ingredient name="resourceCarbonFiberStock" count="1"/>
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceSilverNugget" count="20"/>
+			<ingredient name="resourceScrapPolymers" count="100"/>			
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="MShotgunParts,MRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="gunShawnsShotgun" count="1" craft_time="15" craft_area="workbench" tags="learnable,gunShawnsShotgunSchematic">
+			<ingredient name="gunDoubleBarrelShotgunParts" count="50"/>
+			<ingredient name="resourceCarbonFiberStock" count="1"/>
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceTestosteroneExtract" count="20"/>
+			<ingredient name="resourceScrapPolymers" count="100"/>			
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="MShotgunParts,MRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+			</effect_group>
+		</recipe>
+		
+		<!-- ==========PARTS========== -->		
+		<recipe name="resourceCarbonFiber" count="100" craft_area="chemistryStation" craft_time="15" tags="learnable,chemStationCrafting">
+			<ingredient name="resourceCoal" count="100"/>
+			<ingredient name="resourceScrapPolymers" count="100"/>
+			<ingredient name="resourceOil" count="50"/>
+			<ingredient name="resourceAcid" count="5"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceCoal,resourceScrapPolymers,resourceOil,resourceDuctTape,resourceAcid"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="resourceCarbonFiberStock" count="1" craft_area="workbench" craft_time="15" >
+			<ingredient name="resourceCarbonFiber" count="100"/>
+			<ingredient name="resourceSewingKit" count="2"/>
+			<ingredient name="resourceLeather" count="5"/>			
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceCoal,resourceScrapPolymers,resourceOil,resourceDuctTape,resourceAcid"/>
+			</effect_group>
+		</recipe>
+		
+		
+		<!-- ==========AMMO========== -->
+		<recipe name="ammoAdvCrossbowBoltSteel" count="1" craft_area="workbench">
+			<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
+			<ingredient name="resourceCarbonFiber" count="1"/>
+		</recipe>
+
+		<recipe name="ammoBundleAdvCrossbowBoltSteel" count="1" craft_time="150" craft_area="workbench">
+			<ingredient name="resourceArrowHeadSteelAP" count="80"/>
+			<ingredient name="resourceScrapPolymers" count="160"/>
+			<ingredient name="resourceCarbonFiber" count="80"/>
+		</recipe>
+		
+		<recipe name="ammoAdvCrossbowBoltSteelAP" count="1" craft_area="workbench">
+			<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
+			<ingredient name="resourceCarbonFiber" count="1"/>
+		</recipe>
+
+		<recipe name="ammoBundleAdvCrossbowBoltSteelAP" count="1" craft_time="150" craft_area="workbench">
+			<ingredient name="resourceArrowHeadSteelAP" count="80"/>
+			<ingredient name="resourceScrapPolymers" count="160"/>
+			<ingredient name="resourceCarbonFiber" count="80"/>
+		</recipe>
+		
+	</append>
+</SoDead>
