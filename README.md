@@ -1,2 +1,2 @@
 # GrowAPair
-Mods for the GrowAPair server
+Custom Mods for the GrowAPair server
