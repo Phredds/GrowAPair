@@ -306,7 +306,7 @@
 			<property name="PickupJournalEntry" value="alternateAmmoTip"/>
 			<property name="LightValue" value=".45"/>
 			<property name="EconomicValue" value="1000"/>
-			<property name="UnlockedBy" value="gunPumpShotgunSchematic"/>
+			<property name="UnlockedBy" value="gunShawnsShotgunSchematic"/>
 			<property name="ShowQuality" value="true"/>
 
 			<property class="Action0">
