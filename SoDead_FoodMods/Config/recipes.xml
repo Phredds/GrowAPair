@@ -3,9 +3,32 @@
 	
 		<!-- ==========FOODS========== -->
 		<recipe name="foodSuperCornBread" count="1" craft_area="campfire" craft_tool="toolCookingPot">
-			<ingredient name="foodCropGraceCorn" count="4"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="foodCornMeal" count="5"/>
+			<ingredient name="drinkJarPureMineralWater" count="5"/>
 		</recipe>
-			
+
+		<recipe name="foodSuperSnowberryCornBread" count="1" craft_area="campfire" craft_tool="toolCookingPot">
+			<ingredient name="foodCropGraceCorn" count="5"/>
+			<ingredient name="foodCornMeal" count="5"/>
+			<ingredient name="resourceCropSnowberryPlant" count="10"/>
+			<ingredient name="drinkJarPureMineralWater" count="5"/>
+		</recipe>
+		
+		<recipe name="foodSuperCornChowder" count="1" craft_area="campfire" craft_tool="toolCookingPot" >
+			<ingredient name="foodCropGraceCorn" count="15"/>
+			<ingredient name="foodCropPotato" count="10"/>
+			<ingredient name="foodCropYuccaFruit" count="10"/>
+			<ingredient name="drinkJarPureMineralWater" count="10"/>
+		</recipe>
+
+		<recipe name="foodSuperCornStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" >
+			<ingredient name="foodCropGraceCorn" count="8"/>
+			<ingredient name="foodCropPotato" count="8"/>
+			<ingredient name="foodRawMeat" count="10"/>
+			<ingredient name="foodCropMushrooms" count="8"/>
+			<ingredient name="drinkJarPureMineralWater" count="10"/>
+		</recipe>		
+
 	</append>
 </SoDead>
