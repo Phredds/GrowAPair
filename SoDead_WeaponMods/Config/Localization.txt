@@ -8,6 +8,16 @@ gunTacticalShotgunDesc,items,GunShotgun,New,"Type: [decea3]Advanced Shotgun[-] [
 gunShawnsShotgun,items,GunShotgun,New,[772AB8]Shawn's Shotgun
 gunShawnsShotgunDesc,items,GunShotgun,New,"Type: [decea3]Advanced Pump Shotgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocked by: [decea3]Shawn's Shotgun Schematic.[-]\n\n Combined with advanced shotgun ammunition... this weapon is unstoppable."
 
+gunAdvancedCrossbowSchematic,items,Item,New,[772AB8]Linda's Launcher Schematic
+gunAdvancedCrossbowSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Linda's Launcher[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
+gunDeagleSchematic,items,Item,New,[772AB8]Desert Eagle Schematic
+gunDeagleSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Steel/Gold[-]\nUnlocks: [decea3]Desert Eagle[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
+gunTacticalShotgunSchematic,items,Item,New,[772AB8]Tactical Shotgun Schematic
+gunTacticalShotgunSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Tactical Shotgun[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
+gunShawnsShotgunSchematic,items,Item,New,[772AB8]Shawn's Shotgun Schematic
+gunShawnsShotgunSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Shawn's Shotgun[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
+
+
 ammoAdvCrossbowBoltSteel,items,Ammo,New,[772AB8]Advanced Crossbow Bolt Steel
 ammoAdvCrossbowBoltSteelDesc,items,Ammo,New,"Type: [decea3]Advanced Crossbow Bolt[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n A Strong lightweight Bolt."
 ammoAdvCrossbowBoltSteelAP,items,Ammo,New,[772AB8]Advanced Crossbow Bolt Steel AP
@@ -25,6 +35,10 @@ ammo50MagnumBulletSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F]
 ammo50MagnumBulletBRN,items,Item,New,[772AB8]50cal Magnum Bullet (Burn)
 ammo50MagnumBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Workbench[-]\n\n Advanced 50cal Magnum Bullet."
 
+ammoTacticalShotgunShellSH,items,Item,New,[772AB8]Advanced Tactical Shotgun Shell (SHOCK)
+ammoTacticalShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Not stable enough to bundle.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Workbench[-]\n\n Advanced Tactical Shotgun Shell (SHOCK)."
+
+
 resourceCarbonFiber,items,Item,New,[772AB8]Carbon Fiber
 resourceCarbonFiberDesc,items,Item,New,"Type: [decea3]Advanced Fiber[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n A Strong lightweight material."
 resourceCarbonFiberSchematic,items,Item,New,[772AB8]Carbon Fiber Schematic
@@ -33,13 +47,3 @@ resourceCarbonFiberStock,items,Item,New,[772AB8]Carbon Fiber Stock
 resourceCarbonFiberStockDesc,items,Item,New,"Type: [decea3]Advanced Fiber[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n A Strong lightweight material."
 resourceCarbonFiberGrips,items,Item,New,[772AB8]Carbon Fiber Grips
 resourceCarbonFiberGripsDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocks: [decea3]Carbon Fiber Grips[-]\n\n Grips designed for the Desert Eagle."
-
-gunAdvancedCrossbowSchematic,items,Item,New,[772AB8]Linda's Launcher Schematic
-gunAdvancedCrossbowSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Linda's Launcher[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
-gunDeagleSchematic,items,Item,New,[772AB8]Desert Eagle Schematic
-gunDeagleSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Steel/Gold[-]\nUnlocks: [decea3]Desert Eagle[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
-gunTacticalShotgunSchematic,items,Item,New,[772AB8]Tactical Shotgun Schematic
-gunTacticalShotgunSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Tactical Shotgun[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
-gunShawnsShotgunSchematic,items,Item,New,[772AB8]Shawn's Shotgun Schematic
-gunShawnsShotgunSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Shawn's Shotgun[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
-

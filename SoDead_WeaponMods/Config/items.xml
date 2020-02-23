@@ -212,7 +212,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value=".5"/> <!-- obsolete if rounds per minute exists -->
-				<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
+				<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug,ammoTacticalShotgunShellSH"/>
 				<property name="Reload_time" value="2.5"/>
 				<property name="Sound_start" value="pump_shotgun_fire"/>
 				<property name="Sound_loop" value="pump_shotgun_fire"/>
@@ -787,7 +787,7 @@
 			<property name="CustomIcon" value="ammo44MagnumBulletBall"/><property name="CustomIconTint" value="65,65,65"/>
 			<property name="EconomicValue" value="1400"/>
 			<property class="Action0">
-				<property name="Create_item" value="ammoBundle50MagnumBulletBall"/>
+				<property name="Create_item" value="ammo50MagnumBulletBall"/>
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
@@ -797,7 +797,7 @@
 			<property name="CustomIcon" value="ammo44MagnumBulletAP"/><property name="CustomIconTint" value="65,65,65"/>
 			<property name="EconomicValue" value="1400"/>
 			<property class="Action0">
-				<property name="Create_item" value="ammoBundle50MagnumBulletSH"/>
+				<property name="Create_item" value="ammo50MagnumBulletSH"/>
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
@@ -807,10 +807,11 @@
 			<property name="CustomIcon" value="ammo44MagnumBulletHP"/><property name="CustomIconTint" value="65,65,65"/>
 			<property name="EconomicValue" value="1400"/>
 			<property class="Action0">
-				<property name="Create_item" value="ammoBundle50MagnumBulletINC"/>
+				<property name="Create_item" value="ammo50MagnumBulletINC"/>
 				<property name="Create_item_count" value="100"/>
 			</property>
-		</item>
+		</item>		
+		
 		
 	</append>
 </SoDead>

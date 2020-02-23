@@ -26,9 +26,9 @@
 		
 		<recipe name="gunTacticalShotgun" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkBoomstick">
 			<ingredient name="gunDoubleBarrelShotgunParts" count="50"/>
-			<ingredient name="resourceCarbonFiberStock" count="1"/>
 			<ingredient name="resourceForgedSteel" count="20"/>
 			<ingredient name="resourceSilverNugget" count="20"/>
+			<ingredient name="resourceCarbonFiberStock" count="1"/>
 			<ingredient name="gunTacticalShotgunSchematic" count="1"/>			
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts,resourceForgedSteel,resourceSilverNugget"/>
@@ -37,9 +37,9 @@
 
 		<recipe name="gunShawnsShotgun" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkBoomstick">
 			<ingredient name="gunDoubleBarrelShotgunParts" count="50"/>
-			<ingredient name="resourceCarbonFiberStock" count="1"/>
 			<ingredient name="resourceForgedSteel" count="20"/>
 			<ingredient name="resourceTestosteroneExtract" count="20"/>
+			<ingredient name="resourceCarbonFiberStock" count="1"/>
 			<ingredient name="gunShawnsShotgunSchematic" count="1"/>			
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunDoubleBarrelShotgunParts,resourceForgedSteel,resourceTestosteroneExtract"/>
@@ -143,7 +143,7 @@
 			<ingredient name="resourceGunPowder" count="240"/>
 			<ingredient name="resourceBulletCasing" count="50"/>
 			<ingredient name="ammoGasCan" count="80"/>
-		</recipe>
+		</recipe>		
 		
 	</append>
 </SoDead>
