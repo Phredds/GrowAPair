@@ -143,7 +143,41 @@
 			<ingredient name="resourceGunPowder" count="240"/>
 			<ingredient name="resourceBulletCasing" count="50"/>
 			<ingredient name="ammoGasCan" count="80"/>
+		</recipe>
+		
+		<recipe name="resourceTacticalShotgunCasing" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+			<ingredient name="unit_brass" count="10"/>
+			<ingredient name="unit_clay" count="2"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="resourceShotgunSlugCF" count="1" craft_area="workbench">
+			<ingredient name="resourceBrassBulletTip" count="1"/>
+			<ingredient name="resourceCarbonFiber" count="1"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoTacticalShotgunShellSH" count="1" craft_area="workbench">
+			<ingredient name="resourceShotgunSlugCF" count="1"/>
+			<ingredient name="resourceGunPowder" count="4"/>
+			<ingredient name="resourceTacticalShotgunCasing" count="1"/>			
 		</recipe>		
+		
+		<recipe name="ammoBundleTacticalShotgunShellSH" count="1" craft_time="150"   craft_area="workbench" >
+			<ingredient name="resourceShotgunSlugCF" count="80"/>
+			<ingredient name="resourceGunPowder" count="480"/>
+			<ingredient name="resourceTacticalShotgunCasing" count="80"/>			
+		</recipe>
+		
+		<recipe name="resourceBrassBulletTip" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+			<ingredient name="unit_brass" count="2"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
+			</effect_group>
+		</recipe>
+		
 		
 	</append>
 </SoDead>

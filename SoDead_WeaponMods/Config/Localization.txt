@@ -35,8 +35,18 @@ ammo50MagnumBulletSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F]
 ammo50MagnumBulletBRN,items,Item,New,[772AB8]50cal Magnum Bullet (Burn)
 ammo50MagnumBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Workbench[-]\n\n Advanced 50cal Magnum Bullet."
 
+ammoBundle50MagnumBulletBall,items,Item,New,[772AB8]50cal Magnum Bullet Bundle
+ammoBundle50MagnumBulletBallDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Workbench[-]\n\n Advanced 50cal Magnum Bullet."
+ammoBundle50MagnumBulletSH,items,Item,New,[772AB8]50cal Magnum Bullet Bundle (Shock)
+ammoBundle50MagnumBulletSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Workbench[-]\n\n Advanced 50cal Magnum Bullet."
+ammoBundle50MagnumBulletBRN,items,Item,New,[772AB8]50cal Magnum Bullet Bundle (Burn)
+ammoBundle50MagnumBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Workbench[-]\n\n Advanced 50cal Magnum Bullet."
+
 ammoTacticalShotgunShellSH,items,Item,New,[772AB8]Advanced Tactical Shotgun Shell (SHOCK)
-ammoTacticalShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Not stable enough to bundle.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Workbench[-]\n\n Advanced Tactical Shotgun Shell (SHOCK)."
+ammoTacticalShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n Advanced Tactical Shotgun Shell (SHOCK)."
+
+ammoBundleTacticalShotgunShellSH,items,Item,New,[772AB8]Advanced Tactical Shotgun Shell Bundle (SHOCK)
+ammoBundleTacticalShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 50.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n Advanced Bundle Tactical Shotgun Shells (SHOCK)."
 
 
 resourceCarbonFiber,items,Item,New,[772AB8]Carbon Fiber
@@ -47,3 +57,17 @@ resourceCarbonFiberStock,items,Item,New,[772AB8]Carbon Fiber Stock
 resourceCarbonFiberStockDesc,items,Item,New,"Type: [decea3]Advanced Fiber[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n A Strong lightweight material."
 resourceCarbonFiberGrips,items,Item,New,[772AB8]Carbon Fiber Grips
 resourceCarbonFiberGripsDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocks: [decea3]Carbon Fiber Grips[-]\n\n Grips designed for the Desert Eagle."
+
+resourceTacticalShotgunCasing,items,Item,New,[772AB8]Tactical Shotgun Casing
+resourceTacticalShotgunCasingDesc,items,Item,New,"Type: [decea3]Advanced Brass[-] [FF684F](Forge required to build.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Forge[-]\n\n Tactical Shotgun Casing."
+resourceShotgunSlugCF,items,Item,New,[772AB8]Tactical Shotgun Slug CF
+resourceShotgunSlugCFDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Brass/Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n The addition of nonconductive carbon fiber keeps the electrical parts from pre-ingniting the gunpowder."
+
+resourceBrassBulletTip,items,Item,New,[772AB8]Brass Bullet Tip
+resourceBrassBulletTipDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Forge required to build.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Forge[-]\n\n Brass Bullet Tip."
+
+
+
+meleeKmeusKlub,items,Melee,New,[772AB8]Kmeu's Klub
+meleeKmeusKlubDesc,items,Melee,New,"Type: [decea3]Advanced Melee Weapon[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Lead[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n It's said Kmeu never went anywhere without his faithful Custom crafted club."
+
