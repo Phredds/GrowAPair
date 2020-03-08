@@ -12,3 +12,6 @@ perkMasterCraftsmanRank4Desc,progression,Perk,New,Expert
 perkMasterCraftsmanRank4LongDesc,progression,Perk,New,"An Expert at crafting, already word is getting around and survivors are hearing about your items."
 perkMasterCraftsmanRank5Desc,progression,Perk,New,Master Craftsman
 perkMasterCraftsmanRank5LongDesc,progression,Perk,New,"You have worked hard and have learned many skills. Tier 6 Items are now craftable."
+
+reqGenericPoints16,progression,Attribute,New,Buy: 16 Points
+reqGenericPoints32,progression,Attribute,New,Buy: 32 Points
