@@ -734,7 +734,7 @@
 			
 			<property name="Extends" value="ammo50MagnumBulletBall"/>
 			<property name="EconomicValue" value="60"/>
-			<property name="Stacknumber" value="150" /> 
+			<property name="Stacknumber" value="1000" /> 
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<property name="DescriptionKey" value="ammo50MagnumBulletSHDesc"/>
 			<effect_group name="Base Effects" tiered="false">
@@ -754,7 +754,7 @@
 			
 			<property name="Extends" value="ammo50MagnumBulletBall"/>
 			<property name="EconomicValue" value="60"/>
-			<property name="Stacknumber" value="150" /> 
+			<property name="Stacknumber" value="1000" /> 
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<property name="DescriptionKey" value="ammo50MagnumBulletBRNDesc"/>
 			<effect_group name="Base Effects" tiered="false">
