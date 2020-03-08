@@ -2,7 +2,7 @@
 	<append xpath="/recipes">
 
 		<!-- ==========WEAPONS========== -->
-		<recipe name="gunAdvancedCrossbow" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkArchery">
+		<recipe name="gunAdvancedCrossbow" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkArchery,perkMasterCraftsman">
 			<ingredient name="gunBowWoodenParts" count="50"/>
 			<ingredient name="modGunBowPolymerString" count="2"/>
 			<ingredient name="resourceForgedSteel" count="20"/>
@@ -13,7 +13,7 @@
 			</effect_group>
 		</recipe>
 		
-		<recipe name="gunDeagle" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkGunslinger">
+		<recipe name="gunDeagle" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkGunslinger,perkMasterCraftsman">
 			<ingredient name="gunPistolParts" count="50"/>			
 			<ingredient name="resourceForgedSteel" count="20"/>
 			<ingredient name="resourceGoldNugget" count="20"/>
@@ -24,7 +24,7 @@
 			</effect_group>
 		</recipe>		
 		
-		<recipe name="gunTacticalShotgun" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkBoomstick">
+		<recipe name="gunTacticalShotgun" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkBoomstick,perkMasterCraftsman">
 			<ingredient name="gunDoubleBarrelShotgunParts" count="50"/>
 			<ingredient name="resourceForgedSteel" count="20"/>
 			<ingredient name="resourceSilverNugget" count="20"/>
@@ -35,7 +35,7 @@
 			</effect_group>
 		</recipe>
 
-		<recipe name="gunShawnsShotgun" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkBoomstick">
+		<recipe name="gunShawnsShotgun" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkBoomstick,perkMasterCraftsman">
 			<ingredient name="gunDoubleBarrelShotgunParts" count="50"/>
 			<ingredient name="resourceForgedSteel" count="20"/>
 			<ingredient name="resourceTestosteroneExtract" count="20"/>
@@ -145,20 +145,6 @@
 			<ingredient name="ammoGasCan" count="80"/>
 		</recipe>
 		
-		<recipe name="resourceTacticalShotgunCasing" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-			<ingredient name="unit_brass" count="10"/>
-			<ingredient name="unit_clay" count="2"/>
-			<effect_group>
-				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
-			</effect_group>
-		</recipe>
-		
-		<recipe name="resourceShotgunSlugCF" count="1" craft_area="workbench">
-			<ingredient name="resourceBrassBulletTip" count="1"/>
-			<ingredient name="resourceCarbonFiber" count="1"/>
-			<ingredient name="resourceElectricParts" count="1"/>
-		</recipe>
-		
 		<recipe name="ammoTacticalShotgunShellSH" count="1" craft_area="workbench">
 			<ingredient name="resourceShotgunSlugCF" count="1"/>
 			<ingredient name="resourceGunPowder" count="4"/>
@@ -171,6 +157,33 @@
 			<ingredient name="resourceTacticalShotgunCasing" count="80"/>			
 		</recipe>
 		
+		<recipe name="ammoShawnsShotgunShellSH" count="1" craft_area="workbench">
+			<ingredient name="resourceShotgunSlugCF" count="1"/>
+			<ingredient name="resourceGunPowder" count="4"/>
+			<ingredient name="resourceShotgunCasingCF" count="1"/>			
+		</recipe>		
+		
+		<recipe name="ammoBundleShawnsShotgunShellSH" count="1" craft_time="150"   craft_area="workbench" >
+			<ingredient name="resourceShotgunSlugCF" count="80"/>
+			<ingredient name="resourceGunPowder" count="480"/>
+			<ingredient name="resourceShotgunCasingCF" count="80"/>			
+		</recipe>
+		
+		<!-- ==========RESOURCES========== -->
+		<recipe name="resourceTacticalShotgunCasing" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+			<ingredient name="unit_brass" count="10"/>
+			<ingredient name="unit_clay" count="2"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
+			</effect_group>
+		</recipe>
+		
+		<recipe name="resourceShotgunSlugCF" count="1" craft_area="workbench">
+			<ingredient name="resourceBrassBulletTip" count="1"/>
+			<ingredient name="resourceCarbonFiber" count="1"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+		</recipe>		
+		
 		<recipe name="resourceBrassBulletTip" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
 			<ingredient name="unit_brass" count="2"/>
 			<effect_group>
@@ -178,6 +191,10 @@
 			</effect_group>
 		</recipe>
 		
+		<recipe name="resourceShotgunCasingCF" count="1" craft_area="chemistryStation">
+			<ingredient name="resourceCarbonFiber" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>			
+		</recipe>
 		
 	</append>
 </SoDead>

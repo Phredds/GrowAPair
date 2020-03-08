@@ -17,7 +17,6 @@ gunTacticalShotgunSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-]
 gunShawnsShotgunSchematic,items,Item,New,[772AB8]Shawn's Shotgun Schematic
 gunShawnsShotgunSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Shawn's Shotgun[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
 
-
 ammoAdvCrossbowBoltSteel,items,Ammo,New,[772AB8]Advanced Crossbow Bolt Steel
 ammoAdvCrossbowBoltSteelDesc,items,Ammo,New,"Type: [decea3]Advanced Crossbow Bolt[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n A Strong lightweight Bolt."
 ammoAdvCrossbowBoltSteelAP,items,Ammo,New,[772AB8]Advanced Crossbow Bolt Steel AP
@@ -44,10 +43,13 @@ ammoBundle50MagnumBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [
 
 ammoTacticalShotgunShellSH,items,Item,New,[772AB8]Advanced Tactical Shotgun Shell (SHOCK)
 ammoTacticalShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n Advanced Tactical Shotgun Shell (SHOCK)."
-
 ammoBundleTacticalShotgunShellSH,items,Item,New,[772AB8]Advanced Tactical Shotgun Shell Bundle (SHOCK)
 ammoBundleTacticalShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 50.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n Advanced Bundle Tactical Shotgun Shells (SHOCK)."
 
+ammoShawnsShotgunShellSH,items,Item,New,[772AB8]Shawns Shotgun Shell (SHOCK)
+ammoShawnsShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 50.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n Shawn's Shotgun Shells (SHOCK)."
+ammoBundleShawnsShotgunShellSH,items,Item,New,[772AB8]Shawns Shotgun Shell Bundle (SHOCK)
+ammoBundleShawnsShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 50.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n Advanced Bundle Shawn's Shotgun Shells (SHOCK)."
 
 resourceCarbonFiber,items,Item,New,[772AB8]Carbon Fiber
 resourceCarbonFiberDesc,items,Item,New,"Type: [decea3]Advanced Fiber[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n A Strong lightweight material."
@@ -61,13 +63,13 @@ resourceCarbonFiberGripsDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [F
 resourceTacticalShotgunCasing,items,Item,New,[772AB8]Tactical Shotgun Casing
 resourceTacticalShotgunCasingDesc,items,Item,New,"Type: [decea3]Advanced Brass[-] [FF684F](Forge required to build.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Forge[-]\n\n Tactical Shotgun Casing."
 resourceShotgunSlugCF,items,Item,New,[772AB8]Tactical Shotgun Slug CF
-resourceShotgunSlugCFDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Brass/Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n The addition of nonconductive carbon fiber keeps the electrical parts from pre-ingniting the gunpowder."
+resourceShotgunSlugCFDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Brass/Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n The addition of nonconductive carbon fiber keeps the electrical parts from pre-igniting the gunpowder."
 
 resourceBrassBulletTip,items,Item,New,[772AB8]Brass Bullet Tip
 resourceBrassBulletTipDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Forge required to build.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Forge[-]\n\n Brass Bullet Tip."
 
-
+resourceShotgunCasingCF,items,Item,New,[772AB8]Shotgun Casing CF
+resourceShotgunCasingCFDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Chemistry Station required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Chemistry Station[-]\n\n Shotgun Casing CF."
 
 meleeKmeusKlub,items,Melee,New,[772AB8]Kmeu's Klub
 meleeKmeusKlubDesc,items,Melee,New,"Type: [decea3]Advanced Melee Weapon[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Lead[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n It's said Kmeu never went anywhere without his faithful Custom crafted club."
-
