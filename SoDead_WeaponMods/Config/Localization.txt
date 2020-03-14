@@ -73,3 +73,10 @@ resourceShotgunCasingCFDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF68
 
 meleeKmeusKlub,items,Melee,New,[772AB8]Kmeu's Klub
 meleeKmeusKlubDesc,items,Melee,New,"Type: [decea3]Advanced Melee Weapon[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Lead[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n It's said Kmeu never went anywhere without his faithful Custom crafted club."
+meleeKmeusKlubSchematic,items,Item,New,[772AB8]Kmeu's Klub Schematic
+meleeKmeusKlubSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Kmeu's Klub[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
+
+resourceCarbonFiberTube,items,Item,New,[772AB8]Carbon Fiber Tube
+resourceCarbonFiberTubeDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Chemistry Station required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Chemistry Station[-]\n\n Carbon Fiber Tube for Kmeu's Klub."
+resourceBrassCore,items,Item,New,[772AB8]Brass Core
+resourceBrassCoreDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Forge required to build.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Forge[-]\n\n Brass Core for Kmeu's Klub."

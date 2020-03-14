@@ -368,7 +368,93 @@
 			</effect_group>
 		</item>
 		
+		<item name="meleeKmeusKlub"> <!-- T3 clubs -->
+			<property name="Tags" value="blunt,club,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Bat/bat_Prefab.prefab"/>
+			<property name="HoldType" value="65"/>
+			<property name="Material" value="MmeleeClubBaseballBat"/> <property name="Weight" value="6"/>
+			<property name="RepairTools" value="resourceRepairKit"/>
+			<property name="SoundDestroy" value="wooddestroy1"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="EconomicValue" value="700"/>
+			<property name="FuelValue" value="250"/>
+			<property name="UnlockedBy" value="resourceCarbonFiberSchematic"/>
+			<property name="ShowQuality" value="true"/>
+			<property class="Action0">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sound_start" value="batwood_swinglight"/>
+				<property name="Sphere" value=".1"/>
+				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="GrazeStart" value=".25"/>
+				<property name="GrazeEnd" value=".32"/>
+				<property name="SwingDegrees" value="75"/>
+				<property name="SwingAngle" value="120"/>
+			<property class="HitSounds">
+				<property name="Override0" value="organic" param1="woodhitorganic"/>
+			</property>
+			<property class="GrazeSounds">
+				<property name="Override0" value="organic" param1="woodgrazeorganic"/>
+			</property>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sound_start" value="batwood_swingheavy"/>
+				<property name="Sphere" value=".15"/>
+				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+				<property name="UsePowerAttackAnimation" value="true"/>
 
+				<property name="UseGrazingHits" value="true"/>
+				<property name="IsHorizontalSwing" value="true"/>
+				<property name="GrazeStart" value=".25"/>
+				<property name="GrazeEnd" value=".32"/>
+				<property name="SwingDegrees" value="120"/>
+				<property name="SwingAngle" value="90"/>
+			<property class="HitSounds">
+				<property name="Override0" value="organic" param1="woodhitorganic"/>
+			</property>
+			<property class="GrazeSounds">
+				<property name="Override0" value="organic" param1="woodgrazeorganic"/>
+			</property>
+					</property>
+
+			<effect_group name="meleeClubBaseballBat">
+				<passive_effect name="EntityDamage" operation="base_set" value="96.2"/> <!-- meleeClubBaseballBat -->
+				<passive_effect name="BlockDamage" operation="base_set" value="2.1"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="82"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="16.1" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="300,1700" tier="1,6" tags="perkPummelPete"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3"/>
+
+				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/> <!-- random EntityDmg -->
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/> <!-- tier bonus -->
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/> <!-- random BlockDmg -->
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/> <!-- tier bonus -->
+
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
+
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
+				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+			</effect_group>
+			<effect_group name="Power Attack">
+				<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+				<passive_effect name="StaminaLoss" operation="base_add" value="14.2" tags="secondary"/>
+			</effect_group>
+		</item>
+		
 	<!-- ==========SCHEMATICS========== -->
 	
 		<item name="gunAdvancedCrossbowSchematic">
@@ -428,6 +514,18 @@
 			</effect_group>
 		</item>
 
+		<item name="meleeKmeusKlubSchematic">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="meleeKmeusKlub"/><property name="CustomIconTint" value="65,65,65"/>
+			<property name="DescriptionKey" value="meleeKmeusKlubSchematicDesc"/>
+			<property name="Unlocks" value="meleeKmeusKlub"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeKmeusKlub" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
 	<!-- ==========PARTS========== -->
 	
 		<item name="resourceCarbonFiber"> <!-- scrap material -->
@@ -480,9 +578,50 @@
 			<property name="Weight" value="1"/>
 			<property name="EconomicValue" value="50"/>
 			<property name="Group" value="Resources,Clothing,Chemicals"/>			
-		</item>		
-	<!-- ==========AMMUNITION========== -->
+		</item>
+		
+		<item name="resourceShotgunCasingCF">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapLeadSmall"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Ammo/Weapons"/>
+		</item>
+		
+		<item name="resourceCarbonFiberTube"> <!-- scrap material -->
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MmilitaryFiber"/>
+			<property name="DescriptionKey" value="resourceCarbonFiberTubeDesc"/>
+			<property name="CustomIcon" value="resourceCarbonFiberTube" /> 
+			<property name="Stacknumber" value="250"/> <!-- STK resource -->
+			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="RepairTime" value=".6"/>
+			<property name="RepairAmount" value="400"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="Group" value="Resources,Clothing,Chemicals"/>			
+		</item>
 
+		<item name="resourceBrassCore">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapBrassSmall"/>
+			<property name="MeltTimePerUnit" value=".4"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="100"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Ammo/Weapons"/>
+		</item>
+		
+		
+	<!-- ==========AMMUNITION========== -->
 		<item name="ammoAdvCrossbowBoltSteel">		
 			<property name="Extends" value="ammoCrossbowBoltIron"/>
 			<property name="DescriptionKey" value="ammoAdvCrossbowBoltSteelDesc"/>
@@ -830,8 +969,7 @@
 		</item>
 		
 		<item name="ammoTacticalShotgunShellSH">
-			<property name="Tags" value="ammo,shotgun"/>
-			<!--<property name="CustomIcon" value="ammoShotgunShell" /><property name="CustomIconTint" value="65,65,65"/> -->
+			<property name="Tags" value="ammo,shotgun"/>			
 			<property name="DisplayType" value="ammoShotgun"/>
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -928,111 +1066,7 @@
 				<property name="Create_item" value="ammoShawnsShotgunShellSH"/>
 				<property name="Create_item_count" value="100"/>
 			</property>
-		</item>
-		
-		<item name="resourceShotgunCasingCF">
-			<property name="HoldType" value="45"/>
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapLeadSmall"/>
-			<property name="Stacknumber" value="1000"/>
-			<property name="EconomicValue" value="10"/>
-			<property name="EconomicBundleSize" value="10"/>
-			<property name="Group" value="Ammo/Weapons"/>
-		</item>
-		
-		
-		<!-- TESTING -->
-		
-		<item name="meleeKmeusKlub"> <!-- T3 clubs -->
-			<property name="Tags" value="blunt,club,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
-			<property name="DisplayType" value="melee"/>
-			<property name="Group" value="Ammo/Weapons"/>
-			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Bat/bat_Prefab.prefab"/>
-			<property name="HoldType" value="65"/>
-			<property name="Material" value="MmeleeClubBaseballBat"/> <property name="Weight" value="6"/>
-			<property name="RepairTools" value="resourceRepairKit"/>
-			<property name="SoundDestroy" value="wooddestroy1"/>
-			<property name="RepairExpMultiplier" value="5.5"/>
-			<property name="EconomicBundleSize" value="1"/>
-			<property name="EconomicValue" value="700"/>
-			<property name="FuelValue" value="250"/>
-			<property name="UnlockedBy" value="resourceCarbonFiberSchematic"/>
-			<property name="ShowQuality" value="true"/>
-
-			<property class="Action0">
-				<property name="Class" value="DynamicMelee"/>
-				<property name="Sound_start" value="batwood_swinglight"/>
-				<property name="Sphere" value=".1"/>
-				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
-
-				<property name="UseGrazingHits" value="true"/>
-				<property name="GrazeStart" value=".25"/>
-				<property name="GrazeEnd" value=".32"/>
-				<property name="SwingDegrees" value="75"/>
-				<property name="SwingAngle" value="120"/>
-			<property class="HitSounds">
-				<property name="Override0" value="organic" param1="woodhitorganic"/>
-			</property>
-			<property class="GrazeSounds">
-				<property name="Override0" value="organic" param1="woodgrazeorganic"/>
-			</property>
-			</property>
-
-			<property class="Action1">
-				<property name="Class" value="DynamicMelee"/>
-				<property name="Sound_start" value="batwood_swingheavy"/>
-				<property name="Sphere" value=".15"/>
-				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
-				<property name="UsePowerAttackAnimation" value="true"/>
-
-				<property name="UseGrazingHits" value="true"/>
-				<property name="IsHorizontalSwing" value="true"/>
-				<property name="GrazeStart" value=".25"/>
-				<property name="GrazeEnd" value=".32"/>
-				<property name="SwingDegrees" value="120"/>
-				<property name="SwingAngle" value="90"/>
-			<property class="HitSounds">
-				<property name="Override0" value="organic" param1="woodhitorganic"/>
-			</property>
-			<property class="GrazeSounds">
-				<property name="Override0" value="organic" param1="woodgrazeorganic"/>
-			</property>
-					</property>
-
-			<effect_group name="meleeClubBaseballBat">
-				<passive_effect name="EntityDamage" operation="base_set" value="96.2"/> <!-- meleeClubBaseballBat -->
-				<passive_effect name="BlockDamage" operation="base_set" value="2.1"/>
-				<passive_effect name="AttacksPerMinute" operation="base_set" value="82"/>
-				<passive_effect name="StaminaLoss" operation="base_set" value="16.1" tags="primary"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="300,1700" tier="1,6" tags="perkPummelPete"/>
-				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
-				<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
-				<passive_effect name="BlockRange" operation="base_set" value="3"/>
-
-				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-
-				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/> <!-- random EntityDmg -->
-				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/> <!-- tier bonus -->
-				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/> <!-- random BlockDmg -->
-				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/> <!-- tier bonus -->
-
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
-
-				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
-				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
-				<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
-			</effect_group>
-			<effect_group name="Power Attack">
-				<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
-				<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
-				<passive_effect name="StaminaLoss" operation="base_add" value="14.2" tags="secondary"/>
-			</effect_group>
-		</item>		
+		</item>					
 		
 	</append>
 </SoDead>
