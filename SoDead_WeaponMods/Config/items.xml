@@ -644,8 +644,18 @@
 			<property name="Group" value="Ammo/Weapons"/>
 		</item>
 		
+		<item name="resourceBrassBulletTip">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapLeadSmall"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Ammo/Weapons"/>
+		</item>		
+		
 	<!-- ==========AMMUNITION========== -->
-	
 		<item name="ammoAdvCrossbowBoltSteel">		
 			<property name="Extends" value="ammoCrossbowBoltIron"/>
 			<property name="DescriptionKey" value="ammoAdvCrossbowBoltSteelDesc"/>
@@ -1011,17 +1021,6 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>		
-		
-		<item name="resourceBrassBulletTip">
-			<property name="HoldType" value="45"/>
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapLeadSmall"/>
-			<property name="Stacknumber" value="1000"/>
-			<property name="EconomicValue" value="10"/>
-			<property name="EconomicBundleSize" value="10"/>
-			<property name="Group" value="Ammo/Weapons"/>
-		</item>
 		
 		<item name="ammoShawnsShotgunShellSH">
 			<property name="Tags" value="ammo,shotgun"/>
