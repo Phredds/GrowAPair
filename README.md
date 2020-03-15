@@ -1,6 +1,8 @@
 # GrowAPair
 Custom Mods for the GrowAPair server
 
+Special thanks to stasis78 for making FarmLife2Mod to begin with.
+
 How to install mods for GrowAPair server.
 Download FarmLife2Mod and WeaponMods (Required) (link located on our TeamSpeak server.)
 
