@@ -620,8 +620,32 @@
 			<property name="Group" value="Ammo/Weapons"/>
 		</item>
 		
+		<item name="resourceTacticalShotgunCasing">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapBrassSmall"/>
+			<property name="MeltTimePerUnit" value=".4"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Ammo/Weapons"/>
+		</item>
+		
+		<item name="resourceShotgunSlugCF">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapBrassSmall"/>
+			<property name="MeltTimePerUnit" value=".4"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Ammo/Weapons"/>
+		</item>
 		
 	<!-- ==========AMMUNITION========== -->
+	
 		<item name="ammoAdvCrossbowBoltSteel">		
 			<property name="Extends" value="ammoCrossbowBoltIron"/>
 			<property name="DescriptionKey" value="ammoAdvCrossbowBoltSteelDesc"/>
@@ -942,31 +966,7 @@
 				<property name="Create_item" value="ammo50MagnumBulletBRN"/>
 				<property name="Create_item_count" value="100"/>
 			</property>
-		</item>
-		
-		<item name="resourceTacticalShotgunCasing">
-			<property name="HoldType" value="45"/>
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/>
-			<property name="MeltTimePerUnit" value=".4"/>
-			<property name="Stacknumber" value="1000"/>
-			<property name="EconomicValue" value="10"/>
-			<property name="EconomicBundleSize" value="10"/>
-			<property name="Group" value="Ammo/Weapons"/>
-		</item>
-		
-		<item name="resourceShotgunSlugCF">
-			<property name="HoldType" value="45"/>
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/>
-			<property name="MeltTimePerUnit" value=".4"/>
-			<property name="Stacknumber" value="1000"/>
-			<property name="EconomicValue" value="10"/>
-			<property name="EconomicBundleSize" value="10"/>
-			<property name="Group" value="Ammo/Weapons"/>
-		</item>
+		</item>		
 		
 		<item name="ammoTacticalShotgunShellSH">
 			<property name="Tags" value="ammo,shotgun"/>			
