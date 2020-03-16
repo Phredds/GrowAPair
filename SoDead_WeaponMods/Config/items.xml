@@ -652,6 +652,22 @@
 			<property name="Group" value="Ammo/Weapons"/>
 		</item>
 		
+		<item name="resourceScrapCarbonFiber"> <!-- scrap material -->
+			<property name="UnlockedBy" value="perkYeahScience"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mcarbonfiber"/>
+			<property name="Stacknumber" value="250"/> <!-- STK resource -->
+			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="RepairTime" value=".6"/>
+			<property name="RepairAmount" value="400"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="Group" value="Resources,Clothing,Chemicals"/>
+		</item>	
+		
 	<!-- ==========AMMUNITION========== -->
 	
 		<item name="ammoAdvCrossbowBoltSteel">		
@@ -1067,21 +1083,6 @@
 		
 		<!-- ========== TESTING ========== -->
 		
-		<item name="resourceScrapCarbonFiber"> <!-- scrap material -->
-			<property name="UnlockedBy" value="perkYeahScience"/>
-			<property name="HoldType" value="45"/>
-			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
-			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Mcarbonfiber"/>
-			<property name="Stacknumber" value="250"/> <!-- STK resource -->
-			<property name="CraftingIngredientExp" value="10"/>
-			<property name="CraftingIngredientTime" value="10"/>
-			<property name="RepairTime" value=".6"/>
-			<property name="RepairAmount" value="400"/>
-			<property name="Weight" value="1"/>
-			<property name="EconomicValue" value="50"/>
-			<property name="Group" value="Resources,Clothing,Chemicals"/>
-		</item>		
 		
 	</append>
 </SoDead>
