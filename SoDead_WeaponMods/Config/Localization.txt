@@ -71,6 +71,9 @@ resourceBrassBulletTipDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684
 resourceShotgunCasingCF,items,Item,New,[772AB8]Shotgun Casing CF
 resourceShotgunCasingCFDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Chemistry Station required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Chemistry Station[-]\n\n Shotgun Casing CF."
 
+resourceScrapCarbonFiber,items,Item,New,[772AB8]Scrap Carbon Fiber
+resourceScrapCarbonFiberDesc,items,Item,New,"Type: [decea3]Advanced Fiber[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n Scrap Carbon Fiber"
+
 meleeKmeusKlub,items,Melee,New,[772AB8]Kmeu's Klub
 meleeKmeusKlubDesc,items,Melee,New,"Type: [decea3]Advanced Melee Weapon[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Lead[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n It's said Kmeu never went anywhere without his faithful Custom crafted club."
 meleeKmeusKlubSchematic,items,Item,New,[772AB8]Kmeu's Klub Schematic

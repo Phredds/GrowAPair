@@ -9,7 +9,7 @@
 			<!--<property name="CustomIcon" value="gunCrossbowCompound"/> <property name="CustomIconTint" value="CB8EFF"/> -->	<!-- Uncomment this property for live Server to show Icon. -->	
 			<property name="HoldType" value="69"/>
 			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/AdvancedBow/AdvancedCompoundCrossbow/AdvancedCompoundCrossbowPrefab.prefab"/>
-			<property name="Material" value="MBowCrossbowParts"/> <property name="Weight" value="6"/>
+			<property name="Material" value="MBowCrossbowParts"/> <property name="Weight" value="50"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="FuelValue" value="200"/>
 			<property name="EconomicValue" value="1000"/>
@@ -93,7 +93,7 @@
 			<property name="CustomIcon" value="gunDeagle" />
 			<property name="HoldType" value="1"/>			
 			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
-			<property name="Material" value="MHandGunParts"/> <property name="Weight" value="4"/>
+			<property name="Material" value="MHandGunParts"/> <property name="Weight" value="50"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="weapon_jam"/>
@@ -190,7 +190,7 @@
 			<property name="CustomIcon" value="gunTacticalShotgun" />
 			<property name="HoldType" value="11"/>
 			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/SniperRifle/sniperRiflePrefab.prefab"/>
-			<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
+			<property name="Material" value="MRifleParts"/> <property name="Weight" value="50"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="weapon_jam"/>
@@ -289,7 +289,7 @@
 			<property name="DisplayType" value="rangedShotgun"/>
 			<property name="HoldType" value="5"/>
 			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/PumpShotgunPrefab.prefab"/>
-			<property name="Material" value="MShotgunParts"/> <property name="Weight" value="6"/>
+			<property name="Material" value="MShotgunParts"/> <property name="Weight" value="50"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="weapon_jam"/>
@@ -374,7 +374,7 @@
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Bat/bat_Prefab.prefab"/>
 			<property name="HoldType" value="65"/>
-			<property name="Material" value="MmeleeClubBaseballBat"/> <property name="Weight" value="6"/>
+			<property name="Material" value="MmeleeClubBaseballBat"/> <property name="Weight" value="50"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -532,7 +532,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MmilitaryFiber"/>
+			<property name="Material" value="Mcarbonfiber"/>
 			<property name="DescriptionKey" value="resourceCarbonFiberDesc"/>
 			<property name="CustomIcon" value="resourceMilitaryFiber" /> <property name="CustomIconTint" value="65,65,65"/>
 			<property name="Stacknumber" value="250"/> <!-- STK resource -->
@@ -550,15 +550,14 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MmilitaryFiber"/>
+			<property name="Material" value="Mcarbonfiber"/> <property name="Weight" value="100"/>
 			<property name="DescriptionKey" value="resourceCarbonFiberStockDesc"/>
 			<property name="CustomIcon" value="resourceCarbonFiberStock" /> 
 			<property name="Stacknumber" value="250"/> <!-- STK resource -->
 			<property name="CraftingIngredientExp" value="10"/>
 			<property name="CraftingIngredientTime" value="10"/>
 			<property name="RepairTime" value=".6"/>
-			<property name="RepairAmount" value="400"/>
-			<property name="Weight" value="1"/>
+			<property name="RepairAmount" value="400"/>			
 			<property name="EconomicValue" value="50"/>
 			<property name="Group" value="Resources,Clothing,Chemicals"/>			
 		</item>	
@@ -567,15 +566,14 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MmilitaryFiber"/>
+			<property name="Material" value="Mcarbonfiber"/> <property name="Weight" value="50"/>
 			<property name="DescriptionKey" value="resourceCarbonFiberStockDesc"/>
 			<property name="CustomIcon" value="resourceCarbonFiberGrips" />
 			<property name="Stacknumber" value="250"/> <!-- STK resource -->
 			<property name="CraftingIngredientExp" value="10"/>
 			<property name="CraftingIngredientTime" value="10"/>
 			<property name="RepairTime" value=".6"/>
-			<property name="RepairAmount" value="400"/>
-			<property name="Weight" value="1"/>
+			<property name="RepairAmount" value="400"/>			
 			<property name="EconomicValue" value="50"/>
 			<property name="Group" value="Resources,Clothing,Chemicals"/>			
 		</item>
@@ -584,7 +582,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapLeadSmall"/>
+			<property name="Material" value="Mcarbonfiber"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="10"/>
 			<property name="EconomicBundleSize" value="10"/>
@@ -595,15 +593,14 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MmilitaryFiber"/>
+			<property name="Material" value="Mcarbonfiber"/> <property name="Weight" value="100"/>
 			<property name="DescriptionKey" value="resourceCarbonFiberTubeDesc"/>
 			<property name="CustomIcon" value="resourceCarbonFiberTube" /> 
 			<property name="Stacknumber" value="250"/> <!-- STK resource -->
 			<property name="CraftingIngredientExp" value="10"/>
 			<property name="CraftingIngredientTime" value="10"/>
 			<property name="RepairTime" value=".6"/>
-			<property name="RepairAmount" value="400"/>
-			<property name="Weight" value="1"/>
+			<property name="RepairAmount" value="400"/>			
 			<property name="EconomicValue" value="50"/>
 			<property name="Group" value="Resources,Clothing,Chemicals"/>			
 		</item>
@@ -612,7 +609,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/>
+			<property name="Material" value="MresourceScrapBrassSmall"/> <property name="Weight" value="50"/>
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="100"/>
@@ -624,7 +621,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/>
+			<property name="Material" value="MresourceScrapBrassSmall"/> <property name="Weight" value="10"/>
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="10"/>
@@ -636,7 +633,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/>
+			<property name="Material" value="Mcarbonfiber"/>
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="10"/>
@@ -648,14 +645,15 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapLeadSmall"/>
+			<property name="Material" value="MresourceScrapBrassSmall"/> <property name="Weight" value="2"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="10"/>
 			<property name="EconomicBundleSize" value="10"/>
 			<property name="Group" value="Ammo/Weapons"/>
-		</item>		
+		</item>
 		
 	<!-- ==========AMMUNITION========== -->
+	
 		<item name="ammoAdvCrossbowBoltSteel">		
 			<property name="Extends" value="ammoCrossbowBoltIron"/>
 			<property name="DescriptionKey" value="ammoAdvCrossbowBoltSteelDesc"/>
@@ -984,7 +982,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Mlead_scrap"/>
+			<property name="Material" value="Mcarbonfiber"/>
 			<property name="Stacknumber" value="1000"/> <!-- STK ammo low -->
 			<property name="EconomicValue" value="11"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -1020,7 +1018,7 @@
 				<property name="Create_item" value="ammoTacticalShotgunShellSH"/>
 				<property name="Create_item_count" value="100"/>
 			</property>
-		</item>		
+		</item>			
 		
 		<item name="ammoShawnsShotgunShellSH">
 			<property name="Tags" value="ammo,shotgun"/>
@@ -1029,7 +1027,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Mlead_scrap"/>
+			<property name="Material" value="Mcarbonfiber"/>
 			<property name="Stacknumber" value="1000"/> <!-- STK ammo low -->
 			<property name="EconomicValue" value="11"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -1066,6 +1064,24 @@
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>					
+		
+		<!-- ========== TESTING ========== -->
+		
+		<item name="resourceScrapCarbonFiber"> <!-- scrap material -->
+			<property name="UnlockedBy" value="perkYeahScience"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mcarbonfiber"/>
+			<property name="Stacknumber" value="250"/> <!-- STK resource -->
+			<property name="CraftingIngredientExp" value="10"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="RepairTime" value=".6"/>
+			<property name="RepairAmount" value="400"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="Group" value="Resources,Clothing,Chemicals"/>
+		</item>		
 		
 	</append>
 </SoDead>

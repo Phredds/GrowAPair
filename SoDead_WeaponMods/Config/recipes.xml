@@ -55,26 +55,19 @@
 			<effect_group>
 				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="meleeClubBaseballBatParts"/>
 			</effect_group>
-		</recipe>
-		
-		<!-- ==========PARTS========== -->		
-		<recipe name="resourceCarbonFiber" count="100" craft_area="chemistryStation" craft_time="15" tags="learnable,chemStationCrafting">
-			<ingredient name="resourceCoal" count="100"/>
-			<ingredient name="resourceScrapPolymers" count="100"/>
-			<ingredient name="resourceOil" count="50"/>
-			<ingredient name="resourceAcid" count="5"/>
-		</recipe>
-		
-		<recipe name="resourceCarbonFiberStock" count="1" craft_area="workbench" craft_time="15" >
-			<ingredient name="resourceCarbonFiber" count="100"/>
-			<ingredient name="resourceSewingKit" count="2"/>
-			<ingredient name="resourceLeather" count="5"/>			
 		</recipe>		
 		
-		<recipe name="resourceCarbonFiberGrips" count="1" craft_area="workbench" craft_time="15" >
-			<ingredient name="resourceCarbonFiber" count="50"/>
-			<ingredient name="resourceScrapPolymers" count="2"/>
-			<ingredient name="resourceGoldNugget" count="5"/>			
+		<!-- ==========RESOURCES========== -->
+
+		<recipe name="resourceScrapCarbonFiber" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true" tags="salvageScrap"> <wildcard_forge_category /> </recipe>
+		
+		<!-- ==========PARTS========== -->
+		
+		<recipe name="resourceBrassBulletTip" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+			<ingredient name="unit_brass" count="2"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
+			</effect_group>
 		</recipe>
 		
 		<recipe name="resourceBrassCore" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering" craft_time="15" >
@@ -84,10 +77,52 @@
 			</effect_group>
 		</recipe>
 		
+		<recipe name="resourceCarbonFiber" count="1" craft_area="chemistryStation" craft_time="1" tags="learnable,chemStationCrafting">
+			<ingredient name="resourceScrapCarbonFiber" count="1"/>			
+		</recipe>
+		
+		<recipe name="resourceCarbonFiber" count="100" craft_area="chemistryStation" craft_time="15" tags="learnable,chemStationCrafting">
+			<ingredient name="resourceCoal" count="100"/>
+			<ingredient name="resourceScrapPolymers" count="100"/>
+			<ingredient name="resourceOil" count="50"/>
+			<ingredient name="resourceAcid" count="5"/>
+		</recipe>
+		
+		<recipe name="resourceCarbonFiberGrips" count="1" craft_area="workbench" craft_time="15" >
+			<ingredient name="resourceCarbonFiber" count="50"/>
+			<ingredient name="resourceScrapPolymers" count="2"/>
+			<ingredient name="resourceGoldNugget" count="5"/>			
+		</recipe>
+		
+		<recipe name="resourceCarbonFiberStock" count="1" craft_area="workbench" craft_time="15" >
+			<ingredient name="resourceCarbonFiber" count="100"/>
+			<ingredient name="resourceSewingKit" count="2"/>
+			<ingredient name="resourceLeather" count="5"/>			
+		</recipe>
+		
 		<recipe name="resourceCarbonFiberTube" count="1" craft_area="workbench" craft_time="15" >
 			<ingredient name="resourceCarbonFiber" count="100"/>
 			<ingredient name="resourceGlue" count="20"/>						
+		</recipe>		
+		
+		<recipe name="resourceShotgunCasingCF" count="1" craft_area="chemistryStation">
+			<ingredient name="resourceCarbonFiber" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>			
 		</recipe>
+		
+		<recipe name="resourceShotgunSlugCF" count="1" craft_area="workbench">
+			<ingredient name="resourceBrassBulletTip" count="1"/>
+			<ingredient name="resourceCarbonFiber" count="1"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+		</recipe>
+		
+		<recipe name="resourceTacticalShotgunCasing" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+			<ingredient name="unit_brass" count="10"/>
+			<ingredient name="unit_clay" count="2"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
+			</effect_group>
+		</recipe>		
 		
 		<!-- ==========AMMO========== -->
 		<recipe name="ammoAdvCrossbowBoltSteel" count="1" craft_area="workbench">
@@ -190,34 +225,7 @@
 			<ingredient name="resourceShotgunSlugCF" count="80"/>
 			<ingredient name="resourceGunPowder" count="480"/>
 			<ingredient name="resourceShotgunCasingCF" count="80"/>			
-		</recipe>
-		
-		<!-- ==========RESOURCES========== -->		
-		<recipe name="resourceTacticalShotgunCasing" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-			<ingredient name="unit_brass" count="10"/>
-			<ingredient name="unit_clay" count="2"/>
-			<effect_group>
-				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
-			</effect_group>
-		</recipe>
-		
-		<recipe name="resourceShotgunSlugCF" count="1" craft_area="workbench">
-			<ingredient name="resourceBrassBulletTip" count="1"/>
-			<ingredient name="resourceCarbonFiber" count="1"/>
-			<ingredient name="resourceElectricParts" count="1"/>
 		</recipe>		
-		
-		<recipe name="resourceBrassBulletTip" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-			<ingredient name="unit_brass" count="2"/>
-			<effect_group>
-				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
-			</effect_group>
-		</recipe>
-		
-		<recipe name="resourceShotgunCasingCF" count="1" craft_area="chemistryStation">
-			<ingredient name="resourceCarbonFiber" count="1"/>
-			<ingredient name="resourceScrapPolymers" count="1"/>			
-		</recipe>
 		
 	</append>
 </SoDead>
