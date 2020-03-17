@@ -190,7 +190,7 @@
 			<property name="CustomIcon" value="gunTacticalShotgun" />
 			<property name="HoldType" value="11"/>
 			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/SniperRifle/sniperRiflePrefab.prefab"/>
-			<property name="Material" value="MRifleParts"/> <property name="Weight" value="50"/>
+			<property name="Material" value="MShotgunParts"/> <property name="Weight" value="50"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="SoundJammed" value="weapon_jam"/>
