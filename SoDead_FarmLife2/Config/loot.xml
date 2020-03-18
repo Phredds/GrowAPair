@@ -80,4 +80,7 @@
         <item name="Bottle Cap" prob="0.05"/>
         <item name="Salmon Roe" prob="0.05"/>
     </append>
+	<append xpath="/lootcontainers/lootgroup[@name='rareTools']" >
+		<item name="toolAndDieSet"/>
+	</append>
 </configs>
