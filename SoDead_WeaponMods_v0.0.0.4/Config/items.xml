@@ -1273,6 +1273,7 @@
 			<property name="Stacknumber" value="1000"/> <!-- STK ammo low -->
 			<property name="EconomicValue" value="11"/>
 			<property name="Group" value="Ammo/Weapons"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
 			<effect_group name="ammoShotgunShell" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="24"/>
 				<passive_effect name="BlockDamage" operation="base_set" value=".5"/>
