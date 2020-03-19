@@ -440,7 +440,7 @@
             <ingredient name="drinkCanEmpty" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>
-        <recipe name="Carboy" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAndDieSet">
+        <recipe name="Carboy" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
             <ingredient name="unit_glass" count="500"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -454,7 +454,7 @@
             <ingredient name="hayBaleBlock" count="2"/>
             <ingredient name="bucketRiverWater" count="2"/>
         </recipe>
-        <recipe name="Ceramic Dutch Oven" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAndDieSet">
+        <recipe name="Ceramic Dutch Oven" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
             <ingredient name="unit_glass" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -877,6 +877,13 @@
             <ingredient name="Ground Ancho " count="3"/>
             <ingredient name="Ground Hot Pepper" count="3"/>
         </recipe>
+		<recipe name="Farm Forge" count="1" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="resourceRockSmall" count="50"/>
+			<ingredient name="resourceClayLump" count="60"/>
+			<ingredient name="resourceLeather" count="10"/>
+			<ingredient name="resourceDuctTape" count="3"/>
+			<ingredient name="resourceMetalPipe" count="3"/>
+		</recipe>
         <recipe name="Farm Life Sign" count="1" craft_time="2" craft_area="workbench">
             <ingredient name="resourceScrapIron" count="100"/>
         </recipe>
@@ -1641,7 +1648,7 @@
         <recipe name="Pulled Pork" count="10" craft_time="2" craft_area="Chopping Board">
             <ingredient name="Smoked Pork Ribs" count="1"/>
         </recipe>
-        <recipe name="PyreX Bakeware" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAndDieSet">
+        <recipe name="PyreX Bakeware" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
             <ingredient name="unit_glass" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -2138,7 +2145,7 @@
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
-        <recipe name="Still" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAndDieSet">
+        <recipe name="Still" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
             <ingredient name="unit_brass" count="500"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -2248,7 +2255,7 @@
             <ingredient name="Refried Beans" count="3"/>
             <ingredient name="Queso Fresco" count="3"/>
         </recipe>
-        <recipe name="Turkey Rack" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAndDieSet">
+        <recipe name="Turkey Rack" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -2355,7 +2362,7 @@
         <recipe name="Wine Tank" count="1" craft_time="2" craft_area="workbench">
             <ingredient name="resourceForgedIron" count="20"/>
         </recipe>
-        <recipe name="Wok" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAndDieSet">
+        <recipe name="Wok" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>

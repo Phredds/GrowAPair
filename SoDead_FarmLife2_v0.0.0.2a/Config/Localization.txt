@@ -108,12 +108,12 @@ farmLifeCabbageDesc,items,,,Some tastey morsels that will definitely keep you go
 farmLifeCabernetSauvignonDesc,items,,,Use the Floor Corker on a Brew Station. Libations will get you going but please use responsibly. Death can occur from overuse.,,,,,
 farmLifeCalfStomacheDesc,items,,,You will need this if you have any chance at making cheese.,,,,,
 farmLifeCannedOlivesDesc,items,,,You really made these?,,,,,
-farmLifeCarboyDesc,items,,,Use the Anddieset on a Forge. The Carboy is a tool used in the Brew Station for crafting.,,,,,
+farmLifeCarboyDesc,items,Item,New,"Type: [decea3]Advanced Farming[-] [FF684F](Tool and Die Set required to craft.)[-]\nMaterial: [decea3]Sand/Clay[-]\nUnlocked by: [decea3]Farm Forge[-]\n\nThe Carboy is a tool used in the Brew Station for crafting."
 farmLifeCarrotDesc,items,,,Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
 farmLifeCasteIronSkilletDesc,items,,,Use the Forgecrucible on a Forge. The Caste Iron Skillet is a tool used in the Gas Cooktop for crafting.,,,,,
 farmLifeCattleFeedDesc,items,,,Cattle Feed,,,,,
 farmLifeCeleryDesc,items,,,Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
-farmLifeCeramicDutchOvenDesc,items,,,Use the Anddieset on a Forge. The Ceramic Dutch Oven is a tool used in the Wood Grill for crafting.,,,,,
+farmLifeCeramicDutchOvenDesc,items,Item,New,"Type: [decea3]Advanced Farming[-] [FF684F](Tool and Die Set required to craft.)[-]\nMaterial: [decea3]Glass/Clay[-]\nUnlocks: [decea3]Linda's Launcher[-]\n\nThe Ceramic Dutch Oven is a tool used in the Wood Grill for crafting."
 farmLifeChardonneDesc,items,,,Use the Floor Corker on a Brew Station. Libations will get you going but please use responsibly. Death can occur from overuse.,,,,,
 farmLifeCharredBarrelDesc,items,,,Use the Barrel Roaster on a Brew Cooker. The Charred Barrel is a tool used in the Brew Station for crafting.,,,,,
 farmLifeCheddarDesc,items,,,Use the Zhang Cleaver on a Chopping Board. Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
@@ -222,6 +222,7 @@ farmLifeFajitasPlatterDesc,items,,,Use the Baking Sheet on a Gas Oven. Some tast
 farmLifeFajitasPlatterStep1Desc,items,,,Use the Caste Iron Skillet on a Gas Cooktop. An ingredient used for crafting yummy meals or drinks.,,,,,
 farmLifeFajitasPlatterStep2Desc,items,,,Use the Caste Iron Skillet on a Gas Cooktop. An ingredient used for crafting yummy meals or drinks.,,,,,
 farmLifeFajitasPlatterStep3Desc,items,,,Use the Caste Iron Skillet on a Gas Cooktop. An ingredient used for crafting yummy meals or drinks.,,,,,
+farmForgeDesc,blocks,Block,New,"Type: [decea3]Advanced Farming[-] [FF684F](Workbench required to craft.)[-]\nMaterial: [decea3]Stone/Clay[-]\nUnlocked by: [decea3]Advanced Engineering[-]\n\n The Farm Forge is used to craft tools."
 farmLifeFeedingTroughDesc,items,,,Use a Workbench. An ingredient used for crafting yummy meals or drinks.,,,,,
 farmLifeFilteredCabernetDesc,items,,,Use the Wine Filter on a Brew Station. An ingredient used for crafting yummy meals or drinks.,,,,,
 farmLifeFilteredChardonneDesc,items,,,Use the Wine Filter on a Brew Station. An ingredient used for crafting yummy meals or drinks.,,,,,
@@ -405,7 +406,7 @@ farmLifePorterhouseDesc,items,,,Some tastey morsels that will definitely keep yo
 farmLifePowderedMilkDesc,items,,,Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
 farmLifePulledChickenDesc,items,,,Use a Chopping Board. Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
 farmLifePulledPorkDesc,items,,,Use a Chopping Board. Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
-farmLifePyreXBakewareDesc,items,,,Use the Anddieset on a Forge. The PyreX Bakeware is a tool used in the Gas Oven for crafting.,,,,,
+farmLifePyreXBakewareDesc,items,Item,New,"Type: [decea3]Advanced Farming[-] [FF684F](Tool and Die Set required to craft.)[-]\nMaterial: [decea3]Sand/Clay[-]\nUnlocked by: [decea3]Farm Forge[-]\n\nThe PyreX Bakeware is a tool used in the Gas Oven for crafting."
 farmLifeQuesoFrescoDesc,items,,,Use the Cooking Pot on a Gas Cooktop. Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
 farmLifeQuesoFrescoStep1Desc,items,,,Use the Cooking Pot on a Gas Cooktop. An ingredient used for crafting yummy meals or drinks.,,,,,
 farmLifeQuesoFrescoStep2Desc,items,,,Use the Cooking Pot on a Gas Cooktop. An ingredient used for crafting yummy meals or drinks.,,,,,
@@ -537,7 +538,7 @@ farmLifeSteepedBarleyDesc,items,,,Use the Steeping Tun on a Brew Station. An ing
 farmLifeSteepedRyeDesc,items,,,Use the Steeping Tun on a Brew Station. An ingredient used for crafting yummy meals or drinks.,,,,,
 farmLifeSteepedSorghumDesc,items,,,Use the Steeping Tun on a Brew Station. An ingredient used for crafting yummy meals or drinks.,,,,,
 farmLifeSteepingTunDesc,items,,,Use the Anvil on a Forge. The Steeping Tun is a tool used in the Brew Station for crafting.,,,,,
-farmLifeStillDesc,items,,,Use the Anddieset on a Forge. The Still is a tool used in the Brew Cooker for crafting.,,,,,
+farmLifeStillDesc,items,Item,New,"Type: [decea3]Advanced Farming[-] [FF684F](Tool and Die Set required to craft.)[-]\nMaterial: [decea3]Sand/Clay[-]\nUnlocked by: [decea3]Farm Forge[-]\n\nThe Still is a tool used in the Brew Cooker for crafting."
 farmLifeStirFryVegetablesDesc,items,,,Use the Wok on a Gas Cooktop. Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
 farmLifeStrawberryDesc,items,,,Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
 farmLifeStrawberryIceCreamDesc,items,,,Use the Ice Cream Bowl on a Kitchnaid. Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
@@ -565,7 +566,7 @@ farmLifeTortillasChipsDesc,items,,,Use the Baking Sheet on a Gas Oven. Some tast
 farmLifeTortillasChipsStep1Desc,items,,,Use the Damascus Knife on a Chopping Board. An ingredient used for crafting yummy meals or drinks.,,,,,
 farmLifeTortillasChipsStep2Desc,items,,,Use the Mixing Bowl on a Kitchnaid. An ingredient used for crafting yummy meals or drinks.,,,,,
 farmLifeTripleTacoTuesdayDesc,items,,,Use the Baking Sheet on a Gas Oven. Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
-farmLifeTurkeyRackDesc,items,,,Use the Anddieset on a Forge. The Turkey Rack is a tool used in the Cold Smoker for crafting.,,,,,
+farmLifeTurkeyRackDesc,items,Item,New,"Type: [decea3]Advanced Farming[-] [FF684F](Tool and Die Set required to craft.)[-]\nMaterial: [decea3]Sand/Clay[-]\nUnlocked by: [decea3]Farm Forge[-]\n\nThe Turkey Rack is a tool used in the Cold Smoker for crafting."
 farmLifeUmeDesc,items,,,Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
 farmLifeUmeboshiDesc,items,,,Use a Chopping Board. Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
 farmLifeUmeboshiStep1Desc,items,,,Use a Fermentor Bench. An ingredient used for crafting yummy meals or drinks.,,,,,
@@ -597,7 +598,7 @@ farmLifeWholeChickenDesc,items,,,Some tastey morsels that will definitely keep y
 farmLifeWholeSalmonDesc,items,,,Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
 farmLifeWineFilterDesc,items,,,Use a Workbench. The Wine Filter is a tool used in the Brew Station for crafting.,,,,,
 farmLifeWineTankDesc,items,,,Use a Workbench. The Wine Tank is a tool used in the Brew Station for crafting.,,,,,
-farmLifeWokDesc,items,,,Use the Anddieset on a Forge. The Wok is a tool used in the Gas Cooktop for crafting.,,,,,
+farmLifeWokDesc,items,Item,New,"Type: [decea3]Advanced Farming[-] [FF684F](Tool and Die Set required to craft.)[-]\nMaterial: [decea3]Sand/Clay[-]\nUnlocked by: [decea3]Farm Forge[-]\n\nThe Wok is a tool used in the Gas Cooktop for crafting."
 farmLifeWoodAshDesc,items,,,This Wood Ash allows you to drop the PH on water to create something more alkaline. ,,,,,
 farmLifeYellowBellDesc,items,,,Some tastey morsels that will definitely keep you going against the Zombie Apocalypse.,,,,,
 farmLifeYogurtCultureDesc,items,,,Use a Fermentor Bench. An ingredient used for crafting yummy meals or drinks.,,,,,
