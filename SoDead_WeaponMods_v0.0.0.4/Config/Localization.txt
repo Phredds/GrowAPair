@@ -126,7 +126,7 @@ resourceShotgunButtstockDesc,items,Item,New,"Type: [decea3]Weapon Part[-] [FF684
 resourceShotgunReceiver,items,Item,New,[772AB8]Shotgun Receiver
 resourceShotgunReceiverDesc,items,Item,New,"Type: [decea3]Weapon Part[-] [FF684F](Mill required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n Shotgun Receiver."
 
-perkMasterCraftsmanDesc,progression,Perk,New,"Long years of surviving have paid off."
+perkMasterCraftsmanDesc,progression,Perk,New,"Long years of surviving have paid off.\nUnlocked by: [FF684F]Lvl 5 Advanced Engineering[-]"
 perkMasterCraftsmanName,progression,Perk,New,[D4AF37]Master Craftsman
 perkMasterCraftsmanRank1Desc,progression,Perk,New,Apprentice
 perkMasterCraftsmanRank1LongDesc,progression,Perk,New,"Type: [decea3]Advanced Skill[-] [FF684F](Surviving has taught you many skills.)[-]\nLevel: [decea3]1[-]\nUnlocks: [decea3]Advanced Ammunition and Material Crafting."
