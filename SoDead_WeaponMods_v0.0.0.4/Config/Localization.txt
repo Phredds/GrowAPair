@@ -1,12 +1,12 @@
 Key,Source,Context,Changes,English
 gunAdvancedCrossbow,items,GunBow,New,[772AB8]Linda's Launcher
-gunAdvancedCrossbowDesc,items,GunBow,New,"Type: [decea3]Advanced Crossbow[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Advanced Crossbow Schematic[-]\n\n If only we had Thermite or Napalm Bolts."
+gunAdvancedCrossbowDesc,items,GunBow,New,"Type: [decea3]Advanced Crossbow[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Advanced Crossbow Schematic[-]\nAmmo: [decea3]Crossbow Bolt Steel AP, AdvCrossbowBolt Steel, AdvCrossbowBolt Steel AP, AdvCrossbowBolt Steel SH, AdvCrossbowBolt Steel BRN [-]\n\n If only we had Thermite or Napalm Bolts."
 gunDeagle,items,GunPistol,New,[772AB8]Desert Eagle
-gunDeagleDesc,items,GunPistol,New,"Type: [decea3]Advanced Handgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Desert Eagle Schematic.[-]\n\n The Desert Eagle is a powerful semiautomatic handgun."
+gunDeagleDesc,items,GunPistol,New,"Type: [decea3]Advanced Handgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Desert Eagle Schematic.[-]\nAmmo: [decea3]50 Magnum Bullet Ball,50 Magnum Bullet SH,50 Magnum Bullet BRN[-]\n\n The Desert Eagle is a powerful semiautomatic handgun."
 gunTacticalShotgun,items,GunBow,New,[772AB8]Tactical Shotgun
-gunTacticalShotgunDesc,items,GunShotgun,New,"Type: [decea3]Advanced Shotgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocked by: [decea3]Tactical Shotgun Schematic.[-]\n\n The Tactical Shotgun is a powerful weapon designed to take down the toughest mobs."
+gunTacticalShotgunDesc,items,GunShotgun,New,"Type: [decea3]Advanced Shotgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocked by: [decea3]Tactical Shotgun Schematic.[-]\nAmmo: [decea3]Shotgun Shell,Shotgun Slug, Shotgun Breaching Slug, Tactical ShotgunShell SH [-]\n\n The Tactical Shotgun is a powerful weapon designed to take down the toughest mobs."
 gunShawnsShotgun,items,GunShotgun,New,[772AB8]Shawn's Shotgun
-gunShawnsShotgunDesc,items,GunShotgun,New,"Type: [decea3]Advanced Pump Shotgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocked by: [decea3]Shawn's Shotgun Schematic.[-]\n\n Combined with advanced shotgun ammunition... this weapon is unstoppable."
+gunShawnsShotgunDesc,items,GunShotgun,New,"Type: [decea3]Advanced Pump Shotgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocked by: [decea3]Shawn's Shotgun Schematic.[-]\nAmmo: [decea3]Shotgun Shell, Shotgun Slug, Shotgun Breaching Slug, Shawns Shotgun Shell SH  [-]\n\n Combined with advanced shotgun ammunition... this weapon is unstoppable."
 
 gunAdvancedCrossbowSchematic,items,Item,New,[772AB8]Linda's Launcher Schematic
 gunAdvancedCrossbowSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Linda's Launcher[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
@@ -44,12 +44,12 @@ ammoBundle50MagnumBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [
 ammoTacticalShotgunShellSH,items,Item,New,[772AB8]Advanced Tactical Shotgun Shell (SHOCK)
 ammoTacticalShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic/Master Craftsman[-]\n\n Advanced Tactical Shotgun Shell (SHOCK)."
 ammoBundleTacticalShotgunShellSH,items,Item,New,[772AB8]Advanced Tactical Shotgun Shell Bundle (SHOCK)
-ammoBundleTacticalShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 50.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Carbon Fiber Schematic/Master Craftsman[-]\n\n Advanced Bundle Tactical Shotgun Shells (SHOCK)."
+ammoBundleTacticalShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Carbon Fiber Schematic/Master Craftsman[-]\n\n Advanced Bundle Tactical Shotgun Shells (SHOCK)."
 
 ammoShawnsShotgunShellSH,items,Item,New,[772AB8]Shawns Shotgun Shell (SHOCK)
-ammoShawnsShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 50.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Carbon Fiber Schematic/Master Craftsman[-]\n\n Shawn's Shotgun Shells (SHOCK)."
+ammoShawnsShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Carbon Fiber Schematic/Master Craftsman[-]\n\n Shawn's Shotgun Shells (SHOCK)."
 ammoBundleShawnsShotgunShellSH,items,Item,New,[772AB8]Shawns Shotgun Shell Bundle (SHOCK)
-ammoBundleShawnsShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 50.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Carbon Fiber Schematic/Master Craftsman[-]\n\n Advanced Bundle Shawn's Shotgun Shells (SHOCK)."
+ammoBundleShawnsShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass[-]\nUnlocked by: [decea3]Carbon Fiber Schematic/Master Craftsman[-]\n\n Advanced Bundle Shawn's Shotgun Shells (SHOCK)."
 
 resourceCarbonFiber,items,Item,New,[772AB8]Carbon Fiber
 resourceCarbonFiberDesc,items,Item,New,"Type: [decea3]Advanced Fiber[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n A Strong lightweight material."
