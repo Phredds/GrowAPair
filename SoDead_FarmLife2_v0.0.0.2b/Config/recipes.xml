@@ -560,12 +560,13 @@
             <ingredient name="Chicken Tamale Step 2" count="1"/>
             <ingredient name="Salt and Pepper" count="1"/>
         </recipe>
-        <recipe name="Chicken Tamale Step 4" count="1" craft_time="2" craft_area="Gas Cooktop" craft_tool="Caste Iron Skillet">
-            <ingredient name="Chicken Tamale Step 3" count="1"/>
+        <recipe name="Chicken Tamale Step 4" count="1" craft_time="2" craft_area="Gas Cooktop" craft_tool="Caste Iron Skillet">            
+			<ingredient name="Chicken Tamale Step 3" count="1"/>
             <ingredient name="Chicken Tamale Step 1" count="1"/>
         </recipe>
         <recipe name="Chicken Tamale Step 5" count="1" craft_time="2" craft_area="KitchNaid" craft_tool="Mixing Bowl">
-            <ingredient name="Corn Masa" count="2"/>
+            <ingredient name="Chicken Tamale Step 4" count="1"/>
+			<ingredient name="Corn Masa" count="2"/>
             <ingredient name="Chicken Stock" count="2"/>
             <ingredient name="Lard" count="10"/>
             <ingredient name="Salt" count="1"/>
