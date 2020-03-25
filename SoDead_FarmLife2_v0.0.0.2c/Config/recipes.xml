@@ -2420,7 +2420,16 @@
         </recipe>
         <recipe name="Beet Seed" count="1" craft_time="2">
             <ingredient name="Beet" count="4"/>
+        </recipe>		
+		<recipe name="Bell Pepper Seed" count="1" craft_time="2">
+            <ingredient name="Green Bell" count="4"/>
         </recipe>
+        <recipe name="Bell Pepper Seed" count="1" craft_time="2">
+            <ingredient name="Red Bell" count="4"/>
+        </recipe>
+        <recipe name="Bell Pepper Seed" count="1" craft_time="2">
+            <ingredient name="Yellow Bell" count="4"/>
+        </recipe>		
         <recipe name="Bitter Hops Seed" count="1" craft_time="2">
             <ingredient name="Bitter Hops" count="4"/>
         </recipe>
