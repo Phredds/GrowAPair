@@ -1,6 +1,6 @@
 
 <configs>
-    <append xpath="/quests">
+    <append xpath="/quests">		
         <quest id="brewing_guide_1">
             <property name="name" value="Mashing Time"/>
             <property name="subtitle" value="Mashing"/>
@@ -217,15 +217,15 @@
             <property name="name" value="Farming Tools"/>
             <property name="subtitle" value="Tools"/>
             <property name="group_name" value="Farming Crops"/>
-            <property name="description" value="Learn how to plant crops and then receive Farm Life crop seeds. Farming requires a Hoe and farmable dirt. (Note: Must be in a forest biome). Once you recieve the Crop Seeds Crate, place it on the ground and destroy with an axe."/>
-            <property name="offer" value="Learn how to plant crops and then receive Farm Life crop seeds. Farming requires a Hoe and farmable dirt. (Note: Must be in a forest biome). Once you recieve the Crop Seeds Crate, place it on the ground and destroy with an axe."/>
+            <property name="description" value="Learn how to plant crops and then receive Farm Life crop seeds. Farming requires farmable dirt (Farm or Crop Plots). Once you recieve the Crop Seeds Crate, place it on the ground and destroy with an axe."/>
+            <property name="offer" value="Learn how to plant crops and then receive Farm Life crop seeds. Farming requires farmable dirt (Farm or Crop Plots). Once you recieve the Crop Seeds Crate, place it on the ground and destroy with an axe."/>
             <property name="icon" value="ui_game_symbol_quest"/>
             <property name="repeatable" value="true"/>
             <property name="category_key" value="quest"/>
             <property name="difficulty" value="easy"/>
             <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="meleeToolHoeIron" value="1" phase="1"/>
-            <objective type="BlockUpgrade" id="terrForestGround" value="1" phase="1"/>
+            <objective type="FetchKeep" id="meleeToolShovelIron" value="1" phase="1"/>
+            <objective type="FetchKeep" id="resourceClayLump" value="1" phase="1"/>
             <reward type="Quest" id="seeds_plant_seeds_2"/>
         </quest>
         <quest id="seeds_plant_seeds_2">
@@ -4308,8 +4308,8 @@
             <property name="category_key" value="quest"/>
             <property name="difficulty" value="easy"/>
             <property name="shareable" value="false"/>
-            <objective type="FetchKeep" id="unit_clay" value="100" phase="1"/>
-            <objective type="FetchKeep" id="unit_iron" value="1000" phase="1"/>
+            <objective type="FetchKeep" id="resourceClayLump" value="100" phase="1"/>
+            <objective type="FetchKeep" id="resourceScrapIron" value="1000" phase="1"/>
         </quest>
         <quest id="item_zhang_cleaver_1">
             <property name="name" value="Zhang Cleaver"/>
@@ -4325,19 +4325,83 @@
             <objective type="FetchKeep" id="Zhang Blade" value="1" phase="1"/>
             <objective type="FetchKeep" id="Zhang Handle" value="1" phase="1"/>
         </quest>
-    </append>
-    <append xpath="/quests">
-        <quest id="workstation_farm_life_sign_1">
-            <property name="name" value="Farm Life Sign"/>
-            <property name="subtitle" value="Tools - 1"/>
-            <property name="group_name" value="Farm Life Sign Tools 1"/>
-            <property name="description" value="Craft or fetch all the tools required for a Farm Life Sign"/>
-            <property name="offer" value="Craft or fetch all the tools required for a Farm Life Sign"/>
+
+		<!-- ADD LATER -->
+		<!--
+		<quest id="farmLife_guide_1">
+            <property name="name" value="Farm Life Basics"/>
+            <property name="subtitle" value="Getting Started"/>
+            <property name="group_name" value="Farming"/>
+            <property name="description" value="Learn how to live the Farm Life. We start off by making some of the Basics. You must have both: Coal and Paper. Required tools: None."/>
+            <property name="offer" value="Learn how to live the Farm Life. We start off by making some of the Basics. You must have both: Coal and Paper. Required tools: None."/>
             <property name="icon" value="ui_game_symbol_quest"/>
-            <property name="repeatable" value="true"/>
+            <property name="repeatable" value="false"/>
             <property name="category_key" value="quest"/>
             <property name="difficulty" value="easy"/>
             <property name="shareable" value="false"/>
+            <objective type="FetchKeep" id="The Basics: Farming Crops" value="1" phase="1"/>
+            <objective type="FetchKeep" id="The Basics: Growing Trees" value="1" phase="1"/>
+            <objective type="FetchKeep" id="The Basics: Livestock" value="1" phase="1"/>
+            <reward type="Quest" id="farmLife_guide_2"/>
+        </quest>		
+		 <quest id="farmLife_guide_2">
+            <property name="name" value="Harvest Season"/>
+            <property name="subtitle" value="Harvest"/>
+            <property name="group_name" value="Farming"/>
+            <property name="description" value="Full grown crops and livestock can be harvested. Harvest crops and livestock with your hands or a butcher weapon such as Hunting Knife, Machete, Axe etc."/>
+            <property name="offer" value="Full grown crops and livestock can be harvested. Harvest crops and livestock with your hands or a butcher weapon such as Hunting Knife, Machete, Axe etc."/>
+            <property name="icon" value="ui_game_symbol_quest"/>
+            <property name="repeatable" value="false"/>
+            <property name="category_key" value="quest"/>
+            <property name="difficulty" value="easy"/>
+            <property name="shareable" value="false"/>
+            <objective type="FetchKeep" id="Delmontico" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Whole Chicken" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Raw Milk" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Ham" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Rice" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Grape" value="1" phase="1"/>			
+            <reward type="Quest" id="farmLife_guide_3"/>
         </quest>
+        <quest id="farmLife_guide_3">
+            <property name="name" value="Farm Life Recipes"/>
+            <property name="subtitle" value="Novice Recipes"/>
+            <property name="group_name" value="Farming"/>
+            <property name="description" value="Use what you've learned so far to create some delicious Farm grown meals."/>
+            <property name="offer" value="Use what you've learned so far to create some delicious Farm grown meals."/>
+            <property name="icon" value="ui_game_symbol_quest"/>
+            <property name="repeatable" value="false"/>
+            <property name="category_key" value="quest"/>
+            <property name="difficulty" value="easy"/>
+            <property name="shareable" value="false"/>            
+			<objective type="FetchKeep" id="Salt and Pepper" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Apple Woodchips" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Milk" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Butter" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Advanced - Sushi Rice" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Grape Pulp" value="1" phase="1"/>			
+            <reward type="Quest" id="farmLife_guide_4"/>
+        </quest>
+        <quest id="farmLife_guide_4">
+            <property name="name" value="Dinners Ready"/>
+            <property name="subtitle" value="Mastering Cooking"/>
+            <property name="group_name" value="Farming"/>
+            <property name="description" value="Now that you know the basics. it's time to create some advanced meals. Lets start with a nice Dinner."/>
+            <property name="offer" value="Now that you know the basics. it's time to create some advanced meals. Lets start with a nice Dinner."/>
+            <property name="icon" value="ui_game_symbol_quest"/>
+            <property name="repeatable" value="false"/>
+            <property name="category_key" value="quest"/>
+            <property name="difficulty" value="easy"/>
+            <property name="shareable" value="false"/>                        
+			<objective type="FetchKeep" id="Sushi Rice" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Buttery Delmontico" value="1" phase="1"/>
+			<objective type="FetchKeep" id="Port Wine" value="1" phase="1"/>			
+			<objective type="FetchKeep" id="Plain Ice Cream" value="1" phase="1"/>			
+			<reward type="Exp" value="5000"/>
+			<reward type="Item" id="casinoCoin" value="1000"/>
+			<reward type="SkillPoints" value="4" chainreward="true"/>
+        </quest>
+		-->
+		
     </append>
 </configs>

@@ -3573,6 +3573,14 @@
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>
+		<recipe name="The Basics: Farming Crops" count="1">
+            <ingredient name="resourceCoal" count="1"/>
+            <ingredient name="resourcePaper" count="1"/>
+        </recipe>
+        <recipe name="The Basics: Growing Trees" count="1">
+            <ingredient name="resourceCoal" count="1"/>
+            <ingredient name="resourcePaper" count="1"/>
+        </recipe>
         <recipe name="The Basics: Livestock" count="1">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -3584,15 +3592,7 @@
         <recipe name="The BEST Mesquite ever!" count="1">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
-        </recipe>
-        <recipe name="Best Approaches: Farming Crops" count="1">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
-        <recipe name="Growing Trees by stasis78" count="1">
-            <ingredient name="resourceCoal" count="1"/>
-            <ingredient name="resourcePaper" count="1"/>
-        </recipe>
+        </recipe>        
         <recipe name="Brew Cooker Volume 1" count="1">
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
@@ -3640,5 +3640,14 @@
             <ingredient name="bucketEmpty" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
+		
+		<!-- ADD LATER -->
+		<!--
+		<recipe name="Farm Life 2: Getting Started" count="1">
+            <ingredient name="resourceCoal" count="1"/>
+            <ingredient name="resourcePaper" count="1"/>
+        </recipe>
+		-->
+		
     </append>
 </configs>
