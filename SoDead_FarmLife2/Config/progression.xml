@@ -1,0 +1,35 @@
+<SoDead>
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='1,5']/@tags">,Farm Forge</append>
+	<append xpath="/progression/perks" >
+		<perk name="perkFarmLife" parent="skillSurvival" max_level="5" name_key="perkFarmLifeName" desc_key="perkFarmLifeDesc" icon="ui_game_symbol_workbench"  cost_multiplier_per_level="1">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="7" desc_key="reqFortitudeLevel07"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="10" desc_key="reqFortitudeLevel10"/></level_requirements>
+
+			<effect_group>			
+				<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.2" tags="perkFarmLife"/>
+				<passive_effect name="CraftingTime" operation="perc_add" level="3,5" value="-0.2" tags="perkFarmLife,FarmForgeCrafting,FarmLabCrafting"/>
+				
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1"
+				tags="Farm Lab,Aged Barrel,Apple Seed,Avocado Seed,Banana Seed,Barley Seed,Basil Seed,Beet Seed,Bell Pepper Seed,Bitter Hops Seed,Black Bean Seed,Black Pepper Seed,Broccoli Seed,Brussels Sprouts Seed,Cabbage Seed,Carrot Seed,Celery Seed,Cherry Seed,Cilantro Seed,Cinnamon Seed,Coconut Seed,Cucumber Seed,Cumin Seed,Dill Seed,Floral Hops Seed,Garlic Seed,Ghost Pepper Seed,Ginger Seed,Grape Seed,Green Bean Seed,Jalapeno Pepper Seed,Kidney Bean Seed,Lime Seed,Meyer Lemon Seed,Mint Seed,Okra Seed,Olive Seed,Onion Seed,Orange Seed,Oregano Seed,Pablano Pepper Seed,Pear Seed,Pineapple Seed,Pinto Bean Seed,Raspberry Seed,Rice Seed,Romaine Seed,Rosemary Seed,Rye Seed,Sakura Seed,Shallot Seed,Sorghum Seed,Soy Bean Seed,Spinach Seed,Squash Seed,Strawberry Seed,Sugar Cane Seed,Sugar Maple Seed,Thyme Seed,Tomatillo Seed,Tomato Seed,Walnut Seed,Wheat Seed,White Oak Seed,Hungry Angus Pen,Hungry Chicken Coop,Hungry Elk Pen,Hungry Holstein Pen,Hungry Pig Pen,Hungry Veal Pen,Salmon Pond"/>			
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1"
+				tags="Farm Crop Plot"/>			
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1"
+				tags=""/>						
+				<!-- ToDO: Work out which recipes to add for Advanced Farm Life Cooking Recipe unlock. -->
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1"
+				tags="Brick Planter,Brick Planter 2,Brick Planter 3,Brick Planter 4,Terracotta Planter,Wood Planter"/>
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1"
+				tags="Master Crop Plot"/>
+				
+				<effect_description level="1" desc_key="perkFarmLifeRank1Desc" long_desc_key="perkFarmLifeRank1LongDesc"/>
+				<effect_description level="2" desc_key="perkFarmLifeRank2Desc" long_desc_key="perkFarmLifeRank2LongDesc"/>
+				<effect_description level="3" desc_key="perkFarmLifeRank3Desc" long_desc_key="perkFarmLifeRank3LongDesc"/>
+				<effect_description level="4" desc_key="perkFarmLifeRank4Desc" long_desc_key="perkFarmLifeRank4LongDesc"/>
+				<effect_description level="5" desc_key="perkFarmLifeRank5Desc" long_desc_key="perkFarmLifeRank5LongDesc"/>
+			</effect_group>			
+		</perk>	
+	</append>
+</SoDead>

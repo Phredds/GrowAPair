@@ -87,7 +87,16 @@
 			<window name="WARwindowForgeInput" />
 			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
-		</window_group>	
+		</window_group>
+		
+		<window_group name="workstation_Farm Lab" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="WARwindowCraftingQueue"/>
+			<window name="windowFuel" />
+			<window name="windowOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>		
 		
     </append>
 </configs>

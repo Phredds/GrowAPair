@@ -35,6 +35,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeAppleSeedDesc"/>
             <property name="PlantGrowing.Next" value="Apple Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Apple Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -140,6 +141,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeAvocadoSeedDesc"/>
             <property name="PlantGrowing.Next" value="Avocado Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Avocado Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -243,6 +245,7 @@
             <property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeBananaSeedDesc"/>
             <property name="PlantGrowing.Next" value="Banana Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Banana Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -340,6 +343,7 @@
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeBarleySeedDesc"/>
             <property name="PlantGrowing.Next" value="Barley Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Barley Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -419,6 +423,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeBasilSeedDesc"/>
             <property name="PlantGrowing.Next" value="Basil Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Basil Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -497,6 +502,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeBeetSeedDesc"/>
             <property name="PlantGrowing.Next" value="Beet Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Beet Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -576,6 +582,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifeBellPepperSeedDesc"/>
             <property name="PlantGrowing.Next" value="Bell Pepper Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Bell Pepper Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -658,6 +665,7 @@
             <property name="Texture" value="447"/>
             <property name="DescriptionKey" value="farmLifeBitterHopsSeedDesc"/>
             <property name="PlantGrowing.Next" value="Bitter Hops Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Bitter Hops Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -739,6 +747,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifeBlackBeanSeedDesc"/>
             <property name="PlantGrowing.Next" value="Black Bean Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Black Bean Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -818,6 +827,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeBlackPepperSeedDesc"/>
             <property name="PlantGrowing.Next" value="Black Pepper Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Black Pepper Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -889,6 +899,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?BrickPlanterPrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeBrickPlanterDesc"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
+			<property name="Group" value="Resources,Farm Lab"/>
         </block>
         <block name="Brick Planter 2">
             <property name="Material" value="Mfarmland"/>
@@ -907,6 +919,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?BrickPlanterTwoPrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeBrickPlanter2Desc"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
+			<property name="Group" value="Resources,Farm Lab"/>
         </block>
         <block name="Brick Planter 3">
             <property name="Material" value="Mfarmland"/>
@@ -925,6 +939,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?BrickPlanterThreePrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeBrickPlanter3Desc"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
+			<property name="Group" value="Resources,Farm Lab"/>
         </block>
         <block name="Brick Planter 4">
             <property name="Material" value="Mfarmland"/>
@@ -943,6 +959,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?BrickPlanterFourPrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeBrickPlanter4Desc"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
+			<property name="Group" value="Resources,Farm Lab"/>
         </block>
         <block name="Broccoli Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
@@ -969,6 +987,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeBroccoliSeedDesc"/>
             <property name="PlantGrowing.Next" value="Broccoli Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Broccoli Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1046,6 +1065,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeBrusselsSproutsSeedDesc"/>
             <property name="PlantGrowing.Next" value="Brussels Sprouts Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Brussels Sprouts Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1124,6 +1144,7 @@
             <property name="Model" value="Entities/Plants/plant_aloe1_Prefab"/>
             <property name="DescriptionKey" value="farmLifeCabbageSeedDesc"/>
             <property name="PlantGrowing.Next" value="Cabbage Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Cabbage Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1203,6 +1224,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeCarrotSeedDesc"/>
             <property name="PlantGrowing.Next" value="Carrot Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Carrot Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1281,6 +1303,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeCelerySeedDesc"/>
             <property name="PlantGrowing.Next" value="Celery Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Celery Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1368,6 +1391,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeCherrySeedDesc"/>
             <property name="PlantGrowing.Next" value="Cherry Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Cherry Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1464,6 +1488,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeCilantroSeedDesc"/>
             <property name="PlantGrowing.Next" value="Cilantro Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Cilantro Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1551,6 +1576,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeCinnamonSeedDesc"/>
             <property name="PlantGrowing.Next" value="Cinnamon Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Cinnamon Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1654,6 +1680,7 @@
             <property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeCoconutSeedDesc"/>
             <property name="PlantGrowing.Next" value="Coconut Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Coconut Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1723,6 +1750,18 @@
             <property name="DowngradeBlock" value="Coconut Seed"/>
             <drop event="Harvest" name="Coconut" count="1" tag="cropHarvest"/>
         </block>
+		<block name="Farm Crop Plot">
+			<property name="Extends" value="farmPlotBlock"/>
+			<property name="CustomIcon" value="farmPlotBlock"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanMobsSpawnOn" value="false"/>			
+			<property name="DescriptionKey" value="farmLifeFarmCropPlotDesc"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
+			<property name="Group" value="Resources,Farm Lab"/>
+			<drop event="Harvest" name="resourceClayLump" count="0" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourcePotassiumNitratePowder" count="0" tag="oreWoodHarvest"/>
+			<drop event="Destroy" name="Farm Crop Plot" count="1"/>
+		</block>
         <block name="Cucumber Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
@@ -1748,6 +1787,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeCucumberSeedDesc"/>
             <property name="PlantGrowing.Next" value="Cucumber Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Cucumber Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1825,6 +1865,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeCuminSeedDesc"/>
             <property name="PlantGrowing.Next" value="Cumin Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Cumin Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1903,6 +1944,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeDillSeedDesc"/>
             <property name="PlantGrowing.Next" value="Dill Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Dill Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -1968,6 +2010,18 @@
             <property name="Place" value="TowardsPlacerInverted"/>
             <property name="DescriptionKey" value="farmLifeFarmLifeSignDesc"/>
         </block>
+		<block name="Master Crop Plot">
+			<property name="Extends" value="farmPlotBlock"/>
+			<property name="CustomIcon" value="farmPlotBlock"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanMobsSpawnOn" value="false"/>
+			<drop event="Harvest" name="resourceClayLump" count="0" tag="oreWoodHarvest"/>
+			<drop event="Harvest" name="resourcePotassiumNitratePowder" count="0" tag="oreWoodHarvest"/>
+			<drop event="Destroy" name="Master Crop Plot" count="1"/>
+			<property name="DescriptionKey" value="FarmLifeMasterCropPlotDesc"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
+			<property name="Group" value="Resources,Farm Lab"/>			
+		</block>		
         <block name="Floral Hops Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
@@ -1994,6 +2048,7 @@
             <property name="Texture" value="447"/>
             <property name="DescriptionKey" value="farmLifeFloralHopsSeedDesc"/>
             <property name="PlantGrowing.Next" value="Floral Hops Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Floral Hops Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2074,6 +2129,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeGarlicSeedDesc"/>
             <property name="PlantGrowing.Next" value="Garlic Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Garlic Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2152,6 +2208,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeGhostPepperSeedDesc"/>
             <property name="PlantGrowing.Next" value="Ghost Pepper Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Ghost Pepper Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2230,6 +2287,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeGingerSeedDesc"/>
             <property name="PlantGrowing.Next" value="Ginger Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Ginger Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2317,6 +2375,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeGrapeSeedDesc"/>
             <property name="PlantGrowing.Next" value="Grape Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Grape Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2413,6 +2472,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifeGreenBeanSeedDesc"/>
             <property name="PlantGrowing.Next" value="Green Bean Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Green Bean Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2470,7 +2530,7 @@
         <block name="Hungry Angus Pen" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources"/>
+            <property name="Group" value="Resources,Farm Lab"/>
             <property name="FilterTags" value="fother"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Angus Pen 1"/>
@@ -2494,6 +2554,7 @@
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="DescriptionKey" value="farmLifeHungryAngusPenDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Angus Pen 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Feeding Angus Pen 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2524,26 +2585,23 @@
             <property name="DisplayType" value="blockMulti"/>
             <property name="MultiBlockDim" value="3,1,3"/>
             <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-            <property name="Class" value="UpgradeRated"/>
+            <property name="MaxDamage" value="300"/>            
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="0"/>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <drop event="Destroy" count="0"/>            
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullAngusPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
-            <property name="DowngradeBlock" value="Hungry Angus Pen"/>
-            <drop event="Harvest" name="bucketEmpty" count="2" tag="allHarvest"/>
+            <property name="DowngradeBlock" value="Hungry Angus Pen"/>            
             <drop event="Harvest" name="Delmontico" count="2,4" tag="cropHarvest"/>
             <drop event="Harvest" name="Rump Roast" count="2,4" tag="cropHarvest"/>
             <drop event="Harvest" name="Porterhouse" count="2,4" tag="cropHarvest"/>
             <drop event="Harvest" name="resourceAnimalFat" count="2" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceFemur" count="2" tag="cropHarvest"/>
+            <drop event="Harvest" name="resourceBone" count="2" tag="cropHarvest"/>
         </block>
         <block name="Hungry Chicken Coop" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources"/>
+            <property name="Group" value="Resources,Farm Lab"/>
             <property name="FilterTags" value="fother"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Chicken Coop 1"/>
@@ -2567,6 +2625,7 @@
             <property name="MultiBlockDim" value="3,1,3"/>
             <property name="DescriptionKey" value="farmLifeHungryChickenCoopDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Chicken Coop 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Feeding Chicken Coop 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2597,16 +2656,13 @@
             <property name="DisplayType" value="blockMulti"/>
             <property name="MultiBlockDim" value="3,1,3"/>
             <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-            <property name="Class" value="UpgradeRated"/>
+            <property name="MaxDamage" value="300"/>            
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" count="0"/>
-            <property name="UpgradeRated.Rate" value="60"/>
+            <drop event="Destroy" count="0"/>            
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullChickenCoop"/>
             <property name="MultiBlockDim" value="3,1,3"/>
             <property name="DowngradeBlock" value="Hungry Chicken Coop"/>
-            <drop event="Harvest" name="bucketEmpty" count="2" tag="allHarvest"/>
             <drop event="Harvest" name="Chicken Breast" count="5" tag="cropHarvest"/>
             <drop event="Harvest" name="Chicken Wing" count="5" tag="cropHarvest"/>
             <drop event="Harvest" name="Whole Chicken" count="2" tag="cropHarvest"/>
@@ -2616,7 +2672,7 @@
         <block name="Hungry Elk Pen" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources"/>
+            <property name="Group" value="Resources,Farm Lab"/>
             <property name="FilterTags" value="fother"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Elk Pen 1"/>
@@ -2640,6 +2696,7 @@
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="DescriptionKey" value="farmLifeHungryElkPenDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Elk Pen 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Feeding Elk Pen 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2670,24 +2727,21 @@
             <property name="DisplayType" value="blockMulti"/>
             <property name="MultiBlockDim" value="3,1,3"/>
             <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-            <property name="Class" value="UpgradeRated"/>
+            <property name="MaxDamage" value="300"/>            
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>
-            <property name="UpgradeRated.Rate" value="60"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullElkPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="DowngradeBlock" value="Hungry Elk Pen"/>
-            <drop event="Harvest" name="bucketEmpty" count="2" tag="allHarvest"/>
             <drop event="Harvest" name="Elk Scraps" count="20,40" tag="cropHarvest"/>
             <drop event="Harvest" name="resourceLeather" count="5,10" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceFemur" count="1,5" tag="cropHarvest"/>
+            <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
         </block>
         <block name="Hungry Holstein Pen" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources"/>
+            <property name="Group" value="Resources,Farm Lab"/>
             <property name="FilterTags" value="fother"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Holstein Pen 1"/>
@@ -2711,6 +2765,7 @@
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="DescriptionKey" value="farmLifeHungryHolsteinPenDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Holstein Pen 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Feeding Holstein Pen 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2741,22 +2796,19 @@
             <property name="DisplayType" value="blockMulti"/>
             <property name="MultiBlockDim" value="3,1,3"/>
             <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-            <property name="Class" value="UpgradeRated"/>
+            <property name="MaxDamage" value="300"/>            
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>
-            <property name="UpgradeRated.Rate" value="60"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullHolsteinPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="DowngradeBlock" value="Hungry Holstein Pen"/>
-            <drop event="Harvest" name="bucketEmpty" count="2" tag="allHarvest"/>
             <drop event="Harvest" name="Raw Milk" count="2,8" tag="cropHarvest"/>
         </block>
         <block name="Hungry Pig Pen" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources"/>
+            <property name="Group" value="Resources,Farm Lab"/>
             <property name="FilterTags" value="fother"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Pig Pen 1"/>
@@ -2780,6 +2832,7 @@
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="DescriptionKey" value="farmLifeHungryPigPenDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Pig Pen 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Feeding Pig Pen 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2810,26 +2863,23 @@
             <property name="DisplayType" value="blockMulti"/>
             <property name="MultiBlockDim" value="3,1,3"/>
             <property name="Material" value="Morganic"/>
-            <property name="MaxDamage" value="300"/>
-            <property name="Class" value="UpgradeRated"/>
+            <property name="MaxDamage" value="300"/>            
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>
-            <property name="UpgradeRated.Rate" value="60"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullPigPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="DowngradeBlock" value="Hungry Pig Pen"/>
-            <drop event="Harvest" name="bucketEmpty" count="2" tag="allHarvest"/>
             <drop event="Harvest" name="Pork Belly" count="2,4" tag="cropHarvest"/>
             <drop event="Harvest" name="Ham" count="2,4" tag="cropHarvest"/>
             <drop event="Harvest" name="Pork Ribs" count="2,4" tag="cropHarvest"/>
             <drop event="Harvest" name="Pork Fat" count="1,2" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceFemur" count="1,5" tag="cropHarvest"/>
+            <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
         </block>
         <block name="Hungry Veal Pen" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources"/>
+            <property name="Group" value="Resources,Farm Lab"/>
             <property name="FilterTags" value="fother"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Feeding Veal Pen 1"/>
@@ -2853,6 +2903,7 @@
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="DescriptionKey" value="farmLifeHungryVealPenDesc"/>
             <property name="UpgradeRated.ToBlock" value="Feeding Veal Pen 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Feeding Veal Pen 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -2884,18 +2935,15 @@
             <property name="MultiBlockDim" value="3,1,3"/>
             <property name="Material" value="Morganic"/>
             <property name="MaxDamage" value="300"/>
-            <property name="Class" value="UpgradeRated"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>
-            <property name="UpgradeRated.Rate" value="60"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifePens.unity3d?FullVealPenPrefab"/>
             <property name="MultiBlockDim" value="4,1,4"/>
             <property name="DowngradeBlock" value="Hungry Veal Pen"/>
-            <drop event="Harvest" name="bucketEmpty" count="2" tag="allHarvest"/>
             <drop event="Harvest" name="Veal" count="2,8" tag="cropHarvest"/>
             <drop event="Harvest" name="Calf Stomache" count="1,2" tag="cropHarvest"/>
-            <drop event="Harvest" name="resourceFemur" count="1,5" tag="cropHarvest"/>
+            <drop event="Harvest" name="resourceBone" count="1,5" tag="cropHarvest"/>
             <drop event="Harvest" name="resourceAnimalFat" count="1,5" tag="cropHarvest"/>
         </block>
         <block name="Jalapeno Pepper Seed" farmLifeGrowing="true">
@@ -2924,6 +2972,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifeJalapenoPepperSeedDesc"/>
             <property name="PlantGrowing.Next" value="Jalapeno Pepper Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Jalapeno Pepper Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3004,6 +3053,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifeKidneyBeanSeedDesc"/>
             <property name="PlantGrowing.Next" value="Kidney Bean Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Kidney Bean Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3092,6 +3142,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeLimeSeedDesc"/>
             <property name="PlantGrowing.Next" value="Lime Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Lime Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3196,6 +3247,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeMeyerLemonSeedDesc"/>
             <property name="PlantGrowing.Next" value="Meyer Lemon Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Meyer Lemon Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3291,6 +3343,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeMintSeedDesc"/>
             <property name="PlantGrowing.Next" value="Mint Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Mint Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3369,6 +3422,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeOkraSeedDesc"/>
             <property name="PlantGrowing.Next" value="Okra Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Okra Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3455,6 +3509,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeOliveSeedDesc"/>
             <property name="PlantGrowing.Next" value="Olive Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Olive Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3550,6 +3605,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeOnionSeedDesc"/>
             <property name="PlantGrowing.Next" value="Onion Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Onion Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3637,6 +3693,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeOrangeSeedDesc"/>
             <property name="PlantGrowing.Next" value="Orange Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Orange Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3732,6 +3789,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeOreganoSeedDesc"/>
             <property name="PlantGrowing.Next" value="Oregano Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Oregano Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3811,6 +3869,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifePablanoPepperSeedDesc"/>
             <property name="PlantGrowing.Next" value="Pablano Pepper Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Pablano Pepper Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3900,6 +3959,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifePearSeedDesc"/>
             <property name="PlantGrowing.Next" value="Pear Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Pear Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -3996,6 +4056,7 @@
             <property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifePineappleSeedDesc"/>
             <property name="PlantGrowing.Next" value="Pineapple Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Pineapple Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4076,6 +4137,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifePintoBeanSeedDesc"/>
             <property name="PlantGrowing.Next" value="Pinto Bean Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Pinto Bean Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4198,6 +4260,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifeRaspberrySeedDesc"/>
             <property name="PlantGrowing.Next" value="Raspberry Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Raspberry Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4278,6 +4341,7 @@
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeRiceSeedDesc"/>
             <property name="PlantGrowing.Next" value="Rice Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Rice Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4357,6 +4421,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeRomaineSeedDesc"/>
             <property name="PlantGrowing.Next" value="Romaine Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Romaine Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4435,6 +4500,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeRosemarySeedDesc"/>
             <property name="PlantGrowing.Next" value="Rosemary Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Rosemary Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4516,6 +4582,7 @@
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeRyeSeedDesc"/>
             <property name="PlantGrowing.Next" value="Rye Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Rye Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4604,6 +4671,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeSakuraSeedDesc"/>
             <property name="PlantGrowing.Next" value="Sakura Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Sakura Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4677,7 +4745,7 @@
         <block name="Salmon Pond" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
             <property name="DisplayInfo" value="Name"/>
-            <property name="Group" value="Resources"/>
+            <property name="Group" value="Resources,Farm Lab"/>
             <property name="FilterTags" value="fother"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="Spawning Salmon Pond 1"/>
@@ -4701,6 +4769,7 @@
             <property name="MultiBlockDim" value="5,1,5"/>
             <property name="DescriptionKey" value="farmLifeSalmonPondDesc"/>
             <property name="UpgradeRated.ToBlock" value="Spawning Salmon Pond 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Spawning Salmon Pond 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4732,15 +4801,12 @@
             <property name="MultiBlockDim" value="5,1,5"/>
             <property name="Material" value="Morganic"/>
             <property name="MaxDamage" value="300"/>
-            <property name="Class" value="UpgradeRated"/>
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" count="0"/>
-            <property name="UpgradeRated.Rate" value="60"/>
             <property name="Shape" value="ModelEntity"/>
             <property name="Model" value="#@modfolder:Resources/FarmLifeWater.unity3d?FullSalmonPoolPrefab"/>
             <property name="MultiBlockDim" value="5,1,5"/>
             <property name="DowngradeBlock" value="Salmon Pond"/>
-            <drop event="Harvest" name="bucketEmpty" count="2" tag="allHarvest"/>
             <drop event="Harvest" name="Whole Salmon" count="4" tag="cropHarvest"/>
             <drop event="Harvest" name="Salmon Roe" count="2" tag="cropHarvest"/>
             <drop event="Harvest" name="Seaweed" count="1" tag="cropHarvest"/>
@@ -4772,6 +4838,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeShallotSeedDesc"/>
             <property name="PlantGrowing.Next" value="Shallot Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Shallot Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4863,6 +4930,7 @@
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeSorghumSeedDesc"/>
             <property name="PlantGrowing.Next" value="Sorghum Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Sorghum Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -4943,6 +5011,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifeSoyBeanSeedDesc"/>
             <property name="PlantGrowing.Next" value="Soy Bean Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Soy Bean Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5022,6 +5091,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeSpinachSeedDesc"/>
             <property name="PlantGrowing.Next" value="Spinach Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Spinach Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5101,6 +5171,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifeSquashSeedDesc"/>
             <property name="PlantGrowing.Next" value="Squash Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Squash Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5181,6 +5252,7 @@
             <property name="Model" value="Entities/Plants/blueberry_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeStrawberrySeedDesc"/>
             <property name="PlantGrowing.Next" value="Strawberry Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Strawberry Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5261,6 +5333,7 @@
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeSugarCaneSeedDesc"/>
             <property name="PlantGrowing.Next" value="Sugar Cane Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Sugar Cane Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5349,6 +5422,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeSugarMapleSeedDesc"/>
             <property name="PlantGrowing.Next" value="Sugar Maple Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Sugar Maple Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5437,6 +5511,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?TerracottaPlanterPrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeTerracottaPlanterDesc"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
+			<property name="Group" value="Resources,Farm Lab"/>
         </block>
         <block name="Thyme Seed" farmLifeGrowing="true">
             <property name="CreativeMode" value="Player"/>
@@ -5463,6 +5539,7 @@
             <property name="Model" value="Entities/Plants/potato_plant_sproutPrefab"/>
             <property name="DescriptionKey" value="farmLifeThymeSeedDesc"/>
             <property name="PlantGrowing.Next" value="Thyme Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Thyme Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5558,6 +5635,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifeTomatilloSeedDesc"/>
             <property name="PlantGrowing.Next" value="Tomatillo Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Tomatillo Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5638,6 +5716,7 @@
             <property name="MultiBlockDim" value="1,4,1"/>
             <property name="DescriptionKey" value="farmLifeTomatoSeedDesc"/>
             <property name="PlantGrowing.Next" value="Tomato Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Tomato Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5726,6 +5805,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeWalnutSeedDesc"/>
             <property name="PlantGrowing.Next" value="Walnut Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Walnut Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5825,6 +5905,7 @@
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeWheatSeedDesc"/>
             <property name="PlantGrowing.Next" value="Wheat Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="Wheat Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -5913,6 +5994,7 @@
             <property name="ParticleOnDeath" value="treeGib_sapling"/>
             <property name="DescriptionKey" value="farmLifeWhiteOakSeedDesc"/>
             <property name="PlantGrowing.Next" value="White Oak Growing 1"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
         </block>
         <block name="White Oak Growing 1" farmLifeGrowing="true">
             <property name="CreativeMode" value="None"/>
@@ -6000,6 +6082,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?WoodPlanterPrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeWoodPlanterDesc"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
+			<property name="Group" value="Resources,Farm Lab"/>
         </block>
         <block name="Fermentor Bench">
             <property name="OnlySimpleRotations" value="true"/>
@@ -6484,7 +6568,67 @@
 			<property name="EconomicValue" value="1000"/>
 			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
 			<property name="SortOrder1" value="70i0"/>
-		</block>		
+		</block>
+
+		<block name="Farm Lab">		
+			<property name="Class" value="Campfire"/>
+			<property name="Material" value="Miron_scrap"/>
+			<property name="MaxDamage" value="800"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="ParticleName" value="chemistryStation"/>
+			<property name="ParticleOffset" value="0,0,0"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Crafting/chemistry_stationPrefab"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="3,2,1"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="UnlockedBy" value="perkFarmLife"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+			<property name="CraftTimeMultiplier" value="0.5,1"/>
+			<property name="CustomIcon" value="chemistryStation" /><property name="CustomIconTint" value="65,65,65"/>
+			<property name="DescriptionKey" value="farmLabDesc"/>
+			
+			<property class="Workstation">
+				<property name="CraftingAreaRecipes" value="Farm Lab"/>
+				<property name="Modules" value="output,fuel,input"/>
+			</property>
+			<property name="WorkstationIcon" value="ui_game_symbol_chemistry"/>
+			<property name="CraftActionName" value="lblContextActionMix"/>
+			<property name="CraftIcon" value="ui_game_symbol_chemistry"/>
+			<property name="OpenSound" value="chem_station_open"/>
+			<property name="CloseSound" value="chem_station_close"/>
+			<property name="CraftSound" value="chem_station_mix_click"/>
+			<property name="CraftCompleteSound" value="chem_station_complete_item"/>
+			<property name="WorkstationJournalTip" value="chemistryStationTip"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="10"/>
+				<property name="resourceMetalPipe" value="10"/>
+				<property name="resourceWood" value="40"/>
+			</property>
+			<drop event="Harvest" name="resourceScrapIron" count="80" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceWood" count="16" tag="allHarvest"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceForgedIron" count="4" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceMetalPipe" count="4" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceWood" count="15" tag="salvageHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="TakeDelay" value="15"/>
+			<property name="Group" value="Science,Building,advBuilding"/>
+			<property name="EconomicValue" value="4000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+			<property name="SortOrder1" value="70i0"/>			
+		</block>
 		
     </append>
     <append xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']">

@@ -1,7 +1,7 @@
 
 <configs>
     <append xpath="/recipes">
-        <recipe name="Aged Barrel" count="1" craft_time="2" craft_area="chemistryStation">
+        <recipe name="Aged Barrel" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLifeCrafting">
             <ingredient name="Oak Barrel" count="1"/>
             <ingredient name="drinkJarGrainAlcohol" count="10"/>
         </recipe>
@@ -102,7 +102,7 @@
             <ingredient name="Marinara" count="2"/>
             <ingredient name="Parmesan" count="2"/>
         </recipe>
-        <recipe name="Baking Sheet" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Baking Sheet" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="100"/>
             <ingredient name="unit_clay" count="10"/>
         </recipe>
@@ -303,7 +303,7 @@
             <ingredient name="drinkJarBoiledWater" count="2"/>
             <ingredient name="Salt" count="1"/>
         </recipe>
-        <recipe name="Boiler" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Boiler" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -379,16 +379,16 @@
             <ingredient name="resourceMechanicalParts" count="10"/>
             <ingredient name="resourceScrapPolymers" count="10"/>
         </recipe>
-        <recipe name="Brick Planter" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Brick Planter" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceClayLump" count="100"/>
         </recipe>
-        <recipe name="Brick Planter 2" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Brick Planter 2" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceClayLump" count="100"/>
         </recipe>
-        <recipe name="Brick Planter 3" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Brick Planter 3" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceClayLump" count="100"/>
         </recipe>
-        <recipe name="Brick Planter 4" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Brick Planter 4" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceClayLump" count="100"/>
         </recipe>
         <recipe name="Brined Coffee Elk" count="1" craft_time="2" craft_area="KitchNaid" craft_tool="Mixing Bowl">
@@ -440,11 +440,11 @@
             <ingredient name="drinkCanEmpty" count="1"/>
             <ingredient name="drinkJarBoiledWater" count="1"/>
         </recipe>
-        <recipe name="Carboy" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
+        <recipe name="Carboy" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
             <ingredient name="unit_glass" count="500"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
-        <recipe name="Caste Iron Skillet" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible">
+        <recipe name="Caste Iron Skillet" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="100"/>
             <ingredient name="unit_clay" count="10"/>
         </recipe>
@@ -454,7 +454,7 @@
             <ingredient name="hayBaleBlock" count="2"/>
             <ingredient name="bucketRiverWater" count="2"/>
         </recipe>
-        <recipe name="Ceramic Dutch Oven" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
+        <recipe name="Ceramic Dutch Oven" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
             <ingredient name="unit_glass" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -613,7 +613,7 @@
         <recipe name="Chopping Board" count="1" craft_time="2" craft_area="tablesaw">
             <ingredient name="Walnut Wood Plank" count="10"/>
         </recipe>
-        <recipe name="Clay Pot" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible">
+        <recipe name="Clay Pot" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
             <ingredient name="unit_clay" count="1000"/>
         </recipe>
         <recipe name="Coconut Ice Cream" count="1" craft_time="2" craft_area="KitchNaid" craft_tool="Ice Cream Bowl">
@@ -683,6 +683,12 @@
             <ingredient name="Fried Ham Steak" count="2"/>
             <ingredient name="Biscuits and Gravy" count="1"/>
         </recipe>
+		<recipe name="Farm Crop Plot" count="1" craft_time="10" craft_area="Farm Lab" tags="learnable,perkFarmLife">
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="foodRottingFlesh" count="1"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+			<ingredient name="resourceClayLump" count="10"/>
+		</recipe>
         <recipe name="Crunchy Celery" count="1" craft_time="2">
             <ingredient name="Celery" count="1"/>
             <ingredient name="Cooking Vinegar" count="1"/>
@@ -703,7 +709,7 @@
         <recipe name="Cut Green Beans" count="5" craft_time="2">
             <ingredient name="Green Bean" count="3"/>
         </recipe>
-        <recipe name="Damascus Blade" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Damascus Blade" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -789,14 +795,14 @@
             <ingredient name="resourceCropHopsFlower" count="10"/>
             <ingredient name="Floral Hops" count="30"/>
         </recipe>
-        <recipe name="Dough Hook" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Dough Hook" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="25"/>
             <ingredient name="unit_clay" count="5"/>
         </recipe>
         <recipe name="Dried Husk" count="10" craft_time="2" craft_area="Gas Oven" craft_tool="Baking Sheet">
             <ingredient name="Corn Husk" count="10"/>
         </recipe>
-        <recipe name="Drying Pan" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Drying Pan" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="500"/>
             <ingredient name="unit_clay" count="50"/>
         </recipe>
@@ -884,6 +890,18 @@
 			<ingredient name="resourceLeather" count="10"/>
 			<ingredient name="resourceDuctTape" count="3"/>
 			<ingredient name="resourceMetalPipe" count="3"/>
+		</recipe>		
+		<recipe name="Farm Lab" count="1" craft_area="workbench" tags="learnable,perkFarmLife,workbenchCrafting">
+			<ingredient name="toolBeaker" count="1"/>
+			<ingredient name="burningBarrelPlayer" count="1"/>
+			<ingredient name="toolCookingPot" count="3"/>
+			<ingredient name="resourceMetalPipe" count="15"/>
+			<ingredient name="resourceWood" count="40"/>
+		</recipe>
+		<recipe name="Master Crop Plot" count="1" craft_time="10" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
+			<ingredient name="resourceWood" count="5"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+			<ingredient name="resourceClayLump" count="10"/>
 		</recipe>
         <recipe name="Farm Life Sign" count="1" craft_time="2" craft_area="workbench">
             <ingredient name="resourceScrapIron" count="100"/>
@@ -1176,43 +1194,43 @@
             <ingredient name="Hollandaise Step 1" count="1"/>
             <ingredient name="Butter" count="3"/>
         </recipe>
-        <recipe name="Hungry Angus Pen" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Hungry Angus Pen" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceForgedIron" count="120"/>
             <ingredient name="resourceYuccaFibers" count="200"/>
             <ingredient name="Feeding Trough" count="1"/>
             <ingredient name="bucketEmpty" count="1"/>
         </recipe>
-        <recipe name="Hungry Chicken Coop" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Hungry Chicken Coop" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceForgedIron" count="120"/>
             <ingredient name="resourceYuccaFibers" count="200"/>
             <ingredient name="Feeding Trough" count="1"/>
             <ingredient name="bucketEmpty" count="1"/>
         </recipe>
-        <recipe name="Hungry Elk Pen" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Hungry Elk Pen" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceForgedIron" count="120"/>
             <ingredient name="resourceYuccaFibers" count="200"/>
             <ingredient name="Feeding Trough" count="1"/>
             <ingredient name="bucketEmpty" count="1"/>
         </recipe>
-        <recipe name="Hungry Holstein Pen" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Hungry Holstein Pen" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceForgedIron" count="120"/>
             <ingredient name="resourceYuccaFibers" count="200"/>
             <ingredient name="Feeding Trough" count="1"/>
             <ingredient name="bucketEmpty" count="1"/>
         </recipe>
-        <recipe name="Hungry Pig Pen" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Hungry Pig Pen" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceForgedIron" count="120"/>
             <ingredient name="resourceYuccaFibers" count="200"/>
             <ingredient name="Feeding Trough" count="1"/>
             <ingredient name="bucketEmpty" count="1"/>
         </recipe>
-        <recipe name="Hungry Veal Pen" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Hungry Veal Pen" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceForgedIron" count="120"/>
             <ingredient name="resourceYuccaFibers" count="200"/>
             <ingredient name="Feeding Trough" count="1"/>
             <ingredient name="bucketEmpty" count="1"/>
         </recipe>
-        <recipe name="Ice Cream Bowl" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible">
+        <recipe name="Ice Cream Bowl" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="100"/>
             <ingredient name="unit_clay" count="10"/>
         </recipe>
@@ -1299,7 +1317,7 @@
             <ingredient name="resourceForgedIron" count="10"/>
             <ingredient name="resourceMechanicalParts" count="5"/>
         </recipe>
-        <recipe name="Malting Trays" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Malting Trays" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -1343,7 +1361,7 @@
             <ingredient name="resourceMechanicalParts" count="4"/>
             <ingredient name="resourceScrapPolymers" count="4"/>
         </recipe>
-        <recipe name="Meat Hanger" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible">
+        <recipe name="Meat Hanger" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="500"/>
             <ingredient name="unit_clay" count="50"/>
         </recipe>
@@ -1428,7 +1446,7 @@
             <ingredient name="Rosemary" count="1"/>
             <ingredient name="Oregano" count="1"/>
         </recipe>
-        <recipe name="Mixing Bowl" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Mixing Bowl" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -1590,7 +1608,7 @@
             <ingredient name="resourceForgedIron" count="16"/>
             <ingredient name="resourceWood" count="10"/>
         </recipe>
-        <recipe name="Pizza Blade" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Pizza Blade" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -1601,7 +1619,7 @@
         <recipe name="Pizza Handle" count="1" craft_time="2" craft_area="tablesaw">
             <ingredient name="Maple Wood Plank" count="5"/>
         </recipe>
-        <recipe name="Pizza Stone" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible">
+        <recipe name="Pizza Stone" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
             <ingredient name="unit_clay" count="500"/>
             <ingredient name="unit_glass" count="50"/>
         </recipe>
@@ -1649,7 +1667,7 @@
         <recipe name="Pulled Pork" count="10" craft_time="2" craft_area="Chopping Board">
             <ingredient name="Smoked Pork Ribs" count="1"/>
         </recipe>
-        <recipe name="PyreX Bakeware" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
+        <recipe name="PyreX Bakeware" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
             <ingredient name="unit_glass" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -1825,7 +1843,7 @@
         <recipe name="Salmon Fillet" count="5" craft_time="2" craft_area="Chopping Board" craft_tool="Damascus Knife">
             <ingredient name="Whole Salmon" count="1"/>
         </recipe>
-        <recipe name="Salmon Pond" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Salmon Pond" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceConcreteMix" count="100"/>
             <ingredient name="bucketRiverWater" count="10"/>
         </recipe>
@@ -2010,7 +2028,7 @@
             <ingredient name="Walnut Woodchips" count="2"/>
             <ingredient name="Apple Woodchips" count="3"/>
         </recipe>
-        <recipe name="Smoker Mat" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Smoker Mat" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="100"/>
             <ingredient name="unit_clay" count="10"/>
         </recipe>
@@ -2040,7 +2058,7 @@
             <ingredient name="drinkJarBoiledWater" count="2"/>
             <ingredient name="Minced Garlic" count="1"/>
         </recipe>
-        <recipe name="Spatula" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible">
+        <recipe name="Spatula" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolForgeCrucible" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="25"/>
             <ingredient name="unit_clay" count="5"/>
         </recipe>
@@ -2142,11 +2160,11 @@
             <ingredient name="Sorghum" count="50"/>
             <ingredient name="drinkJarBoiledWater" count="15"/>
         </recipe>
-        <recipe name="Steeping Tun" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Steeping Tun" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
-        <recipe name="Still" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
+        <recipe name="Still" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
             <ingredient name="unit_brass" count="500"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -2226,14 +2244,14 @@
         <recipe name="Taco Shell" count="10" craft_time="2" craft_area="Gas Oven" craft_tool="Baking Sheet">
             <ingredient name="Corn Tortillas Step 2" count="1"/>
         </recipe>
-        <recipe name="Terracotta Planter" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Terracotta Planter" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceClayLump" count="100"/>
         </recipe>
         <recipe name="Tom Cat" count="1" craft_time="2" craft_area="workbench">
             <ingredient name="foodCanCatfood" count="5"/>
             <ingredient name="Live Trap" count="1"/>
         </recipe>
-        <recipe name="Tongs" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Tongs" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="25"/>
             <ingredient name="unit_clay" count="5"/>
         </recipe>
@@ -2256,7 +2274,7 @@
             <ingredient name="Refried Beans" count="3"/>
             <ingredient name="Queso Fresco" count="3"/>
         </recipe>
-        <recipe name="Turkey Rack" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
+        <recipe name="Turkey Rack" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -2363,7 +2381,7 @@
         <recipe name="Wine Tank" count="1" craft_time="2" craft_area="workbench">
             <ingredient name="resourceForgedIron" count="20"/>
         </recipe>
-        <recipe name="Wok" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet">
+        <recipe name="Wok" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAndDieSet" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -2386,7 +2404,7 @@
             <ingredient name="resourceForgedIron" count="10"/>
             <ingredient name="toolCookingGrill" count="1"/>
         </recipe>
-        <recipe name="Wood Planter" count="1" craft_time="2" craft_area="workbench">
+        <recipe name="Wood Planter" count="1" craft_time="2" craft_area="Farm Lab" tags="learnable,perkFarmLife,FarmLabCrafting">
             <ingredient name="resourceClayLump" count="100"/>
         </recipe>
         <recipe name="Yogurt Culture" count="15" craft_time="2" craft_area="Fermentor Bench">
@@ -2401,7 +2419,7 @@
             <ingredient name="Yogurt Step 1" count="1"/>
             <ingredient name="Yogurt Culture" count="1"/>
         </recipe>
-        <recipe name="Zhang Blade" count="1" craft_time="10" material_based="true" craft_area="forge" craft_tool="toolAnvil">
+        <recipe name="Zhang Blade" count="1" craft_time="10" material_based="true" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
             <ingredient name="unit_iron" count="1000"/>
             <ingredient name="unit_clay" count="100"/>
         </recipe>
@@ -2412,145 +2430,145 @@
         <recipe name="Zhang Handle" count="1" craft_time="2" craft_area="workbench">
             <ingredient name="Walnut Wood Plank" count="5"/>
         </recipe>
-        <recipe name="Barley Seed" count="1" craft_time="2">
+        <recipe name="Barley Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Barley" count="4"/>
         </recipe>
-        <recipe name="Basil Seed" count="1" craft_time="2">
+        <recipe name="Basil Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Basil" count="4"/>
         </recipe>
-        <recipe name="Beet Seed" count="1" craft_time="2">
+        <recipe name="Beet Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Beet" count="4"/>
         </recipe>		
-		<recipe name="Bell Pepper Seed" count="1" craft_time="2">
+		<recipe name="Bell Pepper Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Green Bell" count="4"/>
         </recipe>
-        <recipe name="Bell Pepper Seed" count="1" craft_time="2">
+        <recipe name="Bell Pepper Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Red Bell" count="4"/>
         </recipe>
-        <recipe name="Bell Pepper Seed" count="1" craft_time="2">
+        <recipe name="Bell Pepper Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Yellow Bell" count="4"/>
         </recipe>		
-        <recipe name="Bitter Hops Seed" count="1" craft_time="2">
+        <recipe name="Bitter Hops Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Bitter Hops" count="4"/>
         </recipe>
-        <recipe name="Black Bean Seed" count="1" craft_time="2">
+        <recipe name="Black Bean Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Black Bean" count="4"/>
         </recipe>
-        <recipe name="Black Pepper Seed" count="1" craft_time="2">
+        <recipe name="Black Pepper Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Black Pepper" count="4"/>
         </recipe>
-        <recipe name="Broccoli Seed" count="1" craft_time="2">
+        <recipe name="Broccoli Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Broccoli" count="4"/>
         </recipe>
-        <recipe name="Brussels Sprouts Seed" count="1" craft_time="2">
+        <recipe name="Brussels Sprouts Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Brussels Sprouts" count="4"/>
         </recipe>
-        <recipe name="Cabbage Seed" count="1" craft_time="2">
+        <recipe name="Cabbage Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Cabbage" count="4"/>
         </recipe>
-        <recipe name="Carrot Seed" count="1" craft_time="2">
+        <recipe name="Carrot Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Carrot" count="4"/>
         </recipe>
-        <recipe name="Celery Seed" count="1" craft_time="2">
+        <recipe name="Celery Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Celery" count="4"/>
         </recipe>
-        <recipe name="Cilantro Seed" count="1" craft_time="2">
+        <recipe name="Cilantro Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Cilantro" count="4"/>
         </recipe>
-        <recipe name="Cucumber Seed" count="1" craft_time="2">
+        <recipe name="Cucumber Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Cucumber" count="4"/>
         </recipe>
-        <recipe name="Cumin Seed" count="1" craft_time="2">
+        <recipe name="Cumin Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Cumin" count="4"/>
         </recipe>
-        <recipe name="Dill Seed" count="1" craft_time="2">
+        <recipe name="Dill Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Dill" count="4"/>
         </recipe>
-        <recipe name="Floral Hops Seed" count="1" craft_time="2">
+        <recipe name="Floral Hops Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Floral Hops" count="4"/>
         </recipe>
-        <recipe name="Garlic Seed" count="1" craft_time="2">
+        <recipe name="Garlic Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Garlic" count="4"/>
         </recipe>
-        <recipe name="Ghost Pepper Seed" count="1" craft_time="2">
+        <recipe name="Ghost Pepper Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Ghost Pepper" count="4"/>
         </recipe>
-        <recipe name="Green Bean Seed" count="1" craft_time="2">
+        <recipe name="Green Bean Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Green Bean" count="4"/>
         </recipe>
-        <recipe name="Jalapeno Pepper Seed" count="1" craft_time="2">
+        <recipe name="Jalapeno Pepper Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Jalapeno Pepper" count="4"/>
         </recipe>
-        <recipe name="Kidney Bean Seed" count="1" craft_time="2">
+        <recipe name="Kidney Bean Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Kidney Bean" count="4"/>
         </recipe>
-        <recipe name="Mint Seed" count="1" craft_time="2">
+        <recipe name="Mint Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Mint" count="4"/>
         </recipe>
-        <recipe name="Okra Seed" count="1" craft_time="2">
+        <recipe name="Okra Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Okra" count="4"/>
         </recipe>
-        <recipe name="Onion Seed" count="1" craft_time="2">
+        <recipe name="Onion Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Onion" count="4"/>
         </recipe>
-        <recipe name="Oregano Seed" count="1" craft_time="2">
+        <recipe name="Oregano Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Oregano" count="4"/>
         </recipe>
-        <recipe name="Pablano Pepper Seed" count="1" craft_time="2">
+        <recipe name="Pablano Pepper Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Pablano Pepper" count="4"/>
         </recipe>
-        <recipe name="Pineapple Seed" count="1" craft_time="2">
+        <recipe name="Pineapple Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Pineapple" count="4"/>
         </recipe>
-        <recipe name="Pinto Bean Seed" count="1" craft_time="2">
+        <recipe name="Pinto Bean Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Pinto Bean" count="4"/>
         </recipe>
-        <recipe name="Raspberry Seed" count="1" craft_time="2">
+        <recipe name="Raspberry Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Raspberry" count="4"/>
         </recipe>
-        <recipe name="Rice Seed" count="1" craft_time="2">
+        <recipe name="Rice Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Rice" count="4"/>
         </recipe>
-        <recipe name="Romaine Seed" count="1" craft_time="2">
+        <recipe name="Romaine Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Romaine" count="4"/>
         </recipe>
-        <recipe name="Rosemary Seed" count="1" craft_time="2">
+        <recipe name="Rosemary Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Rosemary" count="4"/>
         </recipe>
-        <recipe name="Rye Seed" count="1" craft_time="2">
+        <recipe name="Rye Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Rye" count="4"/>
         </recipe>
-        <recipe name="Shallot Seed" count="1" craft_time="2">
+        <recipe name="Shallot Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Shallot" count="4"/>
         </recipe>
-        <recipe name="Sorghum Seed" count="1" craft_time="2">
+        <recipe name="Sorghum Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Sorghum" count="4"/>
         </recipe>
-        <recipe name="Soy Bean Seed" count="1" craft_time="2">
+        <recipe name="Soy Bean Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Soy Bean" count="4"/>
         </recipe>
-        <recipe name="Spinach Seed" count="1" craft_time="2">
+        <recipe name="Spinach Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Spinach" count="4"/>
         </recipe>
-        <recipe name="Squash Seed" count="1" craft_time="2">
+        <recipe name="Squash Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Squash" count="4"/>
         </recipe>
-        <recipe name="Strawberry Seed" count="1" craft_time="2">
+        <recipe name="Strawberry Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Strawberry" count="4"/>
         </recipe>
-        <recipe name="Sugar Cane Seed" count="1" craft_time="2">
+        <recipe name="Sugar Cane Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Sugar Cane" count="4"/>
         </recipe>
-        <recipe name="Thyme Seed" count="1" craft_time="2">
+        <recipe name="Thyme Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Thyme" count="4"/>
         </recipe>
-        <recipe name="Tomatillo Seed" count="1" craft_time="2">
+        <recipe name="Tomatillo Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Tomatillo" count="4"/>
         </recipe>
-        <recipe name="Tomato Seed" count="1" craft_time="2">
+        <recipe name="Tomato Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Tomato" count="4"/>
         </recipe>
-        <recipe name="Wheat Seed" count="1" craft_time="2">
+        <recipe name="Wheat Seed" count="1" craft_time="2" tags="learnable,perkFarmLife">
             <ingredient name="Wheat" count="4"/>
         </recipe>
         <recipe name="The Brewing Method" count="1">
