@@ -1,7 +1,7 @@
 <SoDead>
 	<append xpath="/buffs">
 	
-		<buff name="buffDEShocked" description_key="buffShockedDesc" tooltip_key="buffShockedTooltip" icon="ui_game_symbol_electric_power" name_key="buffShockedName" icon_color="255,0,0">
+		<buff name="buffSH">
 			<damage_type value="electrical"/>
 			<stack_type value="replace"/>
 			<duration value="5"/>
@@ -28,7 +28,7 @@
 			</effect_group>
 		</buff>
 	
-		<buff name="buffIncendiaryRound" >
+		<buff name="buffBRN" >
 	
 			<damage_type value="heat"/>
 			<stack_type value="replace"/><duration value="0"/>

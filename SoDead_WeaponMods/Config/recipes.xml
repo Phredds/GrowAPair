@@ -7,7 +7,7 @@
 			<ingredient name="resourceacb_forwardAssembly" count="1"/>
 			<ingredient name="resourceacb_stock" count="1"/>
 			<ingredient name="resourceacb_string" count="1"/>			
-		</recipe>
+		</recipe>		
 		
 		<recipe name="gunDeagle" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkGunslinger,perkMasterCraftsman">						
 			<ingredient name="resourceDeagleBarrel" count="1"/>
@@ -35,11 +35,28 @@
 		</recipe>		
 		
 		<recipe name="meleeKmeusKlub" count="1" craft_time="15" craft_area="workbench" tags="learnable,perkPummelPete,perkMasterCraftsman">
-			<ingredient name="meleeClubBaseballBatParts" count="5"/>
+			<ingredient name="meleeWpnClubT3SteelClubParts" count="5"/>
 			<ingredient name="modMeleeFortifyingGrip" count="1"/>			
 			<ingredient name="resourceBrassCore" count="1"/>
 			<ingredient name="resourceCarbonFiberTube" count="1"/>
 			<ingredient name="resourceLeather" count="1"/>			
+		</recipe>
+		
+		<recipe name="ThompsonSMG" count="1" craft_area="workbench" tags="learnable,perkGunslinger,perkMasterCraftsman">
+			<ingredient name="resourceThompsonBarrel" count="1"/>
+			<ingredient name="resourceThompsonButtstock" count="1"/>
+			<ingredient name="resourceThompsonReceiver" count="1"/>
+			<ingredient name="resourceThompsonForeGrip" count="1"/>
+			<ingredient name="resourceThompsonMagazine" count="1"/>			
+		</recipe>		
+		
+		<!-- ==========TOOLS========== -->
+		<recipe name="advancedPickAxe" count="1" craft_area="workbench" tags="learnable,perkMiner69r">
+			<ingredient name="meleeToolAllSteelParts" count="20"/>
+			<ingredient name="resourceForgedSteel" count="100"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceLeather" count="3"/>
+			<ingredient name="resourceDuctTape" count="3"/>			
 		</recipe>
 
 		<!-- ==========WORKSTATION========== -->
@@ -167,7 +184,7 @@
 		</recipe>		
 		
 		<recipe name="resourceDeagleBarrel" count="1" craft_area="mill" craft_time="5" tags="learnable,millCrafting,perkMasterCraftsman" craft_tool="toolTailstock">
-			<ingredient name="resourceForgedSteel" count="1"/>						
+			<ingredient name="resourceForgedSteel" count="5"/>						
 		</recipe>		
 		<recipe name="resourceDeagleFrame" count="1" craft_area="mill" craft_time="5" tags="learnable,millCrafting,perkMasterCraftsman" craft_tool="toolCalipers">
 			<ingredient name="resourceForgedSteel" count="5"/>
@@ -184,7 +201,24 @@
 		</recipe>		
 		<recipe name="resourceShotgunReceiver" count="1" craft_area="mill" craft_time="5" tags="learnable,millCrafting,perkMasterCraftsman" craft_tool="toolCalipers">
 			<ingredient name="resourceForgedSteel" count="5"/>						
+		</recipe>
+
+
+		<recipe name="resourceThompsonBarrel" count="1" craft_area="mill" craft_time="5" tags="learnable,millCrafting,perkMasterCraftsman" craft_tool="toolTailstock">
+			<ingredient name="resourceForgedSteel" count="5"/>
 		</recipe>		
+		<recipe name="resourceThompsonMagazine" count="1" craft_area="mill" craft_time="5" tags="learnable,millCrafting,perkMasterCraftsman" craft_tool="toolCalipers">
+			<ingredient name="resourceForgedSteel" count="5"/>		
+		</recipe>
+		<recipe name="resourceThompsonReceiver" count="1" craft_area="mill" craft_time="5" tags="learnable,millCrafting,perkMasterCraftsman" craft_tool="toolCalipers">
+			<ingredient name="resourceForgedSteel" count="5"/>						
+		</recipe>
+		<recipe name="resourceThompsonButtstock" count="1" craft_area="mill" craft_time="5" tags="learnable,millCrafting,perkMasterCraftsman">
+			<ingredient name="resourceWood" count="5"/>					
+		</recipe>		
+		<recipe name="resourceThompsonForeGrip" count="1" craft_area="mill" craft_time="5" tags="learnable,millCrafting,perkMasterCraftsman">
+			<ingredient name="resourceWood" count="5"/>						
+		</recipe>
 		
 		<!-- ==========AMMO========== -->		
 		<recipe name="ammoAdvCrossbowBoltSteel" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
@@ -231,6 +265,12 @@
 			<ingredient name="resourceBulletCasing" count="1"/>
 		</recipe>
 		
+		<recipe name="ammo50MagnumBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
+			<ingredient name="resourceBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="5"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+		</recipe>
+		
 		<recipe name="ammo50MagnumBulletSH" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
 			<ingredient name="resourceBrassBulletTip" count="1"/>
 			<ingredient name="resourceGunPowder" count="2"/>
@@ -248,6 +288,12 @@
 		<recipe name="ammoBundle50MagnumBulletBall" count="1" craft_time="150"  craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
 			<ingredient name="resourceBrassBulletTip" count="80"/>
 			<ingredient name="resourceGunPowder" count="240"/>
+			<ingredient name="resourceBulletCasing" count="50"/>
+		</recipe>
+		
+		<recipe name="ammoBundle50MagnumBulletAP" count="1" craft_time="150"  craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
+			<ingredient name="resourceBrassBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="400"/>
 			<ingredient name="resourceBulletCasing" count="50"/>
 		</recipe>
 		
@@ -287,7 +333,59 @@
 			<ingredient name="resourceShotgunSlugCF" count="80"/>
 			<ingredient name="resourceGunPowder" count="480"/>
 			<ingredient name="resourceShotgunCasingCF" count="80"/>			
-		</recipe>		
+		</recipe>
+		
+		<recipe name="ammo45ACPBulletBall" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
+			<ingredient name="resourceBrassBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="3"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo45ACPBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
+			<ingredient name="resourceBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="5"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo45ACPBulletSH" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
+			<ingredient name="resourceBrassBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="2"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo45ACPBulletBRN" count="1" craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
+			<ingredient name="resourceBrassBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="2"/>
+			<ingredient name="resourceBulletCasing" count="1"/>
+			<ingredient name="ammoGasCan" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoBundle45ACPBulletBall" count="1" craft_time="150"  craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
+			<ingredient name="resourceBrassBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="240"/>
+			<ingredient name="resourceBulletCasing" count="50"/>
+		</recipe>
+		
+		<recipe name="ammoBundle45ACPBulletAP" count="1" craft_time="150"  craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
+			<ingredient name="resourceBrassBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="400"/>
+			<ingredient name="resourceBulletCasing" count="50"/>
+		</recipe>
+		
+		<recipe name="ammoBundle45ACPBulletSH" count="1" craft_time="150"  craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
+			<ingredient name="resourceBrassBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="240"/>
+			<ingredient name="resourceBulletCasing" count="50"/>
+			<ingredient name="resourceElectricParts" count="80"/>
+		</recipe>
+		
+		<recipe name="ammoBundle45ACPBulletBRN" count="1" craft_time="150"  craft_area="workbench" tags="learnable,workbenchCrafting,perkMasterCraftsman">
+			<ingredient name="resourceBrassBulletTip" count="80"/>
+			<ingredient name="resourceGunPowder" count="240"/>
+			<ingredient name="resourceBulletCasing" count="50"/>
+			<ingredient name="ammoGasCan" count="80"/>
+		</recipe>	
 		
 	</append>
 </SoDead>

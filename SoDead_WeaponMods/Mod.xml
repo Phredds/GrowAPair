@@ -2,9 +2,9 @@
 	<info>
 		<author>SoDead</author>
 		<name>SoDead_WeaponMods</name>
-		<description>Adds new weapons to the game.</description>
-		<mod_version>0.0.0.4a</mod_version>
-		<game_version>18.4</game_version>
+		<description>Adds new weapons to the game and a perk system for unlocks. Alpha 19 test.</description>
+		<mod_version>0.0.0.6r1</mod_version>
+		<game_version>19 (b163)</game_version>
 		<launcher_version>0.1.0</launcher_version>
 	</info>
 </mod>

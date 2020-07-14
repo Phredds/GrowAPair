@@ -2,8 +2,8 @@
 <xml>
     <ModInfo>
         <Name value="SoDead_WeaponMods" />
-        <Description value="Testing mods in A18.4" />
+        <Description value="Adds new weapons to the game and a perk system for unlocks. Alpha 19 test." />
         <Author value="SoDead" />
-        <Version value="0.0.0.4r3" />
+        <Version value="0.0.0.6r1" />
     </ModInfo>
 </xml>

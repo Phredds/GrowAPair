@@ -1,12 +1,18 @@
 Key,Source,Context,Changes,English
 gunAdvancedCrossbow,items,GunBow,New,[772AB8]Linda's Launcher
 gunAdvancedCrossbowDesc,items,GunBow,New,"Type: [decea3]Advanced Crossbow[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Advanced Crossbow Schematic[-]\nAmmo: [decea3]Crossbow Bolt Steel AP, AdvCrossbowBolt Steel, AdvCrossbowBolt Steel AP, AdvCrossbowBolt Steel SH, AdvCrossbowBolt Steel BRN [-]\n\n If only we had Thermite or Napalm Bolts."
+advancedPickAxe,items,GunBow,New,[772AB8]Donnie's Pick
+advancedPickAxeDesc,items,Item,New,"Type: [decea3]Mining Tool[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Advanced Pick Axe Schematic[-]\n\n Donnie likes to Mine, so he needed a tool."
 gunDeagle,items,GunPistol,New,[772AB8]Desert Eagle
-gunDeagleDesc,items,GunPistol,New,"Type: [decea3]Advanced Handgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Desert Eagle Schematic.[-]\nAmmo: [decea3]50 Magnum Bullet Ball,50 Magnum Bullet SH,50 Magnum Bullet BRN[-]\n\n The Desert Eagle is a powerful semiautomatic handgun."
+gunDeagleDesc,items,GunPistol,New,"Type: [decea3]Advanced Handgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Desert Eagle Schematic.[-]\nAmmo: [decea3]50 AE,50 AE AP,50 AE SH,50 AE BRN[-]\n\n The Desert Eagle is a powerful semiautomatic handgun."
 gunTacticalShotgun,items,GunBow,New,[772AB8]Tactical Shotgun
 gunTacticalShotgunDesc,items,GunShotgun,New,"Type: [decea3]Advanced Shotgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocked by: [decea3]Tactical Shotgun Schematic.[-]\nAmmo: [decea3]Shotgun Shell,Shotgun Slug, Shotgun Breaching Slug, Tactical ShotgunShell SH [-]\n\n The Tactical Shotgun is a powerful weapon designed to take down the toughest mobs."
 gunShawnsShotgun,items,GunShotgun,New,[772AB8]Shawn's Shotgun
 gunShawnsShotgunDesc,items,GunShotgun,New,"Type: [decea3]Advanced Pump Shotgun[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocked by: [decea3]Shawn's Shotgun Schematic.[-]\nAmmo: [decea3]Shotgun Shell, Shotgun Slug, Shotgun Breaching Slug, Shawns Shotgun Shell SH  [-]\n\n Combined with advanced shotgun ammunition... this weapon is unstoppable."
+ThompsonSMG,items,GunPistol,New,[772AB8]Thompson SMG
+ThompsonSMGDesc,items,GunPistol,New,"Type: [decea3]Advanced SMG[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Thompson SMG Schematic.[-]\nAmmo: [decea3]45 ACP,45 ACP AP,45 ACP SH,45 ACP BRN[-]\n\nThe 'Chicago Typewriter'. Say hello to 'My' little friend."
+gunTacticalAR,items,GunMG,New,[772AB8]Tactical AR
+gunTacticalARDesc,items,GunMG,New,"Type: [decea3]Advanced Automatic Weapon[-] [FF684F](Rare Schematic required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Tactical AR Schematic.[-]\nAmmo: [decea3]7.62[-]\n[FF684F]This is an unlisted weapon in the Vanilla files from the 'Dev' tools. Because of this, the Attachments won't be modified for this model. The Scope, Silencer and Light may be in the wrong place![-]"
 
 gunAdvancedCrossbowSchematic,items,Item,New,[772AB8]Linda's Launcher Schematic
 gunAdvancedCrossbowSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Linda's Launcher[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
@@ -16,6 +22,10 @@ gunTacticalShotgunSchematic,items,Item,New,[772AB8]Tactical Shotgun Schematic
 gunTacticalShotgunSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Tactical Shotgun[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
 gunShawnsShotgunSchematic,items,Item,New,[772AB8]Shawn's Shotgun Schematic
 gunShawnsShotgunSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocks: [decea3]Shawn's Shotgun[-]\n\n Reading this schematic will teach you how to build this weapon.\nNot much is known about this weapon, but it's very powerful."
+ThompsonSMGSchematic,items,Item,New,[772AB8]Thompson SMG Schematic
+ThompsonSMGSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Steel[-]\nUnlocks: [decea3]Thompson SMG[-]\n\n Reading this schematic will teach you how to build this weapon.\nThe "Windy City" Typewriter. Say hello to 'My' little friend."
+gunTacticalARSchematic,items,Item,New,[772AB8]Tactical AR Schematic
+gunTacticalARSchematicDesc,items,Item,New,"Type: [decea3]Advanced Weapon[-] [FF684F](Rare Schematic.)[-]\nMaterial: [decea3]Steel[-]\nUnlocks: [decea3]Tactical AR[-]\n\n Reading this schematic will teach you how to build this weapon.\nTactical AR. One of the 'Dev' weapons.... shhhh, don't tell."
 
 ammoAdvCrossbowBoltSteel,items,Ammo,New,[772AB8]Advanced Crossbow Bolt Steel
 ammoAdvCrossbowBoltSteelDesc,items,Ammo,New,"Type: [decea3]Advanced Crossbow Bolt[-] [FF684F](Master Craftsman required to build.)[-]\nMaterial: [decea3]Carbon Fiber/Steel[-]\nUnlocked by: [decea3]Carbon Fiber Schematic[-]\n\n A Strong lightweight Bolt."
@@ -27,19 +37,41 @@ ammoAdvCrossbowBoltSteelSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [F
 ammoAdvCrossbowBoltSteelBRN,items,Item,New,[772AB8]Advanced Crossbow Bolt (Burn)
 ammoAdvCrossbowBoltSteelBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Not stable enough to bundle.)[-]\nMaterial: [decea3]Carbon Fiber[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n Advanced Carbon Fiber bolts for Linda's Launcher."
 
-ammo50MagnumBulletBall,items,Item,New,[772AB8]50cal Magnum Bullet
-ammo50MagnumBulletBallDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n Advanced 50cal Magnum Bullet."
-ammo50MagnumBulletSH,items,Item,New,[772AB8]50cal Magnum Bullet (Shock)
-ammo50MagnumBulletSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n Advanced 50cal Magnum Bullet."
-ammo50MagnumBulletBRN,items,Item,New,[772AB8]50cal Magnum Bullet (Burn)
-ammo50MagnumBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n Advanced 50cal Magnum Bullet."
+ammo45ACPBulletBall,items,Item,New,[772AB8]45 ACP Ball
+ammo45ACPBulletBallDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n45 ACP Ball."
+ammo45ACPBulletAP,items,Item,New,[772AB8]45 ACP Bullet AP
+ammo45ACPBulletAPDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n45 ACP AP (Armor Piercing)."
+ammo45ACPBulletSH,items,Item,New,[772AB8]45 ACP Bullet (Shock)
+ammo45ACPBulletSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n45 ACP SH(Shocking)."
+ammo45ACPBulletBRN,items,Item,New,[772AB8]45 ACP Bullet (Burn)
+ammo45ACPBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n45 ACP BRN(Incendiary)."
 
-ammoBundle50MagnumBulletBall,items,Item,New,[772AB8]50cal Magnum Bullet Bundle
-ammoBundle50MagnumBulletBallDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n Advanced 50cal Magnum Bullet."
-ammoBundle50MagnumBulletSH,items,Item,New,[772AB8]50cal Magnum Bullet Bundle (Shock)
-ammoBundle50MagnumBulletSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n Advanced 50cal Magnum Bullet."
-ammoBundle50MagnumBulletBRN,items,Item,New,[772AB8]50cal Magnum Bullet Bundle (Burn)
-ammoBundle50MagnumBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n Advanced 50cal Magnum Bullet."
+ammoBundle45ACPBulletBall,items,Item,New,[772AB8]45 ACP Ball Bundle
+ammoBundle45ACPBulletBallDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n45 ACP Ball."
+ammoBundle45ACPBulletAP,items,Item,New,[772AB8]45 ACP Bullet AP Bundle
+ammoBundle45ACPBulletAPDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n45 ACP AP (Armor Piercing)."
+ammoBundle45ACPBulletSH,items,Item,New,[772AB8]45 ACP Bullet Bundle (Shock)
+ammoBundle45ACPBulletSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n45 ACP SH(Shocking)."
+ammoBundle45ACPBulletBRN,items,Item,New,[772AB8]45 ACP Bullet Bundle (Burn)
+ammoBundle45ACPBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n45 ACP BRN(Incendiary)."
+
+ammo50MagnumBulletBall,items,Item,New,[772AB8]50 AE Ball
+ammo50MagnumBulletBallDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n50 AE Ball."
+ammo50MagnumBulletAP,items,Item,New,[772AB8]50 AE AP
+ammo50MagnumBulletAPDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n50 AE AP (Armor Piercing)."
+ammo50MagnumBulletSH,items,Item,New,[772AB8]50 AE Bullet (Shock)
+ammo50MagnumBulletSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n50 AE SH(Shocking)."
+ammo50MagnumBulletBRN,items,Item,New,[772AB8]50 AE Bullet (Burn)
+ammo50MagnumBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n50 AE BRN(Incendiary)."
+
+ammoBundle50MagnumBulletBall,items,Item,New,[772AB8]50 AE Ball Bundle
+ammoBundle50MagnumBulletBallDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n50 AE Ball."
+ammoBundle50MagnumBulletAP,items,Item,New,[772AB8]50 AE AP Bundle
+ammoBundle50MagnumBulletAPDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n50 AE AP (Armor Piercing)."
+ammoBundle50MagnumBulletSH,items,Item,New,[772AB8]50 AE Bullet Bundle (Shock)
+ammoBundle50MagnumBulletSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n50 AE SH(Shocking)."
+ammoBundle50MagnumBulletBRN,items,Item,New,[772AB8]50 AE Bullet Bundle (Burn)
+ammoBundle50MagnumBulletBRNDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Bundle count 100.)[-]\nMaterial: [decea3]Brass/Lead[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n50 AE BRN(Incendiary)."
 
 ammoTacticalShotgunShellSH,items,Item,New,[772AB8]Advanced Tactical Shotgun Shell (SHOCK)
 ammoTacticalShotgunShellSHDesc,items,Item,New,"Type: [decea3]Advanced Ammo[-] [FF684F](Can be bundled.)[-]\nMaterial: [decea3]Brass/Carbon Fiber[-]\nUnlocked by: [decea3]Carbon Fiber Schematic/Master Craftsman[-]\n\n Advanced Tactical Shotgun Shell (SHOCK)."
@@ -126,12 +158,24 @@ resourceShotgunButtstockDesc,items,Item,New,"Type: [decea3]Weapon Part[-] [FF684
 resourceShotgunReceiver,items,Item,New,[772AB8]Shotgun Receiver
 resourceShotgunReceiverDesc,items,Item,New,"Type: [decea3]Weapon Part[-] [FF684F](Mill required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\n Shotgun Receiver."
 
-perkMasterCraftsmanDesc,progression,Perk,New,"Long years of surviving have paid off.\nUnlocked by: [FF684F]Lvl 10 Intelligence[-]"
-perkMasterCraftsmanName,progression,Perk,New,[D4AF37]Master Craftsman
+resourceThompsonBarrel,items,Item,New,[772AB8]Thompson Barrel
+resourceThompsonBarrelDesc,items,Item,New,"Type: [decea3]Weapon Part[-] [FF684F](Mill required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\nThompson Barrel."
+resourceThompsonButtstock,items,Item,New,[772AB8]Thompson Buttstock
+resourceThompsonButtstockDesc,items,Item,New,"Type: [decea3]Weapon Part[-] [FF684F](Mill required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\nThompson Buttstock."
+resourceThompsonReceiver,items,Item,New,[772AB8]Thompson Receiver
+resourceThompsonReceiverDesc,items,Item,New,"Type: [decea3]Weapon Part[-] [FF684F](Mill required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\nThompson Receiver."
+resourceThompsonForeGrip,items,Item,New,[772AB8]Thompson Fore Grip
+resourceThompsonForeGripDesc,items,Item,New,"Type: [decea3]Weapon Part[-] [FF684F](Mill required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\nThompson Fore Grip."
+resourceThompsonMagazine,items,Item,New,[772AB8]Thompson Magazine
+resourceThompsonMagazineDesc,items,Item,New,"Type: [decea3]Weapon Part[-] [FF684F](Mill required to build.)[-]\nMaterial: [decea3]Steel[-]\nUnlocked by: [decea3]Master Craftsman[-]\n\nThompson Magazine."
+
+perkMasterCraftsmanDesc,progression,perk Int,,,[D4AF37]Master Craftsman
+perkMasterCraftsmanName,progression,perk Int,,[D4AF37]Master Craftsman,"Long years of surviving have paid off.\nUnlocked by: [FF684F]Lvl 10 Intelligence[-]"
+
 perkMasterCraftsmanRank1Desc,progression,Perk,New,Apprentice
 perkMasterCraftsmanRank1LongDesc,progression,Perk,New,"Type: [decea3]Advanced Skill[-] [FF684F](Surviving has taught you many skills.)[-]\nLevel: [decea3]1[-]\nUnlocks: [decea3]Advanced Ammunition and Material Crafting."
 perkMasterCraftsmanRank2Desc,progression,Perk,New,Practitioner
-perkMasterCraftsmanRank2LongDesc,progression,Perk,New,"Type: [decea3]Advanced Skill[-] [FF684F](Getting better at crafting items.)[-]\nLevel: [decea3]2[-]\nUnlocks: [decea3]Advanced Weapons Parts."
+perkMasterCraftsmanRank2LongDesc,progression,Perk,New,"Type: [decea3]Advanced Skill[-] [FF684F](Getting better at crafting items.)[-]\nLevel: [decea3]2[-]\nUnlocks: [decea3]Advanced Weapons and Parts."
 perkMasterCraftsmanRank3Desc,progression,Perk,New,Journeyman
 perkMasterCraftsmanRank3LongDesc,progression,Perk,New,"Type: [decea3]Advanced Skill[-] [FF684F](No longer a novice to crafting all types of items.)[-]\nLevel: [decea3]3[-]\nUnlocks: [decea3]Advanced Armor Piercing Ammunition."
 perkMasterCraftsmanRank4Desc,progression,Perk,New,Expert

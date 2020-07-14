@@ -1,16 +1,25 @@
 # GrowAPair
-Custom Mods for the GrowAPair server
+Backup of Custom Mods for the GrowAPair server
 
-Special thanks to stasis78 for making FarmLife2Mod to begin with.
+Welcome. The modlets contained here include Farm Life Expanded. A 'proof of concept' modlet featuring quality of life enhancements to add more features and content to the game. This started from our regular players
+asking about old farming mods. I was asked if I could get these working for our server and this is my progress so far. I will also say... this is a learning process for myself, so things may be done differently.
 
-How to install mods for GrowAPair server.
-Download FarmLife2Mod and WeaponMods. (Required)
+FarmLifeMod2 and Farming Mod have been merged and some workstations and items are no longer used due to being duplicates, etc.
+Unnecessary but Beautiful did not have any recipes at all in the copy I received. I've added simple recipes for all items for the time being.
 
-1. Install the 7D2D Mod Launcher.
-2. Select War3zuk>War3zuk Alpha 18 AIO Overhaul then install mod.
-3. From the 7D2D Mod Launcher Starting Splash Screen, find the Destination Folder For Mods.
-4. Navigate to the Mods folder. (Default should be C:\7D2D\Alpha18\War3zuk\War3zuk_Alpha_18_AIO_OverHaul\Mods) Delete old version of SoDead_FarmLife2 and/or SoDead_WeaponMods (if necessary).
-5. Extract SoDead_FarmLife2 and SoDead_WeaponMods to the Mods folder. (Default should be C:\7D2D\Alpha18\War3zuk\War3zuk_Alpha_18_AIO_OverHaul\Mods)
-6. On the Mod Launcher, be sure to Pre-Sync Mod, then press Play Mod on the 7D2D Mod Launcher.
+I've added placeholder animals for more workstations and farming resources. The plans are to animate them in the future, but as they are now, they are stationary. Also, Not all new food items have actions applied at this time.
 
-Also, currently needed is CompoPack43. You can find it on the 7D2D forums or searching through your webbrowser.
+
+Special thanks to stasis78 (FarmLifeMod2), hernanxx (UnnecessarybutBeautiful) and Mayic (Farming Mod) for prior work on thier mods.
+
+Extra special thanks to Linda, babygrl, Chris, Gator, Tru, Bluntz, David, Mistress Metal and Nomad for the initial help with everything to do with the farming mods.
+
+Thank you to the 7 Days to Die modlet creators for adding so much content to the game.
+
+Featured on our server:
+
+SoDead_FarmLifeExpanded - v0.0.0.5r6 (A combination of stasis78 FarmLifeMod2 + Mayic Farming Mod + hernanxx UnnecessarybutBeautiful modlets. Added more animals and a perk system for Farm Life unlocks.)
+SoDead_WeaponMods - v0.0.0.6r1 (Includes a custom Skill/Perk system (Master Craftsman) for new Weapons, recipes and workstations.)
+
+
+Have fun and enjoy your days surviving.

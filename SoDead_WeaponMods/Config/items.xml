@@ -1,4 +1,5 @@
 <SoDead>
+	
 	<append xpath="/items" >
 	
 	<!-- ==========WEAPONS========== -->
@@ -85,6 +86,69 @@
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 			</effect_group>
 		</item>
+		
+		<item name="advancedPickAxe"> <!-- T3 Tools -->
+			<property name="DescriptionKey" value="advancedPickAxeDesc"/>
+			<property name="Extends" value="meleeToolPickT2SteelPickaxe"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="CustomIcon" value="missingImageFile" />
+			<property name="HoldType" value="4"/>
+			<property name="Meshfile" value="#Other/Items?Tools/pickaxe_steelPrefab.prefab"/>
+			<property name="RepairTools" value="resourceRepairKit"/>
+			<property name="EconomicValue" value="700"/>
+			<property name="Material" value="MmeleeToolAllSteel"/> <property name="Weight" value="6"/>
+			<property name="UnlockedBy" value="advancedPickAxeSchematic"/>
+			<property class="Action0">
+				<property name="GrazeStart" value=".5"/>
+				<property name="GrazeEnd" value=".6"/>
+				<property name="SwingDegrees" value="65"/>
+				<property name="SwingAngle" value="180"/>
+				<property name="UseGrazingHits" value="true"/>
+			</property>
+			<property class="Action1">
+				<property name="UsePowerAttackAnimation" value="true"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="GrazeStart" value=".4"/>
+				<property name="GrazeEnd" value=".48"/>
+				<property name="SwingDegrees" value="110"/>
+				<property name="SwingAngle" value="90"/>
+			</property>
+			<property name="Group" value="Tools/Traps"/>
+			<effect_group name="meleeToolPickaxeSteel">
+				<passive_effect name="EntityDamage" operation="base_set" value="23.2"/> <!-- meleeToolPickaxeSteel -->
+				<passive_effect name="BlockDamage" operation="base_set" value="120"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="75"/><!-- Gazz change 47 to 55 -->
+				<passive_effect name="StaminaLoss" operation="base_set" value="7" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="350,1287" tier="1,6" tags="perkMiner69r"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.6"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
+
+				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".25" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/> <!-- random EntityDmg -->
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/> <!-- tier bonus -->
+				<passive_effect name="PlayerExpGain" operation="perc_add" value="-.1" tags="Harvesting"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/> <!-- random BlockDmg -->
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/> <!-- tier bonus -->
+				<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/> <!-- random DegMax -->
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05"/> <!-- random APM -->
+				<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/> <!-- random StamLoss -->
+
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".8" tags="terrGravel"/>
+			</effect_group>
+
+			<effect_group name="Power Attack">
+				<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
+				<passive_effect name="StaminaLoss" operation="base_add" value="34.1" tags="secondary"/>
+			</effect_group>
+		</item>
 
 		<item name="gunDeagle"> <!-- T2 pistols -->
 			<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
@@ -92,7 +156,8 @@
 			<property name="DescriptionKey" value="gunDeagleDesc"/>
 			<property name="CustomIcon" value="gunDeagle" />
 			<property name="HoldType" value="1"/>			
-			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/>
+			<!-- <property name="Meshfile" value="#Other/Items?Weapons/Ranged/Pistol/PistolPrefab.prefab"/> -->
+			<property name="Meshfile" value="#@modfolder:Resources/deagle.unity3d?deagle.Prefab"/>
 			<property name="Material" value="MHandGunParts"/> <property name="Weight" value="50"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="DegradationBreaksAfter" value="false"/>
@@ -114,7 +179,7 @@
 
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
-				<property name="Magazine_items" value="ammo50MagnumBulletBall,ammo50MagnumBulletSH,ammo50MagnumBulletBRN"/>
+				<property name="Magazine_items" value="ammo50MagnumBulletBall,ammo50MagnumBulletAP,ammo50MagnumBulletSH,ammo50MagnumBulletBRN"/>
 				<property name="Sound_start" value="44magnum_fire"/>
 				<property name="Sound_loop" value="44magnum_fire"/>
 				<property name="Sound_end" value=""/>
@@ -130,7 +195,7 @@
 				<property name="Class" value="Zoom"/>
 				<property name="Zoom_max_out" value="55"/>
 				<property name="Zoom_max_in" value="55"/>
-				<property name="ScopeCameraOffset" value="0,.0008,0"/>
+				<property name="ScopeCameraOffset" value="0,-.015,0"/>
 			</property>
 
 			<effect_group name="gunPistol">
@@ -372,9 +437,9 @@
 			<property name="Tags" value="blunt,club,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 			<property name="DisplayType" value="melee"/>
 			<property name="Group" value="Ammo/Weapons"/>
-			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Bat/bat_Prefab.prefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/KmeusKlub.unity3d?KmeusKlub.Prefab"/>
 			<property name="HoldType" value="65"/>
-			<property name="Material" value="MmeleeClubBaseballBat"/> <property name="Weight" value="50"/>
+			<property name="Material" value="MmeleeWpnClubParts"/> <property name="Weight" value="6"/>
 			<property name="RepairTools" value="resourceRepairKit"/>
 			<property name="SoundDestroy" value="wooddestroy1"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
@@ -422,8 +487,8 @@
 					</property>
 
 			<effect_group name="meleeClubBaseballBat">
-				<passive_effect name="EntityDamage" operation="base_set" value="96.2"/> <!-- meleeClubBaseballBat -->
-				<passive_effect name="BlockDamage" operation="base_set" value="2.1"/>
+				<passive_effect name="EntityDamage" operation="base_set" value="96.2"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="32.1"/>
 				<passive_effect name="AttacksPerMinute" operation="base_set" value="82"/>
 				<passive_effect name="StaminaLoss" operation="base_set" value="16.1" tags="primary"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="300,1700" tier="1,6" tags="perkPummelPete"/>
@@ -435,10 +500,10 @@
 				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 
-				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/> <!-- random EntityDmg -->
-				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/> <!-- tier bonus -->
-				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/> <!-- random BlockDmg -->
-				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/> <!-- tier bonus -->
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
 
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
@@ -455,6 +520,93 @@
 			</effect_group>
 		</item>
 		
+		<item name="ThompsonSMG">
+			<property name="DescriptionKey" value="ThompsonSMGDesc"/>
+			<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+			<property name="DisplayType" value="rangedGun"/>
+			<property name="HoldType" value="6"/>
+			<property name="Meshfile" value="#@modfolder:Resources/thompsonSMG.unity3d?thompsonSMG.Prefab"/>
+			<property name="Material" value="MHandGunParts"/> <property name="Weight" value="50"/>
+			<property name="RepairTools" value="resourceRepairKit"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundJammed" value="weapon_jam"/>
+			<property name="Attachments" value="meleeToolFlashlight02"/>
+			<property name="LightSource" value="lightSource"/>
+			<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+			<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
+			<property name="TintColor" value="255,255,255"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="CrosshairUpAfterShot" value="true"/>
+			<property name="Sound_Sight_In" value="smg_sight_in"/>
+			<property name="Sound_Sight_Out" value="smg_sight_out"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="RepairExpMultiplier" value="10.8"/>
+			<property name="LightValue" value=".45"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="UnlockedBy" value="gunThompsonSMGSchematic"/>
+			<property name="ShowQuality" value="true"/>
+
+			<property class="Action0">
+				<property name="Class" value="Ranged"/>
+				<property name="Delay" value=".150"/>
+				<property name="Magazine_items" value="ammo45ACPBulletBall,ammo45ACPBulletAP,ammo45ACPBulletSH,ammo45ACPBulletBRN"/>
+				<property name="Reload_time" value="4.1"/>
+				<property name="Sound_start" value="tommy_fire"/>
+				<property name="Sound_loop" value="tommy_s_fire"/>
+				<property name="Sound_end" value="tommy_fire_end"/>
+				<property name="Sound_empty" value="dryfire"/>
+				<property name="Sound_reload" value="tommy_reload"/>
+				<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+				<property name="Particles_muzzle_fire_fpv" value="gunfire_SMG_fpv"/>
+				<property name="ScopeOffset" value="0,.5,0"/>
+				<property name="SideOffset" value="0,0,0"/>
+				<property name="BarrelOffset" value="0,0,0"/>
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+			</property>
+			
+			<property class="Action1">
+				<property name="Class" value="Zoom"/>
+				<property name="Zoom_max_out" value="55"/>
+				<property name="Zoom_max_in" value="55"/>
+				<property name="ScopeCameraOffset" value="-.0003,0,-.01"/>
+			</property>
+			
+			<effect_group name="gunSMG5">
+				<passive_effect name="MaxRange" operation="base_set" value="65"/>
+				<passive_effect name="DamageFalloffRange" operation="base_set" value="30"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
+				<passive_effect name="RoundsPerMinute" operation="base_set" value="750"/>
+				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
+				<passive_effect name="MagazineSize" operation="base_set" value="50"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+				<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+				<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
+				<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
+				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.35"/>
+				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.35"/>
+				<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".35"/>
+				<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
+				<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
+				<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2"/>
+				<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".2"/>
+				<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1"/>
+				<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.3"/>
+				<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".3"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.6"/>
+				<passive_effect name="WeaponHandling" operation="base_set" value=".8"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="350,1700" tier="1,6" tags="perkGunslinger,9mmGun"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkGunslinger,9mmGun"/>
+			</effect_group>
+		</item>		
+		
 	<!-- ==========SCHEMATICS========== -->
 	
 		<item name="gunAdvancedCrossbowSchematic">
@@ -464,6 +616,17 @@
 			<property name="Unlocks" value="gunAdvancedCrossbow"/>
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunAdvancedCrossbow" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+		<item name="advancedPickAxeSchematic">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="meleeToolPickaxeSteel"/><property name="CustomIconTint" value="CB8EFF"/>
+			<property name="Unlocks" value="advancedPickAxe"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="advancedPickAxe" operation="set" value="1"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
@@ -525,7 +688,19 @@
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
-
+		
+		<item name="gunThompsonSMGSchematic">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="ThompsonSMG"/><property name="CustomIconTint" value="65,65,65"/>
+			<property name="DescriptionKey" value="ThompsonSMGSchematicDesc"/>
+			<property name="Unlocks" value="ThompsonSMG"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ThompsonSMG" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
 	<!-- ==========Tools========== -->
 	
 		<item name="toolCalipers">
@@ -551,7 +726,6 @@
 		</item>		
 		
 	<!-- ==========PARTS========== -->
-	
 		<item name="resourceacb_boltGuide">
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -635,7 +809,7 @@
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="MresourceScrapBrassSmall"/> <property name="Weight" value="2"/>
-			<property name="Stacknumber" value="1000"/>
+			<property name="Stacknumber" value="25000"/>
 			<property name="EconomicValue" value="10"/>
 			<property name="EconomicBundleSize" value="10"/>
 			<property name="Group" value="Ammo/Weapons"/>
@@ -670,7 +844,7 @@
 			<property name="Weight" value="1"/>
 			<property name="EconomicValue" value="50"/>
 			<property name="Group" value="Resources,Clothing,Chemicals"/>
-			<property name="UnlockedBy" value="perkYeahScience,resourceCarbonFiberSchematic"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,resourceCarbonFiberSchematic"/>
 		</item>
 		
 		<item name="resourceCarbonFiberBillet"> <!-- scrap material -->
@@ -688,7 +862,7 @@
 			<property name="Weight" value="100"/>
 			<property name="EconomicValue" value="50"/>
 			<property name="Group" value="Resources,Clothing,Chemicals"/>
-			<property name="UnlockedBy" value="perkYeahScience"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 		</item>
 		
 		<item name="resourceCarbonFiberGrips"> <!-- scrap material -->
@@ -723,7 +897,7 @@
 			<property name="Weight" value="10"/>
 			<property name="EconomicValue" value="50"/>
 			<property name="Group" value="Resources,Clothing,Chemicals"/>
-			<property name="UnlockedBy" value="perkYeahScience"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 		</item>		
 	
 		<item name="resourceCarbonFiberStock"> <!-- scrap material -->
@@ -748,7 +922,7 @@
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Mcarbonfiber"/>
-			<property name="Stacknumber" value="1000"/>
+			<property name="Stacknumber" value="25000"/>
 			<property name="EconomicValue" value="10"/>
 			<property name="EconomicBundleSize" value="10"/>
 			<property name="Group" value="Ammo/Weapons,Milling"/>
@@ -762,23 +936,23 @@
 			<property name="Material" value="Mcarbonfiber"/> <property name="Weight" value="100"/>
 			<property name="DescriptionKey" value="resourceCarbonFiberTubeDesc"/>
 			<property name="CustomIcon" value="resourceCarbonFiberTube" /> 
-			<property name="Stacknumber" value="250"/> <!-- STK resource -->
+			<property name="Stacknumber" value="25000"/> <!-- STK resource -->
 			<property name="CraftingIngredientExp" value="10"/>
 			<property name="CraftingIngredientTime" value="10"/>
 			<property name="RepairTime" value=".6"/>
 			<property name="RepairAmount" value="400"/>			
 			<property name="EconomicValue" value="50"/>
 			<property name="Group" value="Resources,Milling,Chemicals"/>
-			<property name="UnlockedBy" value="perkYeahScience"/>			
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>			
 		</item>
 
 		<item name="resourceScrapCarbonFiber"> <!-- scrap material -->
-			<property name="UnlockedBy" value="perkYeahScience"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Mcarbonfiber"/>
-			<property name="Stacknumber" value="250"/> <!-- STK resource -->
+			<property name="Stacknumber" value="25000"/> <!-- STK resource -->
 			<property name="CraftingIngredientExp" value="10"/>
 			<property name="CraftingIngredientTime" value="10"/>
 			<property name="RepairTime" value=".6"/>
@@ -818,7 +992,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/> <property name="Weight" value="10"/>
+			<property name="Material" value="Msteel"/> <property name="Weight" value="10"/>
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="10"/>
@@ -830,7 +1004,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/> <property name="Weight" value="10"/>
+			<property name="Material" value="Msteel"/> <property name="Weight" value="10"/>
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="10"/>
@@ -842,7 +1016,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/> <property name="Weight" value="10"/>
+			<property name="Material" value="Msteel"/> <property name="Weight" value="10"/>
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="10"/>
@@ -854,7 +1028,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/> <property name="Weight" value="10"/>
+			<property name="Material" value="Msteel"/> <property name="Weight" value="10"/>
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="10"/>
@@ -866,7 +1040,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/> <property name="Weight" value="10"/>
+			<property name="Material" value="Mcarbonfiber"/> <property name="Weight" value="10"/>
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="10"/>
@@ -878,7 +1052,7 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapBrassSmall"/> <property name="Weight" value="10"/>
+			<property name="Material" value="Msteel"/> <property name="Weight" value="10"/>
 			<property name="MeltTimePerUnit" value=".4"/>
 			<property name="Stacknumber" value="1000"/>
 			<property name="EconomicValue" value="10"/>
@@ -886,6 +1060,62 @@
 			<property name="Group" value="Ammo/Weapons,Milling"/>
 			<property name="UnlockedBy" value="perkMasterCraftsman"/>
 		</item>
+		<!-- ThompsonSMG -->
+		<item name="resourceThompsonBarrel">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Ammo/Weapons,Milling"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+		</item>
+		<item name="resourceThompsonButtstock">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mwood"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Ammo/Weapons,Milling"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+		</item>
+		<item name="resourceThompsonReceiver">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Ammo/Weapons,Milling"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+		</item>
+		<item name="resourceThompsonForeGrip">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mwood"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Ammo/Weapons,Milling"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+		</item>
+		<item name="resourceThompsonMagazine">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="10"/>
+			<property name="Group" value="Ammo/Weapons,Milling"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+		</item>		
 		
 	<!-- ==========AMMUNITION========== -->
 	
@@ -1011,7 +1241,7 @@
 			<property name="CustomIcon" value="ammoAdvCrossbowBoltSteelSH" />
 			<property name="Extends" value="ammoCrossbowBoltIron"/>
 			<property name="EconomicValue" value="60"/>
-			<property name="Stacknumber" value="200" /> 
+			<property name="Stacknumber" value="25000" /> 
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<property name="DescriptionKey" value="ammoAdvCrossbowBoltSteelSHDesc"/>
 			<property name="UnlockedBy" value="perkMasterCraftsman"/>
@@ -1063,8 +1293,8 @@
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffDEShocked">
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffDEShocked"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffSH">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffSH"/>
 				</triggered_effect>
 			</effect_group>
 		</item>
@@ -1073,7 +1303,7 @@
 			<property name="CustomIcon" value="ammoAdvCrossbowBoltSteelBRN"/>
 			<property name="Extends" value="ammoCrossbowBoltIron"/>
 			<property name="EconomicValue" value="60"/>
-			<property name="Stacknumber" value="200" /> 
+			<property name="Stacknumber" value="25000" /> 
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<property name="DescriptionKey" value="ammoAdvCrossbowBoltSteelBRNDesc"/>			
 			<property name="Meshfile" value="#Other/Items?Weapons/Ranged/Bows/Crossbow/crossbowBoltSteelPrefab.prefab"/>
@@ -1130,31 +1360,49 @@
 			<property name="UnlockedBy" value="perkMasterCraftsman"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="90"/>
-				<passive_effect name="BlockDamage" operation="base_set" value=".1"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="10"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
 			</effect_group>
-		</item>		
+		</item>
+
+		<item name="ammo50MagnumBulletAP">
+			<property name="Extends" value="ammo44MagnumBulletBall"/>
+			<property name="DisplayType" value="ammoBulletAP"/>
+			<property name="EconomicValue" value="15"/>
+			<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+			<property name="UnlockedBy" value="perkEnforcerAPAmmo"/>
+			<effect_group name="ammo44MagnumBulletAP" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="90"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="24"/>
+				<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
+				<display_value name="dTargetArmor" value="-.2"/>
+				<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
+				<display_value name="dTargetPenetration" value="1"/>
+				<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkGunslinger"/>
+				<display_value name="dDegradationPerUse" value=".3"/>
+			</effect_group>
+		</item>
 		
 		<item name="ammo50MagnumBulletSH">			
 			<property name="Extends" value="ammo50MagnumBulletBall"/>
 			<property name="EconomicValue" value="60"/>
-			<property name="Stacknumber" value="1000" /> 
+			<property name="Stacknumber" value="25000" /> 
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<property name="DescriptionKey" value="ammo50MagnumBulletSHDesc"/>
 			<property name="UnlockedBy" value="perkMasterCraftsman"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="90"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="10"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffDEShocked">
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffDEShocked"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffSH">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffSH"/>
 				</triggered_effect>
 			</effect_group>
 		</item>		
@@ -1162,23 +1410,23 @@
 		<item name="ammo50MagnumBulletBRN">			
 			<property name="Extends" value="ammo50MagnumBulletBall"/>
 			<property name="EconomicValue" value="60"/>
-			<property name="Stacknumber" value="1000" /> 
+			<property name="Stacknumber" value="25000" /> 
 			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
 			<property name="DescriptionKey" value="ammo50MagnumBulletBRNDesc"/>
 			<property name="UnlockedBy" value="perkMasterCraftsman"/>
 			<effect_group name="Base Effects" tiered="false">
 				<passive_effect name="EntityDamage" operation="base_set" value="60"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="10"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffIncendiaryRound">
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBRN">
 					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
 				</triggered_effect>
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffIncendiaryRound"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBRN"/>
 				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffIncendiaryRound">
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffBRN">
 					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
 				</triggered_effect>
 			</effect_group>
@@ -1191,6 +1439,17 @@
 			<property name="UnlockedBy" value="perkMasterCraftsman"/>
 			<property class="Action0">
 				<property name="Create_item" value="ammo50MagnumBulletBall"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		
+		<item name="ammoBundle50MagnumBulletAP">
+			<property name="Extends" value="ammoBundle9mmBulletBall"/>
+			<property name="CustomIcon" value="ammoBundle50MagnumBulletAP" />
+			<property name="EconomicValue" value="1400"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+			<property class="Action0">
+				<property name="Create_item" value="ammo50MagnumBulletAP"/>
 				<property name="Create_item_count" value="100"/>
 			</property>
 		</item>
@@ -1223,8 +1482,8 @@
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="Mcarbonfiber"/>
-			<property name="Stacknumber" value="1000"/> <!-- STK ammo low -->
+			<property name="Material" value="MresourceScrapBrassSmall"/>
+			<property name="Stacknumber" value="25000"/>
 			<property name="EconomicValue" value="11"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="UnlockedBy" value="perkMasterCraftsman"/>
@@ -1245,8 +1504,8 @@
 				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
 				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
 				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffDEShocked">
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffDEShocked"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffSH">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffSH"/>
 				</triggered_effect>
 			</effect_group>
 		</item>		
@@ -1270,7 +1529,7 @@
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Mcarbonfiber"/>
-			<property name="Stacknumber" value="1000"/> <!-- STK ammo low -->
+			<property name="Stacknumber" value="25000"/>
 			<property name="EconomicValue" value="11"/>
 			<property name="Group" value="Ammo/Weapons"/>
 			<property name="UnlockedBy" value="perkMasterCraftsman"/>
@@ -1291,22 +1550,151 @@
 				<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
 				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
 				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
-				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffDEShocked">
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffDEShocked"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffSH">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffSH"/>
 				</triggered_effect>
 			</effect_group>
 		</item>
 		
 		<item name="ammoBundleShawnsShotgunShellSH">
 			<property name="Extends" value="ammoBundle9mmBulletBall"/>
-			<property name="CustomIcon" value="ammoBundleTacticalShotgunShellSH"/>
+			<property name="CustomIcon" value="ammoBundleShawnsShotgunShellSH"/>
 			<property name="EconomicValue" value="1500"/>
 			<property name="UnlockedBy" value="perkMasterCraftsman"/>
 			<property class="Action0">
 				<property name="Create_item" value="ammoShawnsShotgunShellSH"/>
 				<property name="Create_item_count" value="100"/>
 			</property>
-		</item>					
+		</item>
+		
+		<item name="ammo45ACPBulletBall">
+			<property name="Extends" value="ammo44MagnumBulletBall"/>			
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="DescriptionKey" value="ammo45ACPBulletBallDesc"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="90"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="1" tags="head"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+			</effect_group>
+		</item>
+		
+		<item name="ammo45ACPBulletAP">
+			<property name="Extends" value="ammo44MagnumBulletBall"/>
+			<property name="DisplayType" value="ammoBulletAP"/>
+			<property name="EconomicValue" value="15"/>
+			<property name="DescriptionKey" value="ammoAPGroupDesc"/>
+			<property name="UnlockedBy" value="perkEnforcerAPAmmo"/>
+			<effect_group name="ammo44MagnumBulletAP" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="90"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="24"/>
+				<passive_effect name="TargetArmor" operation="perc_add" value="-.2"/>
+				<display_value name="dTargetArmor" value="-.2"/>
+				<passive_effect name="EntityPenetrationCount" operation="base_set" value="1"/>
+				<display_value name="dTargetPenetration" value="1"/>
+				<passive_effect name="DegradationPerUse" operation="perc_add" value=".3" tags="perkGunslinger"/>
+				<display_value name="dDegradationPerUse" value=".3"/>
+			</effect_group>
+		</item>
+		
+		<item name="ammo45ACPBulletSH">			
+			<property name="Extends" value="ammo45ACPBulletBall"/>
+			<property name="CustomIcon" value="ammo45ACPBulletSH" />
+			<property name="EconomicValue" value="60"/>
+			<property name="Stacknumber" value="25000" /> 
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<property name="DescriptionKey" value="ammo45ACPBulletSHDesc"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="90"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffSH">
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffSH"/>
+				</triggered_effect>
+			</effect_group>
+		</item>		
+		
+		<item name="ammo45ACPBulletBRN">			
+			<property name="Extends" value="ammo45ACPBulletBall"/>
+			<property name="CustomIcon" value="ammo45ACPBulletBRN" />
+			<property name="EconomicValue" value="60"/>
+			<property name="Stacknumber" value="25000" /> 
+			<property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+			<property name="DescriptionKey" value="ammo45ACPBulletBRNDesc"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+			<effect_group name="Base Effects" tiered="false">
+				<passive_effect name="EntityDamage" operation="base_set" value="60"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".1" tags="stone"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBRN">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBRN"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffBRN">
+					<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		</item>		
+		
+		<item name="ammoBundle45ACPBulletBall">
+			<property name="Extends" value="ammoBundle9mmBulletBall"/>
+			<property name="CustomIcon" value="ammoBundle45ACPBulletBall" />
+			<property name="DescriptionKey" value="ammoBundle45ACPBulletBallDesc"/>
+			<property name="EconomicValue" value="1400"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+			<property class="Action0">
+				<property name="Create_item" value="ammo45ACPBulletBall"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		
+		<item name="ammoBundle45ACPBulletAP">
+			<property name="Extends" value="ammoBundle9mmBulletBall"/>
+			<property name="CustomIcon" value="ammoBundle45ACPBulletAP" />
+			<property name="DescriptionKey" value="ammoBundle45ACPBulletAPDesc"/>
+			<property name="EconomicValue" value="1400"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+			<property class="Action0">
+				<property name="Create_item" value="ammo45ACPBulletAP"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		
+		<item name="ammoBundle45ACPBulletSH">
+			<property name="Extends" value="ammoBundle9mmBulletBall"/>
+			<property name="CustomIcon" value="ammoBundle45ACPBulletSH" />
+			<property name="DescriptionKey" value="ammoBundle45ACPBulletSHDesc"/>
+			<property name="EconomicValue" value="1400"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+			<property class="Action0">
+				<property name="Create_item" value="ammo45ACPBulletSH"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
+		
+		<item name="ammoBundle45ACPBulletBRN">
+			<property name="Extends" value="ammoBundle9mmBulletBall"/>
+			<property name="CustomIcon" value="ammoBundle45ACPBulletBRN" />
+			<property name="DescriptionKey" value="ammoBundle45ACPBulletBRNDesc"/>
+			<property name="EconomicValue" value="1400"/>
+			<property name="UnlockedBy" value="perkMasterCraftsman"/>
+			<property class="Action0">
+				<property name="Create_item" value="ammo45ACPBulletBRN"/>
+				<property name="Create_item_count" value="100"/>
+			</property>
+		</item>
 		
 		<!-- ========== TESTING ========== -->
 		
