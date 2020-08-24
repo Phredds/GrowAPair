@@ -1,5 +1,5 @@
 # GrowAPair
-Backup of Custom Mods for the GrowAPair server
+Modlets for the GrowAPair server
 
 Welcome. The modlets contained here include Farm Life Expanded. A 'proof of concept' modlet featuring quality of life enhancements to add more features and content to the game. This started from our regular players
 asking about old farming mods. I was asked if I could get these working for our server and this is my progress so far. I will also say... this is a learning process for myself, so things may be done differently.
@@ -18,8 +18,11 @@ Thank you to the 7 Days to Die modlet creators for adding so much content to the
 
 Featured on our server:
 
-SoDead_FarmLifeExpanded - v0.0.0.5r6 (A combination of stasis78 FarmLifeMod2 + Mayic Farming Mod + hernanxx UnnecessarybutBeautiful modlets. Added more animals and a perk system for Farm Life unlocks.)
-SoDead_WeaponMods - v0.0.0.6r1 (Includes a custom Skill/Perk system (Master Craftsman) for new Weapons, recipes and workstations.)
+SoDead_FarmLifeExpanded - v0.0.0.3r3 (A combination of stasis78 FarmLifeMod2 + Mayic Farming Mod + hernanxx UnnecessarybutBeautiful modlets. Added more animals and a perk system for Farm Life unlocks.)
+
+Other Modlets include:
+War3zuk-Alpha-19-Stable-AIO
+Bdubs Vehicles
 
 
 Have fun and enjoy your days surviving.
