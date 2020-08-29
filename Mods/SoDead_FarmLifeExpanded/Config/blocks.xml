@@ -12602,8 +12602,7 @@
 			<property name="FilterTags" value="floot" />
 			<property name="SellableToTrader" value="false" />
 		</block>		
-	
-		<!-- TESTING -->
+			
 		<block name="Gators Storage">			
 			<property name="DescriptionKey" value="GatorsStorageDesc"/>
 			<property name="CustomIcon" value="gatorsStorage" />
@@ -12653,7 +12652,8 @@
 			<property name="SellableToTrader" value="false" />
 			<property name="FilterTags" value="floot,ffurniture"/>
 		</block>		
-			
+		
+		<!-- TESTING -->
 		<!-- Need to work on this -->
 		<block name="Spinning Wheel">
 			<property name="Class" value="Workstation"/>
