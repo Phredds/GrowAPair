@@ -3605,7 +3605,7 @@ MISSING ITEMS
 		<recipe name="Farm Life Expanded">
 			<ingredient name="Getting Started" count="1"/>
 		</recipe>
-		<recipe name="TheBasicsAnimalFeed" count="1"> <!-- Changed from: Mastering: Cattle Feed -->
+		<recipe name="TheBasicsAnimalFeed" count="1" craft_area="Farm Table> <!-- Changed from: Mastering: Cattle Feed -->
             <ingredient name="resourceCoal" count="1"/>
             <ingredient name="resourcePaper" count="1"/>
         </recipe>		
