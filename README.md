@@ -18,7 +18,7 @@ Thank you to the 7 Days to Die modlet creators for adding so much content to the
 
 Featured on our server:
 
-SoDead_FarmLifeExpanded - v0.0.0.3r3 (A combination of stasis78 FarmLifeMod2 + Mayic Farming Mod + hernanxx UnnecessarybutBeautiful modlets. Added more animals and a perk system for Farm Life unlocks.)
+SoDead_FarmLifeExpanded - v0.0.0.3r4 (A combination of stasis78 FarmLifeMod2 + Mayic Farming Mod + hernanxx UnnecessarybutBeautiful modlets. Added more animals and a perk system for Farm Life unlocks.)
 
 Other Modlets include:
 War3zuk-Alpha-19-Stable-AIO
