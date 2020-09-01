@@ -190,7 +190,7 @@
             <objective type="FetchKeep" id="Delmontico" value="1" phase="1"/>
             <objective type="FetchKeep" id="Rump Roast" value="1" phase="1"/>
             <objective type="FetchKeep" id="Porterhouse" value="1" phase="1"/>
-            <reward type="Item" id="Cattle Feed" value="10" chainreward="true"/>
+            <reward type="Item" id="Animal Feed" value="10" chainreward="true"/>
         </quest>		
 		
 		<!-- Other Quests -->
