@@ -24,3 +24,7 @@ Crowbar: Creazilla - https://creazilla.com/nodes/3083-crowbar-3d-model
 Tractor: anupatel - https://free3d.com/3d-model/tractor-358453.html
 Shipping Container: jrgubric - https://free3d.com/3d-model/container-169022.html (used mesh)
 Spinning Wheel: Vildim - https://archive3d.net/?a=download&id=bd3c3be7
+
+Perk fix:
+
+Hyperfire - https://community.7daystodie.com/topic/19361-farm-life-expanded-a19/page/4/#comments

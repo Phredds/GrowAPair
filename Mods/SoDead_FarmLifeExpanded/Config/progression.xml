@@ -1,18 +1,14 @@
-<SoDead>
+<SoDead>	
 	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='1,5']/@tags">,Farm Forge</append>
 	
 	<append xpath="/progression/attributes">
 		<attribute name="attFarmLife" name_key="Farm Life" desc_key="Unlock Farm Life recipes." icon="ui_game_symbol_farm_life" min_level="0" max_level="0" base_skill_point_cost="0"/>
-	</append>
-
-	<append xpath="/progression/skills">
-		<skill name="skillFarmLife" parent="attFarmLife" name_key="Farm Life" desc_key="Perks to increase Farm Life stats!" icon="ui_game_symbol_farm_life" min_level="0" max_level="0" base_skill_point_cost="0"/>
 	</append>	
 	
 	<append xpath="/progression">
 		<perks min_level="0" max_level="5" base_skill_point_cost="1" cost_multiplier_per_level="1" max_level_ratio_to_parent="5">
 			
-			<perk name="perkFarmLife" parent="skillFarmLife" max_level="5" name_key="Farm Life" desc_key="Farm Life is tedious, but rewarding." icon="ui_game_symbol_farm_life">
+			<perk name="perkFarmLife" parent="attFarmLife" max_level="5" name_key="Farm Life" desc_key="Farm Life is tedious, but rewarding." icon="ui_game_symbol_farm_life">
 				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="1" desc_key="reqFortitudeLevel01"/></level_requirements>
 				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="3" desc_key="reqFortitudeLevel03"/></level_requirements>
 				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="5" desc_key="reqFortitudeLevel05"/></level_requirements>
@@ -44,4 +40,9 @@
 			</perk>
 		</perks>	
 	</append>
+	
+	<!-- Implements custom icons for the skills to use with SMXui -->
+	<set xpath="/progression/attributes/attribute[@name='attFarmLife']/@icon">attFarmLife</set>
+	<set xpath="/progression/perks/perk[@name='perkFarmLife']/@icon">perkFarmLife</set>
+	
 </SoDead>
