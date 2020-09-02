@@ -1198,6 +1198,7 @@
 			<property name="Extends" value="farmPlotBlock"/>
 			<property name="CustomIcon" value="farmPlotBlock"/>
 			<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mmcropplot"/>
 			<property name="CanMobsSpawnOn" value="false"/>
 			<drop event="Harvest" name="resourceClayLump" count="0" tag="oreWoodHarvest"/>
 			<drop event="Harvest" name="resourcePotassiumNitratePowder" count="0" tag="oreWoodHarvest"/>
@@ -12658,6 +12659,7 @@
 		<block name="Spinning Wheel">
 			<property name="Class" value="Workstation"/>
 			<property name="CustomIcon" value="Spinning Wheel" />
+			<property name="DescriptionKey" value="SpinningWheelDesc"/>
 			<property name="Material" value="Mmetal"/>
 			<property name="MaxDamage" value="800"/>
 			<property name="StabilitySupport" value="false"/>

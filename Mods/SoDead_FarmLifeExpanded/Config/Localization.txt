@@ -223,7 +223,7 @@ farmLifeFajitasPlatterStep1Desc,items,Item,New,"Type: [c7b992]Farm Life Item[-] 
 farmLifeFajitasPlatterStep2Desc,items,Item,New,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nUse the Cast Iron Skillet on a Gas Oven. An ingredient used for crafting yummy meals or drinks."
 farmLifeFajitasPlatterStep3Desc,items,Item,New,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nUse the Cast Iron Skillet on a Gas Oven. An ingredient used for crafting yummy meals or drinks."
 farmForgeDesc,blocks,Block,New,"Type: [c7b992]Advanced Farming[-] [FF684F](Workbench required to craft.)[-]\nMaterial: [c7b992]Stone/Clay[-]\nUnlocked by: [c7b992]Advanced Engineering[-]\n\n The Farm Forge is used to craft tools."
-FarmLifeMasterCropPlotDesc,blocks,Block,New,"Type: [c7b992]Advanced Farming[-] [FF684F](Workstation required to craft.)[-]\nMaterial: [c7b992][-]\nUnlocked by: [c7b992]Farm Life level 5[-]\n\nMany years of cultivating the earth have provided knowledge to craft Master Crop Plots at a reduced cost in materials."
+FarmLifeMasterCropPlotDesc,blocks,Block,New,"Type: [c7b992]Advanced Farming[-] [FF684F](Workstation required to craft.)[-]\nMaterial: [c7b992][-]\nUnlocked by: [c7b992]Farm Life level 4[-]\n\nMany years of cultivating the earth have provided knowledge to craft Master Crop Plots at a reduced cost in materials."
 farmLifeFeedingTroughDesc,items,Item,New,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nNo current use for this item."
 farmLifeFilteredCabernetDesc,items,Item,New,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nUse the Wine Filter on a Brew Station. An ingredient used for crafting yummy meals or drinks."
 farmLifeFilteredChardonneDesc,items,Item,New,"Type: [c7b992]Farm Life Item[-] [FF684F]( required.)[-]\nMaterial: [c7b992].[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nUse the Wine Filter on a Brew Station. An ingredient used for crafting yummy meals or drinks."
@@ -1056,7 +1056,7 @@ threadDesc,items,Item,New,"Type: [c7b992]Farm Life Resource[-] [FF684F](Spinning
 bobbinDesc,items,Item,New,"Type: [c7b992]Spinning Wheel Resource[-] [FF684F](Table Saw required)[-]\nMaterial: [c7b992]Wood[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nBobbin[-]"
 flayerDesc,items,Item,New,"Type: [c7b992]Spinning Wheel Resource[-] [FF684F](Table Saw required)[-]\nMaterial: [c7b992]Wood[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nFlayer[-]"
 bobbinAndFlayerDesc,items,Item,New,"Type: [c7b992]Spinning Wheel Tool[-] [FF684F](Farm Table required)[-]\nMaterial: [c7b992]Wood[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nBobbin And Flayer[-]"
-
+SpinningWheelDesc,blocks,Block,New,"Type: [c7b992]Farm Workstation[-] [FF684F](Farm Table required to craft.)[-]\nMaterial: [c7b992][-]\nUnlocked by: [c7b992]Farm Life[-]\n\nSpinning Wheel workstations are used to create resources needed for Crafting."
 
 cryogenicContainerBee,items,Item,New,[772AB8]Cryogenic Container - Bee
 FLEcryogenicContainerBee,items,Item,New,"Type: [c7b992]Farm Life Resource[-] [FF684F](Animal Workstation required.)[-]\nMaterial: [c7b992]Organic[-]\nUnlocked by: [c7b992]Farm Life[-]\n\nCryogenic Container - Bee.[FF684F](Testing!)[-]"

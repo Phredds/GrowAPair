@@ -5923,6 +5923,9 @@ MISSING ITEMS
         <recipe name="Koji Culture" count="10" craft_time="30" craft_area="Fermentor Bench" craft_tool="Clay Pot">
             <ingredient name="Bowl of Rice" count="5"/>
         </recipe>
+		<recipe name="Raw Lamb" count="1" craft_time="15" craft_area="Chopping Board">
+			<ingredient name="Raw Mutton" count="1"/>
+		</recipe>
 		<recipe name="Lamb Chop" count="10" craft_time="15" craft_area="Chopping Board">
 			<ingredient name="Raw Lamb" count="1"/>
 		</recipe>
@@ -6890,6 +6893,15 @@ MISSING ITEMS
 		<recipe name="Sheep Shears" count="20" craft_time="90" craft_area="Farm Forge" craft_tool="toolAnvil" tags="FarmForgeCrafting">
 			<ingredient name="unit_iron" count="10"/>
             <ingredient name="unit_clay" count="10"/>
+		</recipe>
+		
+		<!-- Testing this Recipe -->
+		<recipe name="Spinning Wheel" count="1" craft_time="15" craft_area="Farm Table" scrapable="False" >
+			<ingredient name="Maple Wood Plank" count="20" />
+			<ingredient name="Walnut Wood Plank" count="20" />
+			<ingredient name="BobbinAndFlayer" count="1" />
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="Brass Hinge" count="1" />
 		</recipe>
 		
 		<recipe name="Thread" count="20" craft_time="10" craft_area="Spinning Wheel" craft_tool="BobbinAndFlayer">
