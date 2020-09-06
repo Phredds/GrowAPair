@@ -1071,7 +1071,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?BrickPlanterPrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeBrickPlanterDesc"/>
-			
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="250"/>
 			<property name="Group" value="Resources,All"/>
         </block>
         <block name="Brick Planter 2">
@@ -1091,7 +1092,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?BrickPlanterTwoPrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeBrickPlanter2Desc"/>
-			
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="250"/>
 			<property name="Group" value="Resources,All"/>
         </block>
         <block name="Brick Planter 3">
@@ -1111,7 +1113,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?BrickPlanterThreePrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeBrickPlanter3Desc"/>
-			
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="250"/>
 			<property name="Group" value="Resources,All"/>
         </block>
         <block name="Brick Planter 4">
@@ -1131,7 +1134,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?BrickPlanterFourPrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeBrickPlanter4Desc"/>
-			
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="250"/>
 			<property name="Group" value="Resources,All"/>
         </block>
 		<block name="Farm Barrel">
@@ -1242,7 +1246,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?TerracottaPlanterPrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeTerracottaPlanterDesc"/>
-			
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="250"/>
 			<property name="Group" value="Resources,All"/>
         </block>
 		<block name="Wood Planter">
@@ -1262,7 +1267,8 @@
             <property name="Model" value="#@modfolder:Resources/FarmLifeOtherBlocks.unity3d?WoodPlanterPrefab"/>
             <property name="MultiBlockDim" value="1,1,1"/>
             <property name="DescriptionKey" value="farmLifeWoodPlanterDesc"/>
-			
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="250"/>
 			<property name="Group" value="Resources,All"/>
         </block>
 		<!--
